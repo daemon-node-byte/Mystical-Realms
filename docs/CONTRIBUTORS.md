@@ -27,7 +27,8 @@ Mystic Realms has adopted a Code of Conduct that we expect project participants 
 3. If you've changed APIs, update the documentation.
 4. Ensure the test suite passes.
 5. Make sure your code lints.
-6. Issue that pull request!
+6. Sign the Contributor License Agreement (CLA).
+7. Issue that pull request!
 
 ## Styleguides
 
