@@ -20,11 +20,11 @@ jobs:
       run: npm install
     - name: Run build
       run: npm run build
-    - uses: actions/cache/save@v4
-      id: cache
-      with:
-        path: ./.next/
-        key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+    # - uses: actions/cache/save@v4
+    #   id: cache
+    #   with:
+    #     path: ./.next/
+    #     key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
 
   test:
     needs: build
