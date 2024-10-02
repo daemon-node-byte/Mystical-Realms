@@ -132,7 +132,8 @@ export default function NavigationBar() {
         {navItemHeaderData.map((navItem, index) => {
           return (
             <NavigationItem
-              order={index}
+              key={`${navItem.labelName}-${index}`}
+              order={navItem.order}
               labelName={navItem.labelName}
               href={navItem.href}
               sub={navItem.sub}
