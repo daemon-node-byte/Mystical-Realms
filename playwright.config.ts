@@ -12,7 +12,6 @@ import { defineConfig, devices } from '@playwright/test';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  import { defineConfig } from '@playwright/test';
   // Run your local dev server before starting the tests
   webServer: {
     command: 'npm run start',
