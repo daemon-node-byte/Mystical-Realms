@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import { whisper } from "@/global/fonts";
 import IconLink from "@/components/common/IconLink";
-import UnderConstruction from "@/components/custom/UnderConstrution";
+import UnderConstruction from "@/components/custom/UnderConstruction";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen max-w-[1200px] mx-auto">
