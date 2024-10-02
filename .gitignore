@@ -41,3 +41,7 @@ node_modules/
 /playwright/.cache/
 
 /wiki/*
+
+.env
+.env.*
+!.env.example

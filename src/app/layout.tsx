@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import clsx from "clsx";
-import { didactGothic } from "@/global/fonts";
 import { Analytics } from '@vercel/analytics/react';
+
+import { didactGothic } from "@/global/fonts";
 import "./globals.css";
 
 
@@ -17,9 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx(didactGothic.className, 'text-md md:text-xl')}>
+      <body className={clsx(didactGothic.className, 'text-md md:text-xl', 'dark text-foreground bg-background')}>
         {children}
-        
         <Analytics />
       </body>
     </html>
