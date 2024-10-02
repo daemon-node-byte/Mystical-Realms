@@ -45,7 +45,7 @@ jobs:
     #     path: ./.next/
     #     key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
     - name: build and start app
-      run: npm run build && npm run start 
+      run: npm run build 
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
