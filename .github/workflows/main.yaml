@@ -24,7 +24,7 @@ jobs:
       id: cache
       with:
         path: ./.next/
-        key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.os }}-build-${{ hashFiles('src/**/*') }}
 
   test:
     needs: build
@@ -43,7 +43,7 @@ jobs:
       id: cache
       with:
         path: ./.next/
-        key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+        key: ${{ runner.os }}-build-${{ hashFiles('/src/**/*') }}
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4

@@ -104,7 +104,7 @@ const NavigationItem = ({ labelName, href, sub }: NavItemDataType) => {
         <DropdownMenu>
           {sub.map((item, index) => (
             <DropdownItem
-              key={`${item.label}-${index}`}
+              key={`${item.label}-${index + 42}`}
               textValue={item.label}
               description={item.desc ?? ""}
               href={item.href}
@@ -132,7 +132,7 @@ export default function NavigationBar() {
         {navItemHeaderData.map((navItem, index) => {
           return (
             <NavigationItem
-              key={`${navItem.labelName}-${index}`}
+              key={`${navItem.labelName}-${index + 56}`}
               order={navItem.order}
               labelName={navItem.labelName}
               href={navItem.href}
@@ -157,23 +157,27 @@ export default function NavigationBar() {
           </Button>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
-        {navItemHeaderData.map((item, index) => (
-          <>
-            <NavbarMenuItem key={`${item}-${index}`}>
-              <Link href={item.href ?? "#"}>{item.labelName}</Link>
-            </NavbarMenuItem>
-            {item.sub.length > 0 && (
-              <div className="pl-3 mt-2 space-y-4">
+      <NavbarMenu className="space-y-4">
+        {navItemHeaderData.map((item, index) => {
+          if (item.href) {
+            return (
+              <NavbarMenuItem key={`${item.labelName}-${index * 14}`}>
+                <Link href={item.href ?? ''}>{item.labelName}</Link>
+              </NavbarMenuItem>
+            )
+          } else if (item.sub.length > 0) {
+            return (
+              <NavbarMenuItem key={`${item.labelName}-${index * 16}`} className="space-y-4">
+                <div>{item.labelName}</div>
                 {item.sub.map((subItem, subIndex) => (
-                  <NavbarItem key={`${subItem.label}-${subIndex}`}>
+                  <NavbarItem key={`${subItem.label}-${subIndex + 57}`} className="pl-6">
                     <Link href={subItem.href}>{subItem.label}</Link>
                   </NavbarItem>
                 ))}
-              </div>
-            )}
-          </>
-        ))}
+              </NavbarMenuItem>
+            )
+          }          
+        })}
       </NavbarMenu>
     </Navbar>
   );
