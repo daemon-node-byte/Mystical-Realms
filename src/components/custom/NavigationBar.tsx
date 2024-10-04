@@ -83,30 +83,31 @@ const NavItemContent = ({
   );
 
 const NavigationItem = ({ labelName, href, sub }: NavItemDataType) => {
-  if (!sub.length && !href) {
-    throw new Error("Either href or dropMenu must be provided");
+  if (!href && sub.length === 0) {
+    throw new Error("Either 'href' or 'sub' must be provided");
   }
-  if (sub.length && href) {
-    throw new Error("Only one of href or dropMenu can be provided");
+  if (href && sub.length > 0) {
+    throw new Error("Only one of 'href' or 'sub' can be provided");
   }
 
   return (
     <Dropdown>
       <NavbarItem>
         <NavItemContent
-          isDropMenu={((sub?.length ?? [].length) > 0) as boolean}
+          isDropMenu={((sub?.length ?? [].length) > 0)}
           href={href}
         >
           <Button variant="light">{labelName}</Button>
         </NavItemContent>
       </NavbarItem>
-      {sub.length && (
+      {sub.length > 0 && (
         <DropdownMenu>
           {sub.map((item, index) => (
             <DropdownItem
               key={`${item.label}-${index + 42}`}
               textValue={item.label}
               description={item.desc ?? ""}
+              as={Link}
               href={item.href}
             >
               {item.label}
@@ -157,27 +158,23 @@ export default function NavigationBar() {
           </Button>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="space-y-4">
-        {navItemHeaderData.map((item, index) => {
-          if (item.href) {
-            return (
-              <NavbarMenuItem key={`${item.labelName}-${index * 14}`}>
-                <Link href={item.href ?? ''}>{item.labelName}</Link>
-              </NavbarMenuItem>
-            )
-          } else if (item.sub.length > 0) {
-            return (
-              <NavbarMenuItem key={`${item.labelName}-${index * 16}`} className="space-y-4">
-                <div>{item.labelName}</div>
+      <NavbarMenu>
+        {navItemHeaderData.map((item, index) => (
+          <React.Fragment key={`${item}-${index}`}>
+            <NavbarMenuItem>
+              <Link href={item.href ?? "#"}>{item.labelName}</Link>
+            </NavbarMenuItem>
+            {item.sub.length > 0 && (
+              <div className="pl-3 mt-2 space-y-4">
                 {item.sub.map((subItem, subIndex) => (
                   <NavbarItem key={`${subItem.label}-${subIndex + 57}`} className="pl-6">
                     <Link href={subItem.href}>{subItem.label}</Link>
                   </NavbarItem>
                 ))}
-              </NavbarMenuItem>
-            )
-          }          
-        })}
+              </div>
+            )}
+          </React.Fragment>
+        ))}
       </NavbarMenu>
     </Navbar>
   );
