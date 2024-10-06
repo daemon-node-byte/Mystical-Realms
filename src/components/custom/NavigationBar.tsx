@@ -105,12 +105,11 @@ const NavigationItem = ({ labelName, href, sub }: NavItemDataType) => {
           {sub.map((item, index) => (
             <DropdownItem
               key={`${item.label}-${index + 42}`}
-              textValue={item.label}
               description={item.desc ?? ""}
-              as={Link}
-              href={item.href}
             >
+              <Link href={item.href}>
               {item.label}
+              </Link>
             </DropdownItem>
           ))}
         </DropdownMenu>

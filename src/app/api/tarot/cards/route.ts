@@ -11,6 +11,9 @@ export async function GET(req: Request) {
         where: {
           suit: suit?.toUpperCase() as Suit,
         },
+        orderBy: {
+          rank_int: 'asc'
+        }
       })
       return Response.json(cards)
     }
