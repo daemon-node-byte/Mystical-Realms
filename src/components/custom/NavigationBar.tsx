@@ -104,7 +104,7 @@ const NavigationItem = ({ labelName, href, sub }: NavItemDataType) => {
         <DropdownMenu>
           {sub.map((item, index) => (
             <DropdownItem
-              key={`${item.label}-${index}`}
+              key={`${item.label}-${index + 42}`}
               textValue={item.label}
               description={item.desc ?? ""}
               as={Link}
@@ -133,7 +133,7 @@ export default function NavigationBar() {
         {navItemHeaderData.map((navItem, index) => {
           return (
             <NavigationItem
-              key={`${navItem.labelName}-${index}`}
+              key={`${navItem.labelName}-${index + 56}`}
               order={navItem.order}
               labelName={navItem.labelName}
               href={navItem.href}
@@ -167,7 +167,7 @@ export default function NavigationBar() {
             {item.sub.length > 0 && (
               <div className="pl-3 mt-2 space-y-4">
                 {item.sub.map((subItem, subIndex) => (
-                  <NavbarItem key={`${subItem.label}-${subIndex}`}>
+                  <NavbarItem key={`${subItem.label}-${subIndex + 57}`} className="pl-6">
                     <Link href={subItem.href}>{subItem.label}</Link>
                   </NavbarItem>
                 ))}

@@ -16,6 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={clsx(didactGothic.className, 'text-md md:text-xl', 'dark text-foreground bg-background')}>
