@@ -103,7 +103,7 @@ const CardBodyTabs = ({ card, data, selectedTab, changeSelected }: { card: Tarot
         color="primary"
         variant="light"
         placement={isMobile ? "top" : "start"}
-        selectedKey={selectedTab}
+        selectedKey={selectedTab as string}
         onSelectionChange={changeSelected}
       >
         <Tab className="w-full h-full mx-auto" key="Image" title="Image" >
