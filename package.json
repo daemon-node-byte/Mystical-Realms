@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "db:generate": "prisma generate",
     "test:playwright": "npx playwright test",
-    "generate:test:playwright": "npx playwright codegen localhost:3000"
+    "generate:test:playwright": "npx playwright codegen localhost:3000",
+    "vercel:build": "npm run db:generate && npm run build"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.5.3",
