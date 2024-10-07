@@ -19,7 +19,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={clsx(didactGothic.className, 'text-md md:text-xl', 'dark text-foreground bg-background')}>
+      <body className={clsx(didactGothic.className, 'text-md md:text-xl', 'text-foreground bg-background', 'purple-dark')}>
         {children}
         <Analytics />
       </body>
