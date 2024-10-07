@@ -1,4 +1,4 @@
-import { MouseEvent, useEffect } from "react";
+import { Key, MouseEvent, useEffect, useState } from "react";
 import { useIsMobile } from "@/lib/hooks";
 import useSwr from "swr";
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
@@ -11,7 +11,8 @@ import { fetcher } from "@/lib/fetcher";
 import { whisper } from "@/global/fonts";
 import TCImageDisplay from "./TCImageTab";
 import TCKeywordsLisT from "./TCKeywordsList";
-import { getTarotImgURL } from '@/lib/getTarotImgUrl';
+import { getTarotImgURL } from "@/lib/getTarotImgUrl";
+import { motion } from 'framer-motion'
 
 import type {
   TarotCard,
@@ -39,7 +40,8 @@ export default function TCDisplayCard({
     error,
     isLoading,
   }: { data: DataT; error: unknown; isLoading: boolean } = cardInfo;
-
+  const [selectedTab, setSelectedTap] = useState<Key>('Image')
+  const changeSelected = (key: Key) => setSelectedTap(key)
   useEffect(() => {
     if (error) {
       throw new Error("error tarot card", error);
@@ -50,20 +52,20 @@ export default function TCDisplayCard({
     return <Spinner />;
   } else if (data !== undefined && !isLoading) {
     return (
-      <Card className="max-w-screen h-[820px] w-[410px]">
+      <Card className="max-w-screen h-[820px] w-[410px] sm:w-[600px]">
         <CardHeader className="w-full">
           <span
             className={clsx(
               whisper.className,
-              "text-[1.75rem] w-full justify-center"
+              "text-[1.75rem] w-full justify-center sm:text-[2.2rem]"
             )}
           >
             {card.title}
           </span>
           <span className="float-right">{data?.card_extra.roman_numeral}</span>
         </CardHeader>
-        <CardBody className="h-full flex items-center">
-         <CardBodyTabs card={card} data={data} />
+        <CardBody className={clsx("h-full w-full flex", `${selectedTab === 'Image' ? 'items-start justify-between' : 'items-start'}`)}>
+          <CardBodyTabs selectedTab={selectedTab} changeSelected={changeSelected} card={card} data={data} />
         </CardBody>
         <CardFooter className="space-x-4">
           {[
@@ -89,37 +91,44 @@ export default function TCDisplayCard({
     return <Spinner />;
   }
 }
-const CardBodyTabs = ({ card, data }: { card: TarotCard, data: DataT }) => {
-  const isMobile = useIsMobile()
+const CardBodyTabs = ({ card, data, selectedTab, changeSelected }: { card: TarotCard; data: DataT, selectedTab: Key, changeSelected: (key: Key) => void }) => {
+  const isMobile = useIsMobile();
   const imageUrl = getTarotImgURL("art", card);
-  return (
-    <Tabs
-    color="primary"
-    variant="light"
-    placement={isMobile ? "top" : "start"}
-  >
-    <Tab key="Image" title="Image">
-      <TCImageDisplay imgUrl={imageUrl} title={card.title} />
-    </Tab>
 
-    <Tab key="Keywords" title="Keywords">
-      <TCKeywordsLisT
-        upright={data?.keywords.upright}
-        reversed={data?.keywords.reversed}
-      />
-    </Tab>
-    <Tab key="summary" title="Summary">
-      <Card>
-        <CardBody>
-          <p>{data?.card_extra.summary}</p>
-        </CardBody>
-      </Card>
-    </Tab>
-    <Tab key="Interpretations" title="Interpretations">
-      <Card>
-        <CardBody></CardBody>
-      </Card>
-    </Tab>
-  </Tabs>
-  )
-}
+
+
+  return (
+    <motion.div initial={{ opacity: 0}} animate={{ opacity: 1}} transition={{ duration: 1 }}>
+      <Tabs
+        color="primary"
+        variant="light"
+        placement={isMobile ? "top" : "start"}
+        selectedKey={selectedTab}
+        onSelectionChange={changeSelected}
+      >
+        <Tab className="w-full h-full mx-auto" key="Image" title="Image" >
+          <TCImageDisplay imgUrl={imageUrl} title={card.title} />
+        </Tab>
+
+        <Tab key="Keywords" title="Keywords">
+          <TCKeywordsLisT
+            upright={data?.keywords.upright}
+            reversed={data?.keywords.reversed}
+          />
+        </Tab>
+        <Tab key="summary" title="Summary">
+          <Card>
+            <CardBody>
+              <p>{data?.card_extra.summary}</p>
+            </CardBody>
+          </Card>
+        </Tab>
+        <Tab key="Interpretations" title="Interpretations">
+          <Card>
+            <CardBody></CardBody>
+          </Card>
+        </Tab>
+      </Tabs>
+    </motion.div>
+  );
+};

@@ -8,8 +8,8 @@ export default function TCImageDisplay({
   title: string;
 }) {
   return (
-    <Card>
-      <CardBody>
+    <Card className='flex justify-center items-center w-full h-full'>
+      <CardBody className="flex justify-center items-center w-full h-full">
         <Image
           className="mx-auto"
           src={imgUrl}

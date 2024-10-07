@@ -29,7 +29,7 @@ export default function TCCarousel ({ cards }: { cards: TarotCard[] }) {
   }, [currentIndex, currentCard, cards]);
   if (currentCard !== null) {
     return (
-      <div className="flex flex-row justify-center items-center space-x-4 relative">
+      <div className="flex flex-row justify-center items-center w-full space-x-4 relative">
         <TCDisplayCard handleClick={navigateCarousel} card={currentCard} />
       </div>
     );
