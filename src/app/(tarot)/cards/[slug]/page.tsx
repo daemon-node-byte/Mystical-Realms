@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { fetcher } from "@/lib/fetcher";
 import useSwr from "swr";
 import NavigationBar from "@/components/custom/NavigationBar";
-import CardCatalog from "@/components/common/CardCatalog";
+import CardCatalogViewer from "@/app/_components/_tarot/CardCatalogViewer"
 
 import type { TarotCard  } from '@prisma/client'
 type PageProps = {
@@ -11,7 +11,6 @@ type PageProps = {
 		slug: string;
 	}
 };
-
 
 
 export default function Page({ params }: Readonly<PageProps>) {
@@ -28,7 +27,7 @@ export default function Page({ params }: Readonly<PageProps>) {
   return (
     <React.Fragment>
       <NavigationBar />
-			{tarotCards.length > 0 && <CardCatalog cards={tarotCards} />}
+			{tarotCards.length > 0 && <CardCatalogViewer cards={tarotCards} />}
     </React.Fragment>
   );
 }
