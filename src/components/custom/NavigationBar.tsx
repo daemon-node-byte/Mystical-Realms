@@ -50,17 +50,17 @@ const navItemHeaderData: NavItemDataType[] = [
     sub: [
       {
         label: "The Card Catalog",
-        href: "/tarot/cards",
+        href: "/cards",
         desc: "Browse the tarot deck. See images and checkout meanings for each card",
       },
       {
         label: "Spread Catalog",
-        href: "/tarot/spreads",
+        href: "/spreads",
         desc: "Look though our catalog of spreads and placement meanings.",
       },
       {
         label: "Online Journal",
-        href: "/tarot/journal",
+        href: "/journal",
         desc: "Record and save your readings either from input or from an online one from us.",
       },
     ],
@@ -105,7 +105,6 @@ const NavigationItem = ({ labelName, href, sub }: NavItemDataType) => {
           {sub.map((item, index) => (
             <DropdownItem
               key={`${item.label}-${index + 42}`}
-              textValue={item.label}
               description={item.desc ?? ""}
               as={Link}
               href={item.href}
@@ -123,7 +122,7 @@ export default function NavigationBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} isBordered>
+    <Navbar onMenuOpenChange={setIsMenuOpen} isBordered position="sticky">
       <NavbarContent className="flex sm:hidden" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -160,7 +159,7 @@ export default function NavigationBar() {
       </NavbarContent>
       <NavbarMenu>
         {navItemHeaderData.map((item, index) => (
-          <React.Fragment key={`${item}-${index}`}>
+          <React.Fragment key={`${item.labelName}-${index}`}>
             <NavbarMenuItem>
               <Link href={item.href ?? "#"}>{item.labelName}</Link>
             </NavbarMenuItem>
