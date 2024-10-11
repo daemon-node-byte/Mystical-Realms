@@ -1,4 +1,4 @@
-import PageWrapper from "./_components/_common/PageWrapper";
+import PageWrapper from "./_components/common/PageWrapper";
 import clsx from "clsx";
 import { themeFont1 } from "@/styles/fonts";
 import Link from "next/link";

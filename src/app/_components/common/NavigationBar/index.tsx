@@ -11,11 +11,6 @@ import {
   NavbarItem,
   Link,
   Button,
-  Avatar,
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
 } from "@nextui-org/react";
 import { LoginModal } from "../login-modal.component";
 import clsx from "clsx";

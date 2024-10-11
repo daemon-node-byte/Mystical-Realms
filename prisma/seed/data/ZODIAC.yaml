@@ -1,0 +1,177 @@
+
+
+
+Aries: 
+  date_range: 21st March - 19th April
+  ruling_planet: Mars
+  cards: 
+    - The Emperor
+    - The Emperor & Knight of Swords
+    - King of Wands & Knight of Swords
+    - Page of Wands (Earth Influence on a Fire sign)
+    - Knight of Wands (Air influence on a Fire Sign)
+    - Queen of Wands (Water influence on a Fire Sign)
+    - King of Wands (Fire influence on a Fire Sign)
+    - Two of Wands
+    - Three of Wands
+    - Four of Wands
+
+Taurus:
+  date_range: 20th April - May 20th
+  ruling_planet: Venus
+  cards: 
+    - The Hierophant
+    - Page of Pentacles (Earth Influence on an Earth Sign)
+    - Knight of Pentacles (Air influence on an Earth Sign)
+    - Queen of Pentacles (Water influence on an Earth Sign)
+    - King of Pentacles (Fire influence on an Earth Sign)
+    - Five of Pentacles
+    - Six of Pentacles
+    - Seven of Pentacles
+
+
+
+Gemini:
+  date_range: 21st May - June 20th
+  ruling_planet: Mercury
+  cards: 
+    - The Lovers
+    - Page of Swords (Earth influence on Air Sign)
+    - Knight of Swords (Air influence on an Air Sign)
+    - Queen of Swords (Water influence on an Air Sign)
+    - King of Swords (Fire influence on an Air Sign)
+    - Eight of Swords
+    - Nine of Swords
+    - Ten of Swords
+
+
+
+Cancer: 
+  date_range: 21st June - 22nd July
+  ruling_planet: Moon
+  cards: 
+    - The Chariot
+    - Page of Cups (Earth influence on a Water Sign)
+    - Knight of Cups (Air influence on a Water Sign)
+    - Queen of Cups (Water influence on a Water Sign)
+    - King of Cups (Fire influence on a Water Sign)
+    - Two of Cups
+    - Three of Cups
+    - Four of Cups
+
+
+Leo:
+  date_range: 23rd July - 22nd August
+  ruling_planet: Sun
+  cards: 
+    - Strength
+    - Page of Wands (Earth influence on a Fire sign)
+    - Knight of Wands (Air influence on a Fire Sign)
+    - Queen of Wands (Water influence on a Fire Sign)
+    - King of Wands (Fire influence on a Fire Sign)
+    - Five of Wands
+    - Six of Wands
+    - Seven of Wands
+
+
+Virgo:
+  date_range: 23rd August - 22nd Sept
+  ruling_planet: Mercury
+  cards: 
+    - The Hermit
+    - The Hermit & Queen of Swords
+    - Page of Pentacles (Earth influence on an Earth Sign)
+    - Knight of Pentacles (Air influence on an Earth Sign)
+    - Queen of Pentacles (Water influence on an Earth Sign)
+    - King of Pentacles (Fire influence on an Earth Sign)
+    - Eight of Pentacles
+    - Nine of Pentacles
+    - Ten of Pentacles
+
+Libra:
+  date_range: 23rd Sept - 22nd Oct
+  ruling_planet: Venus
+  cards: 
+    - Justice
+    - Justice & Queen of Pentacles
+    - The Empress & Queen of Pentacles
+    - The Empress & King of Swords
+    - Justice & King of Swords
+    - Page of Swords (Earth influence on an Air Sign)
+    - Knight of Swords (Air influence on an Air Sign)
+    - Queen of Swords (Water influence on an Air Sign)
+    - King of Swords (Fire influence on an Air Sign)
+    - Two of Swords
+    - Three of Swords
+    - Four of Swords
+
+Scorpio:
+  date_range: 23rd Oct - 21st Nov
+  ruling_planet: Pluto
+  cards: 
+    - Death
+    - Page of Cups (Earth influence on a Water Sign)
+    - Knight of Cups (Air influence on a Water Sign)
+    - Queen of Cups (Water influence on a Water Sign)
+    - King of Cups (Fire influence on a Water Sign)
+    - Five of Cups
+    - Six of Cups
+    - Seven of Cup
+
+Sagittarius:
+  date_range: 22nd Nov - 21st Dec
+  ruling_planet: Jupiter
+  cards: 
+    - Temperance
+    - Page of Wands (Earth influence on a Fire Sign)
+    - Knight of Wands (Air influence on a Fire Sign)
+    - Queen of Wands (Water influence on a Fire Sign)
+    - King of Wands (Fire influence on a Fire Sign)
+    - Eight of Wands
+    - Nine of Wands
+    - Ten of Wands
+
+Capricorn: 
+  date_range: 22nd Dec - 19th Jan
+  ruling_planet: Saturn
+  cards: 
+    - The Devil
+    - Page of Pentacles (Earth influence on an Earth Sign)
+    - Knight of Pentacles (Air influence on an Earth Sign)
+    - Queen of Pentacles (Water influence on an Earth Sign)
+    - King of Pentacles (Fire influence on an Earth Sign)
+    - Two of Pentacles
+    - Three of Pentacles
+    - Four of Pentacles
+
+
+Aquarius: 
+  date_range: 20th Jan - 18th Feb
+  ruling_planet: Uranus
+  cards: 
+    - The Star
+    - The Star & King of Swords
+    - Page of Swords (Earth influence on an Air Sign)
+    - Knight of Swords (Air influence on an Air Sign)
+    - Queen of Swords (Water influence on an Air Sign)
+    - King of Swords (Fire influence on an Air Sign)
+    - Five of Swords
+    - Six of Swords
+    - Seven of Swords
+
+Pisces:
+  date_range: 19th Feb - 20th March
+  ruling_planet: Neptune
+  cards:
+    - The Moon 
+    - High Priestess & Page of Cups
+    - Hanged Man & Page of Cups
+    - Page of Cups (Earth influence on a Water Sign)
+    - Knight of Cups (Air influence on a Water Sign)
+    - Queen of Cups (Water influence on a Water Sign)
+    - King of Cups (Fire influence on a Water Sign)
+    - Eight of Cups
+    - Nine of Cups
+    - Ten of Cups
+
+

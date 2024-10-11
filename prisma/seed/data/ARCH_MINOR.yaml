@@ -1,0 +1,248 @@
+
+wands:
+  element: earth
+  description: |
+    The suit of materialism, earthly matters.
+  cards:
+    - name: Ace of Wands
+      rank_int: 1
+      description: |
+        Drastic material change
+    - name: Two of Wands
+      rank_int: 2
+      description: |
+        Ambition
+    - name: Three of Wands
+      rank_int: 3
+      description: |
+        Obsolete
+    - name: Four of Wands
+      rank_int: 4
+      description: |
+        Celebration
+    - name: Five of Wands
+      rank_int: 5
+      description: |
+        Calamity
+    - name: Six of Wands
+      rank_int: 6
+      description: |
+        Success
+    - name: Seven of Wands
+      rank_int: 7
+      description: |
+        Competition
+    - name: Eight of Wands
+      rank_int: 8
+      description: |
+        Obstacles
+    - name: Nine of Wands
+      rank_int: 9
+      description: |
+        Recovery
+    - name: Ten of Wands
+      rank_int: 10
+      description: |
+        Strain
+    - name: Page of Wands
+      rank_int: 11
+      description: |
+        Helpful friend
+    - name: Knight of Wands
+      rank_int: 12
+      description: |
+        Material advancement
+    - name: Queen of Wands
+      rank_int: 13
+      description: |
+        Settling with possessions
+    - name: King of Wands
+      rank_int: 14
+      description: |
+        Material wealth
+
+pentacles:
+  element: air
+  description: |
+    The suit of thought, things of the mind.
+  cards:
+    - name: Ace of Pentacles
+      rank_int: 1
+      description: |
+        Drastic change of thought
+    - name: Two of Pentacles
+      rank_int: 2
+      description: |
+        Confusion
+    - name: Three of Pentacles
+      rank_int: 3
+      description: |
+        Pondering
+    - name: Four of Pentacles
+      rank_int: 4
+      description: |
+        Self-obsession
+    - name: Five of Pentacles
+      rank_int: 5
+      description: |
+        Destitution
+    - name: Six of Pentacles
+      rank_int: 6
+      description: |
+        Generosity
+    - name: Seven of Pentacles
+      rank_int: 7
+      description: |
+        Contemplation
+    - name: Eight of Pentacles
+      rank_int: 8
+      description: |
+        Skill
+    - name: Nine of Pentacles
+      rank_int: 9
+      description: |
+        Prosperity
+    - name: Ten of Pentacles
+      rank_int: 10
+      description: |
+        Wisdom
+    - name: Page of Pentacles
+      rank_int: 11
+      description: |
+        Agreeing friend
+    - name: Knight of Pentacles
+      rank_int: 12
+      description: |
+        Intellectual advancement
+    - name: Queen of Pentacles
+      rank_int: 13
+      description: |
+        Settling mind
+    - name: King of Pentacles
+      rank_int: 14
+      description: |
+        Intellectual prominence
+
+cups:
+  element: water
+  description: |
+    The suit of emotions, how it feels.
+  cards:
+    - name: Ace of Cups
+      rank_int: 1
+      description: |
+        Drastic change of feelings
+    - name: Two of Cups
+      rank_int: 2
+      description: |
+        Bond
+    - name: Three of Cups
+      rank_int: 3
+      description: |
+        Festivity
+    - name: Four of Cups
+      rank_int: 4
+      description: |
+        Melancholia
+    - name: Five of Cups
+      rank_int: 5
+      description: |
+        Despair
+    - name: Six of Cups
+      rank_int: 6
+      description: |
+        Happiness
+    - name: Seven of Cups
+      rank_int: 7
+      description: |
+        Temptation
+    - name: Eight of Cups
+      rank_int: 8
+      description: |
+        Disgust
+    - name: Nine of Cups
+      rank_int: 9
+      description: |
+        Gluttony
+    - name: Ten of Cups
+      rank_int: 10
+      description: |
+        Bliss
+    - name: Page of Cups
+      rank_int: 11
+      description: |
+        Comforting friend
+    - name: Knight of Cups
+      rank_int: 12
+      description: |
+        Emotional advancement
+    - name: Queen of Cups
+      rank_int: 13
+      description: |
+        Settling emotions
+    - name: King of Cups
+      rank_int: 14
+      description: |
+        Emotional restraint
+
+swords:
+  element: fire
+  description: |
+    The suit of action, the force of intention.
+  cards:
+    - name: Ace of Swords
+      rank_int: 1
+      description: |
+        Drastic change of action
+    - name: Two of Swords
+      rank_int: 2
+      description: |
+        Crossroads
+    - name: Three of Swords
+      rank_int: 3
+      description: |
+        Separation
+    - name: Four of Swords
+      rank_int: 4
+      description: |
+        Commemoration
+    - name: Five of Swords
+      rank_int: 5
+      description: |
+        Desertion
+    - name: Six of Swords
+      rank_int: 6
+      description: |
+        Loss
+    - name: Seven of Swords
+      rank_int: 7
+      description: |
+        Betrayal
+    - name: Eight of Swords
+      rank_int: 8
+      description: |
+        Victim
+    - name: Nine of Swords
+      rank_int: 9
+      description: |
+        Anguish
+    - name: Ten of Swords
+      rank_int: 10
+      description: |
+        Defeat
+    - name: Page of Swords
+      rank_int: 11
+      description: |
+        Allied friend
+    - name: Knight of Swords
+      rank_int: 12
+      description: |
+        Advancement in action
+    - name: Queen of Swords
+      rank_int: 13
+      description: |
+        Settling calamity
+    - name: King of Swords
+      rank_int: 14
+      description: |
+        Decisive action

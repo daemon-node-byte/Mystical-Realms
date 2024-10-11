@@ -1,0 +1,112 @@
+major:
+  cards:
+    - name: The Fool
+      rank_int: 0    
+      description:
+        - Innocence 
+        - carefree ignorance.
+    - name: The Magician
+      rank_int: 1
+      description:
+        - Wizard 
+        - surpassing the plausible.
+    - name: The High Priestess
+      rank_int: 2 
+      description:
+        - Secret 
+        - hidden influence.
+    - name: The Empress
+      rank_int: 3
+      description:
+        - Benefactor 
+        - gentle power.
+    - name: The Emperor
+      rank_int: 4
+      description:
+        - Supreme ruler 
+        - irresistible power.
+    - name: The Hierophant
+      rank_int: 5
+      description:
+        - Priest 
+        - spiritual authority.
+    - name: The Lovers
+      rank_int: 6
+      description:
+        - Love 
+        - intense affection.
+    - name: The Chariot
+      rank_int: 7
+      description:
+        - Conqueror 
+        - success in spite of resistance.
+    - name: Strength
+      rank_int: 8
+      description:
+        - Hero 
+        - a great feat.
+    - name: The Hermit
+      rank_int: 9
+      description:
+        - Solitude 
+        - isolation.
+    - name: Wheel of Fortune
+      rank_int: 10
+      description:
+        - Chance 
+        - the unpredictable.
+    - name: Justice
+      rank_int: 11
+      description:
+        - Judge 
+        - the rule of law.
+    - name: The Hanged Man
+      rank_int: 12
+      description:
+        - Martyr 
+        - sacrifice.      
+    - name: Death
+      rank_int: 13
+      description:
+        - Grim reaper 
+        - coming to an end.
+    - name: Temperance
+      rank_int: 14
+      description:
+        - Patience 
+        - time passes.
+    - name: The Devil
+      rank_int: 15
+      description:
+        - Archfiend 
+        - nemesis.
+    - name: The Tower
+      rank_int: 16
+      description:
+        - Destruction 
+        - failure.
+    - name: The Star
+      rank_int: 17
+      description:
+        - Distance 
+        - the unreachable.
+    - name: The Moon
+      rank_int: 18
+      description:
+        - Soul 
+        - longing.
+    - name: The Sun
+      rank_int: 19
+      description:
+        - Ability 
+        - triumph.
+    - name: Judgement
+      rank_int: 20
+      description:
+        - Result 
+        - final outcome.
+    - name: The World
+      rank_int: 21
+      description:
+        - Opportunity 
+        - success at hand.

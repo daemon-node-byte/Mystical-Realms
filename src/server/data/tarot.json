@@ -1,0 +1,94 @@
+{
+  "tarot_card_id": "major0",
+  "title": "The Fool",
+  "rank": 0,
+  "suit": "major",
+  "astrological_sign": "Uranus",
+  "element": "air",
+  "visual_description":
+    "A young man stands at the edge of a cliff, looking up toward the sky with a small bag over his shoulder. In one hand, he holds a white rose, symbolizing purity and innocence. A small dog playfully jumps beside him, representing loyalty and protection. The man appears carefree, unaware of the potential danger of the cliff edge. The sky is clear, and the sun shines brightly, symbolizing new beginnings and optimism.",
+  "symbolism": [
+    [
+      "Cliff",
+      "The edge of the cliff represents the unknown and the leap of faith."
+    ],
+    [
+      "Dog",
+      "The small dog symbolizes loyalty and protection, but also instincts that warn of potential danger."
+    ],
+    [
+      "Rose",
+      "The white rose represents innocence and purity, a new and fresh beginning."
+    ],
+    [
+      "Sun",
+      "The sun stands for optimism, enlightenment, and a new day or beginning."
+    ],
+    [
+      "Bag",
+      "The small bag represents the Fool's knowledge, experience, and potential, which he carries lightly."
+    ],
+    [
+      "Mountains",
+      "The distant mountains represent the challenges ahead that the Fool is unaware of."
+    ]
+  ],
+  "keywords": {
+    "upright": [
+      "new beginnings",
+      "innocence",
+      "spontaneity",
+      "freedom",
+      "adventure"
+    ],
+    "reversed": [
+      "recklessness",
+      "naivety",
+      "fear of change",
+      "being taken advantage of",
+      "carelessness"
+    ]
+  },
+  "interpretation": {
+    "general": {
+      "upright":
+        "The Fool represents new beginnings, a leap of faith, and trusting the universe. It signifies a fresh start, adventure, and innocence. The card encourages you to embrace the unknown and to move forward with optimism.",
+      "reversed":
+        "When reversed, The Fool warns against recklessness and naivety. It suggests that you may be acting without thinking things through or that you're avoiding necessary caution. Be careful not to be taken advantage of."
+    },
+    "love": {
+      "upright":
+        "In a love reading, The Fool suggests spontaneity and a new relationship full of excitement and adventure. It may also indicate a carefree attitude in an existing relationship, where joy and freedom are embraced.",
+      "reversed":
+        "Reversed in love, The Fool warns of carelessness and impulsive decisions. It suggests that you may be jumping into relationships without thinking about long-term consequences or being too naive about your partner's intentions."
+    },
+    "career": {
+      "upright":
+        "In career matters, The Fool suggests new job opportunities or the beginning of a fresh venture. It encourages you to take risks and follow your dreams, embracing the excitement of the unknown.",
+      "reversed":
+        "Reversed, it signals potential carelessness in your career. You might be making hasty decisions without considering the outcomes, or you could be stuck in a situation due to fear of the unknown."
+    },
+    "health": {
+      "upright":
+        "The Fool in a health reading suggests optimism and vitality. It could indicate a fresh approach to health and fitness, or simply feeling carefree and physically strong.",
+      "reversed":
+        "Reversed, this card warns of health risks due to reckless behavior. You may be neglecting your well-being or engaging in activities that could harm your health."
+    },
+    "finance": {
+      "upright":
+        "Financially, The Fool represents taking a leap of faith, such as starting a new venture or investing in something unconventional. It encourages trusting the process and not overthinking.",
+      "reversed":
+        "Reversed, this card warns of financial recklessness. Be cautious of risky investments and avoid making impulsive decisions without fully understanding the potential consequences."
+    },
+    "spirituality": {
+      "upright":
+        "Spiritually, The Fool indicates a fresh spiritual journey, where you embrace faith and trust in the universe. It's a time of spiritual growth and openness to new experiences.",
+      "reversed":
+        "Reversed, The Fool may suggest that you're avoiding spiritual growth out of fear or that you're being too reckless in your spiritual pursuits, lacking grounding or focus."
+    }
+  },
+  "journey_story":
+    "The Fool begins the journey of the Major Arcana. He is the archetype of innocence and potential, embarking on a great adventure. He doesn't know what lies ahead, but he is willing to step into the unknown, driven by faith, curiosity, and a sense of adventure.",
+  "summary":
+    "The Fool symbolizes new beginnings, innocence, and spontaneity. It encourages taking a leap of faith, trusting the universe, and embracing the unknown. However, when reversed, it warns of recklessness, naivety, and being too carefree without considering the potential consequences."
+}

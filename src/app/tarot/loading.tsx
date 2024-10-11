@@ -1,4 +1,4 @@
-import { LoadingDotsSVG } from "@/app/_components/_ui/LoadingDots.component";
+import { LoadingDotsSVG } from "@/app/_components/ui/LoadingDots.component";
 
 export default function Loading() {
   return (

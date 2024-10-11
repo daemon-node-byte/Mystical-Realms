@@ -1,0 +1,21 @@
+court_cards:
+  - name: Page
+    element: earth
+    description: |
+      The messenger, the student.
+      Young children or people who are young at heart
+  - name: Knight
+    element: air
+    description: |
+      The warrior, the adventurer.
+      Young adults or people who are starting over
+  - name: Queen
+    element: water
+    description: |
+      The nurturer, the mother.
+      Represent mature women or people with emotional maturity
+  - name: King
+    element: fire
+    description: |
+      The ruler, the father.
+      Represent mature men or men who are grounded and can provide leadership

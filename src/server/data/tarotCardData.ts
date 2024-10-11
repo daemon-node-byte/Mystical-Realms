@@ -5463,3 +5463,4 @@ export const TAROT_DATA = [
       "The King of Wands signifies leadership and vision. When reversed, it warns of dictatorial behavior and lack of direction.",
   },
 ];
+

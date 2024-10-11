@@ -1,4 +1,4 @@
-import { LoadingDotsSVG } from "./_components/_ui/LoadingDots.component"
+import { LoadingDotsSVG } from "./_components/ui/LoadingDots.component"
 
 export default function Loading() {
 	return <div className="flex items-center justify-center h-screen">

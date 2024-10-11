@@ -4,7 +4,7 @@
 // import NavigationBar from "@/app/_components/_common/NavigationBar";
 import { getServerAuthSession } from "@/server/auth";
 import { HydrateClient } from "@/trpc/server";
-import PageWrapper from "./_components/_common/PageWrapper";
+import PageWrapper from "./_components/common/PageWrapper";
 
 export default async function Home() {
   // const hello = await api.post.hello({ text: "from jmclain" });

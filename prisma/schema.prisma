@@ -1,74 +1,230 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
-    provider = "prisma-client-js"
+  provider        = "prisma-client-js"
+  output = "../src/server/generated/client"
+  previewFeatures = ["relationJoins"]
 }
 
 datasource db {
-    provider = "postgresql"
-    // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
-    // Further reading:
-    // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
-    // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
-    url      = env("DATABASE_URL")
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
+  id          Int      @id @default(autoincrement())
+  name        String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  createdById String
+  createdBy   User     @relation(fields: [createdById], references: [id])
 
-    createdBy   User   @relation(fields: [createdById], references: [id])
-    createdById String
-
-    @@index([name])
+  @@index([name])
 }
 
-// Necessary for Next auth
 model Account {
-    id                       String  @id @default(cuid())
-    userId                   String
-    type                     String
-    provider                 String
-    providerAccountId        String
-    refresh_token            String? // @db.Text
-    access_token             String? // @db.Text
-    expires_at               Int?
-    token_type               String?
-    scope                    String?
-    id_token                 String? // @db.Text
-    session_state            String?
-    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
-    refresh_token_expires_in Int?
+  id                       String  @id @default(cuid())
+  userId                   String
+  type                     String
+  provider                 String
+  providerAccountId        String
+  refresh_token            String?
+  access_token             String?
+  expires_at               Int?
+  token_type               String?
+  scope                    String?
+  id_token                 String?
+  session_state            String?
+  refresh_token_expires_in Int?
+  user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
-    @@unique([provider, providerAccountId])
+  @@unique([provider, providerAccountId])
 }
 
 model Session {
-    id           String   @id @default(cuid())
-    sessionToken String   @unique
-    userId       String
-    expires      DateTime
-    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 model User {
-    id            String    @id @default(cuid())
-    name          String?
-    email         String?   @unique
-    emailVerified DateTime?
-    image         String?
-    accounts      Account[]
-    sessions      Session[]
-    posts         Post[]
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  accounts      Account[]
+  posts         Post[]
+  sessions      Session[]
 }
 
 model VerificationToken {
-    identifier String
-    token      String   @unique
-    expires    DateTime
+  identifier String
+  token      String   @unique
+  expires    DateTime
 
-    @@unique([identifier, token])
+  @@unique([identifier, token])
+}
+
+model TarotCard {
+  id              Int               @id @default(autoincrement())
+  title           String            @unique
+  suit            Suit
+  rank            Rank?
+  rank_int        Int
+  image_file      String
+  summary         String
+  keywords        CardKeywords?
+  interpretations Interpretations[]
+  card_extra      TarotCardExtra?
+
+  @@index([suit, rank_int])
+  @@map("tarot_cards")
+}
+
+model CardKeywords {
+  id       Int       @id @default(autoincrement())
+  card_id  Int       @unique
+  upright  String[]
+  reversed String[]
+  card     TarotCard @relation(fields: [card_id], references: [id])
+
+  @@index([card_id])
+  @@map("card_keywords")
+}
+
+model Interpretations {
+  id           Int         @id @default(autoincrement())
+  reading_type ReadingType
+  upright      String
+  reversed     String
+  card_title   String
+  card         TarotCard   @relation(fields: [card_title], references: [title])
+
+  @@index([card_title])
+  @@map("interpretations")
+}
+
+model TarotCardExtra {
+  id                Int          @id @default(autoincrement())
+  card_id           Int          @unique
+  roman_numeral     RomanNumeral
+  visual_desc       String
+  fools_journey     String
+  symbolism         Json[]
+  planet            String?
+  zodiac_sign       String?
+  card              TarotCard    @relation(fields: [card_id], references: [id])
+
+  @@map("tarot_card_extras")
+}
+
+model Zodiac {
+  id             Int             @id @default(autoincrement())
+  name           String          @unique
+  ruleing_planet RuleingPlanet
+  date_range     String
+  cards          String[]
+}
+
+model Archtype {
+  id          Int            @id @default(autoincrement())
+  description String
+  element     Element
+  card_title String
+}
+
+enum Suit {
+  WANDS
+  PENTACLES
+  CUPS
+  SWORDS
+  MAJOR
+}
+
+enum Rank {
+  ACE
+  TWO
+  THREE
+  FOUR
+  FIVE
+  SIX
+  SEVEN
+  EIGHT
+  NINE
+  TEN
+  PAGE
+  KNIGHT
+  QUEEN
+  KING
+}
+
+enum RomanNumeral {
+  ZERO
+  I
+  II
+  III
+  IV
+  V
+  VI
+  VII
+  VIII
+  IX
+  X
+  XI
+  XII
+  XIII
+  XIV
+  XV
+  XVI
+  XVII
+  XVIII
+  XIX
+  XX
+  XXI
+}
+
+enum ReadingType {
+  GENERAL
+  LOVE
+  CAREER
+  FINANCE
+  HEALTH
+  TRAVEL
+  SPIRITUAL
+}
+
+enum Element {
+  FIRE
+  EARTH
+  WATER
+  AIR
+}
+
+enum AstrologicalSign {
+  ARIES
+  TAURUS
+  GEMINI
+  CANCER
+  LEO
+  VIRGO
+  LIBRA
+  SCORPIO
+  SAGITTARIUS
+  CAPRICORN
+  AQUARIUS
+  PISCES
+}
+
+enum RuleingPlanet {
+  SUN
+  MERCURY
+  VENUS
+  MOON
+  MARS
+  JUPITER
+  SATURN
+  URANUS
+  NEPTUNE
+  PLUTO
 }
