@@ -15,7 +15,7 @@ import {
   Dropdown,
   DropdownTrigger,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
 } from "@nextui-org/react";
 import { LoginModal } from "../login-modal.component";
 import clsx from "clsx";
@@ -25,12 +25,16 @@ import { NavItem } from "./NavItem";
 import { navLinkData } from "./navLinkData";
 import { MobileNavItem } from "./MobileNavItem";
 import type { Session } from "next-auth";
+import AuthAvatar from "../AuthAvatar";
 
+export default function NavigationBar({
+  session,
+}: {
+  readonly session: Session | null;
+}) {
+  console.log("🚀 ~ NavigationBar ~ session:", session);
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-export default function NavigationBar({ session }: { readonly session: Session }) {
-  console.log("🚀 ~ NavigationBar ~ session:", session)
-  const [ isMenuOpen, setIsMenuOpen ] = React.useState(false);
-  
   return (
     <Navbar
       isBordered
@@ -97,18 +101,20 @@ export default function NavigationBar({ session }: { readonly session: Session }
 
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          {session ? <Link href='/api/auth/signout'>Logout</Link> : <LoginModal />}
+          {session ? (
+            <Link href="/api/auth/signout">Logout</Link>
+          ) : (
+            <LoginModal />
+          )}
         </NavbarItem>
         <NavbarItem>
-          {session ? <Dropdown>
-            <DropdownTrigger><Avatar src={session.user.image?? ''} /></DropdownTrigger>
-            <DropdownMenu>
-              <DropdownItem>My Profile</DropdownItem>
-            </DropdownMenu>
-          </Dropdown> :
+          {session ? (
+            <AuthAvatar session={session} />
+          ) : (
             <Button as={Link} color="warning" href="#" variant="flat">
               Sign Up
-            </Button>}
+            </Button>
+          )}
         </NavbarItem>
       </NavbarContent>
 
@@ -118,7 +124,7 @@ export default function NavigationBar({ session }: { readonly session: Session }
             key={`${item.label}-${index}`}
             href={item.href}
             label={item.label}
-            sub={item.sub?? []}
+            sub={item.sub ?? []}
             isAvailable={item.isAvailable}
           />
         ))}

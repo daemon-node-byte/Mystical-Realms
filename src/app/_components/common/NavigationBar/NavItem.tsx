@@ -10,7 +10,7 @@ import {
   Badge,
   Chip
 } from "@nextui-org/react";
-import { nav_ui } from "@/app/_components/_ui/Icons";
+import { nav_ui } from "@/app/_components/ui/Icons";
 
 export type NavItemType = {
   label: string;

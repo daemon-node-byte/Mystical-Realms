@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { NavbarMenuItem, Chip } from "@nextui-org/react";
 import { type NavItemType } from "./NavItem";
-import { nav_ui } from "@/app/_components/_ui/Icons";
+import { nav_ui } from "@/app/_components/ui/Icons";
 export const MobileNavItem = ({
   href,
   label,

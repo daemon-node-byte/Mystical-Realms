@@ -9,7 +9,7 @@ import {
   Input,
   Divider
 } from "@nextui-org/react";
-import { nav_ui, social } from '@/app/_components/_ui/Icons'
+import { nav_ui, social } from '@/app/_components/ui/Icons'
 import Link from "next/link";
 
 
