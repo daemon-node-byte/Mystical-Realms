@@ -1,4 +1,4 @@
-import { $Enums } from "@prisma/client";
+import { $Enums } from "@prisma/client/index";
 import type { Archtype, MajorArcanaCard, MinorArcanaCard } from "./types";
 
 export const getExtraData = (data: Archtype, query: { suit: string, rank_int: number }) => {

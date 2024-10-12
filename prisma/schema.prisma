@@ -1,6 +1,5 @@
 generator client {
   provider        = "prisma-client-js"
-  output = "../src/server/generated/client"
   previewFeatures = ["relationJoins"]
 }
 
@@ -106,32 +105,32 @@ model Interpretations {
 }
 
 model TarotCardExtra {
-  id                Int          @id @default(autoincrement())
-  card_id           Int          @unique
-  roman_numeral     RomanNumeral
-  visual_desc       String
-  fools_journey     String
-  symbolism         Json[]
-  planet            String?
-  zodiac_sign       String?
-  card              TarotCard    @relation(fields: [card_id], references: [id])
+  id            Int          @id @default(autoincrement())
+  card_id       Int          @unique
+  roman_numeral RomanNumeral
+  visual_desc   String
+  fools_journey String
+  symbolism     Json[]
+  planet        String?
+  zodiac_sign   String?
+  card          TarotCard    @relation(fields: [card_id], references: [id])
 
   @@map("tarot_card_extras")
 }
 
 model Zodiac {
-  id             Int             @id @default(autoincrement())
-  name           String          @unique
+  id             Int           @id @default(autoincrement())
+  name           String        @unique
   ruleing_planet RuleingPlanet
   date_range     String
   cards          String[]
 }
 
 model Archtype {
-  id          Int            @id @default(autoincrement())
+  id          Int     @id @default(autoincrement())
   description String
   element     Element
-  card_title String
+  card_title  String
 }
 
 enum Suit {
@@ -217,7 +216,6 @@ enum AstrologicalSign {
 }
 
 enum RuleingPlanet {
-  SUN
   MERCURY
   VENUS
   MOON
@@ -227,4 +225,5 @@ enum RuleingPlanet {
   URANUS
   NEPTUNE
   PLUTO
+  SUN
 }

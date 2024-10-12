@@ -98,16 +98,16 @@ export default async function Page() {
             <Divider className={clsx('my-3')} />
             <div className={clsx("text-xl text-zinc-400 flex space-x-2 justify-around items-center")}>
               
-                <Link href="/tarot/cards/major/">Major Arcana</Link>
+                <Link href="/tarot/cards/MAJOR?rank=1">Major Arcana</Link>
                 <Divider orientation="vertical" />
 
-                <Link href="/tarot/cards/wands/">Wands</Link>
+                <Link href="/tarot/cards/WANDS?rank=1">Wands</Link>
                 <Divider orientation="vertical" />
-                <Link href="/tarot/cards/cups/">Cups</Link>
+                <Link href="/tarot/cards/CUPS?rank=1">Cups</Link>
                 <Divider orientation="vertical" />
-                <Link href="/tarot/cards/swords/">Swords</Link>
+                <Link href="/tarot/cards/SWORDS?rank=1">Swords</Link>
                 <Divider orientation="vertical" />
-                <Link href="/tarot/cards/pentacles/">Pentacles</Link>
+                <Link href="/tarot/cards/PENTACLES?rank=1">Pentacles</Link>
               
             </div>
           </section>

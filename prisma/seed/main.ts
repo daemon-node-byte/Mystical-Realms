@@ -1,4 +1,4 @@
-import { PrismaClient, $Enums } from '../../src/server/generated/client/index';
+import { PrismaClient, $Enums } from '@prisma/client/index';
 import CARDS, { ARCH_MAJOR, ARCH_MINOR, ZODIAC, COURT } from './DATA'
 import { ReadingTypeEnum, TarotCard as TarotCardType, Zodiac, ZodiacSign } from './types'
 import { getRank, getRoman } from './utils'

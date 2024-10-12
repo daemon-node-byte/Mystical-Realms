@@ -26,3 +26,11 @@ export interface Meanings {
 	upright:  string;
 	reversed: string;
 }
+
+export enum Suit {
+  WANDS = "WANDS",
+  CUPS = "CUPS",
+  SWORDS = "SWORDS",
+  PENTACLES = "PENTACLES",
+  MAJOR = "MAJOR"
+}

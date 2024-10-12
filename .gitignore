@@ -55,5 +55,3 @@ yarn-error.log*
 !.env.project
 !.env.vault
 
-svg
-src/server/generated/*

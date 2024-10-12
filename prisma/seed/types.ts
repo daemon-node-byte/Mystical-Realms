@@ -1,4 +1,4 @@
-import { TarotCardExtra } from "@prisma/client";
+import { TarotCardExtra } from "@prisma/client/index";
 
 export interface TarotCard {
   tarot_card_id: string;

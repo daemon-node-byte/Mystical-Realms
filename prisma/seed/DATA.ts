@@ -10,6 +10,9 @@ import { CUPS } from "./data/CUPS";
 import type { TarotCard as CardT, MajorArcana, MinorArcana, Zodiac as ZodiacType, CourtCard } from "./types";
 
 const ROOTDIR = path.resolve(process.cwd());
+/** 
+ * TODO :issue(edge_case_not_handled): Handle potential errors in file reading and parsing. The current implementation of yamlParser does not handle potential errors that might occur during file reading or YAML parsing. Consider adding error handling to manage these cases gracefully
+ * */
 const yamlParser = (fileName: string) => yaml.parse(fs.readFileSync(path.join(ROOTDIR, 'prisma/seed/data', `${fileName}.yaml`), 'utf8'));
 
 export const ARCH_MAJOR = yamlParser('ARCH_MAJOR') as MajorArcana;
