@@ -46,12 +46,8 @@ export default async function Page({ params, searchParams }: Props) {
 								</CardBody>
 								<CardFooter>
 									<div className='flex w-full space-x-2'>
-
 											<Button as={NextLink} variant='ghost' className={btnStyle} href={`/tarot/cards/${suit.toUpperCase()}?rank=${+rank + 1}`} >Previous Card</Button>
-
-
 											<Button as={NextLink} variant='ghost' className={btnStyle} href={`/tarot.cards/${suit.toUpperCase()}?rank=${+rank + 1}`} >Next Card</Button>
-
 									</div>
 								</CardFooter>
 					</Card>
