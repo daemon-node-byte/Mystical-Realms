@@ -24,7 +24,7 @@ export default async function Page({ params, searchParams }: Props) {
 	const { rank } = searchParams;
 
 	const tarotCardObject = await getTarotCard(suit, +rank) ?? null;
-	console.log("🚀 ~ Page ~ tarotCardObject:", )
+
   if (!tarotCardObject) {
     return <div>Card not found</div>;
   }

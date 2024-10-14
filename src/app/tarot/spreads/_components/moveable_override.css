@@ -1,0 +1,7 @@
+.moveable-control-box .moveable-direction {
+  display: none !important;
+}
+
+.moveable-control-box .moveable-origin {
+  display: none !important;
+}

@@ -27,7 +27,7 @@ export default function NavigationBar({
 }: {
   readonly session: Session | null;
 }) {
-  console.log("🚀 ~ NavigationBar ~ session:", session);
+
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (

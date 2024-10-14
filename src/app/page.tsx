@@ -9,10 +9,10 @@ import PageWrapper from "./_components/common/PageWrapper";
 export default async function Home() {
   // const hello = await api.post.hello({ text: "from jmclain" });
   const session = await getServerAuthSession();
-  console.log("🚀 ~ Home ~ session:", session)
+
 
   // void api.post.getLatest.prefetch();
- console.log('page on client')
+
   return (
     <HydrateClient>
 

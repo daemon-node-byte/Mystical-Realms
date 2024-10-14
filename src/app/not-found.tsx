@@ -11,9 +11,9 @@ export default function NotFound() {
         <h1 className={clsx(themeFont1.className, "mb-8 text-3xl")}>
           404 | Resource Not Found
         </h1>
-        <h2>We're having trouble locating that page.</h2>
+        <h2>We&apos;re having trouble locating that page.</h2>
         <p>
-          This is likely because we're still working to deliver the best
+          This is likely because we&apos;re still working to deliver the best
           experience.
         </p>
         <p className='pb-12'>
