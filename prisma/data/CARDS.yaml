@@ -1,0 +1,3113 @@
+- id: "major0"
+  name: "The Fool"
+  arcana: "Major"
+  number: 0
+  upright_keywords:
+    - "new beginnings"
+    - "adventure"
+    - "spontaneity"
+    - "innocence"
+  reversed_keywords:
+    - "naivety"
+    - "recklessness"
+    - "unpreparedness"
+  description:
+    upright: "The Fool card represents new beginnings, adventure, and a leap into the unknown. It encourages you to embrace change with a sense of curiosity and wonder."
+    reversed: "When reversed, The Fool warns against recklessness, suggesting you may be taking unnecessary risks without proper forethought. It encourages caution."
+  element: "Air"
+  astrological_rulership: "Uranus"
+  themes:
+    - "The hero's journey begins"
+    - "Infinite possibilities"
+  symbolism:
+    - symbol: "Cliff"
+      meaning: "Taking risks without fear of consequences"
+    - symbol: "White dog"
+      meaning: "Guidance and instinct"
+    - symbol: "Knapsack"
+      meaning: "Tools needed for the journey, resources yet to be used"
+  numerology: 0
+  core_emotions:
+    - "excitement"
+    - "optimism"
+    - "fearlessness"
+  reflection_prompts:
+    - "What new beginnings are calling to you?"
+    - "How can you embrace change with curiosity and openness?"
+  practical_advice: "Embrace the unknown, but stay mindful of potential risks."
+  fools_journey: "Represents the beginning of the journey, emphasizing innocence and stepping into the unknown."
+
+- id: "major1"
+  name: "The Magician"
+  arcana: "Major"
+  number: 1
+  upright_keywords:
+    - "manifestation"
+    - "power"
+    - "resourcefulness"
+    - "creativity"
+  reversed_keywords:
+    - "manipulation"
+    - "poor planning"
+    - "untapped potential"
+  description:
+    upright: "The Magician signifies manifestation, using your skills and talents to bring your desires into reality. It suggests you have all the resources you need."
+    reversed: "When reversed, The Magician can indicate a misuse of power or failing to take advantage of opportunities. It calls for greater self-awareness."
+  element: "Air"
+  astrological_rulership: "Mercury"
+  themes:
+    - "Mastery of skills"
+    - "Concentration and willpower"
+  symbolism:
+    - symbol: "Wand pointing upward"
+      meaning: "Connection between the spiritual and physical realms"
+    - symbol: "Infinity symbol"
+      meaning: "Limitless potential"
+    - symbol: "Table with tools"
+      meaning: "Resources available for manifestation"
+  numerology: 1
+  core_emotions:
+    - "confidence"
+    - "determination"
+    - "focus"
+  reflection_prompts:
+    - "What skills can you use to create your desired reality?"
+    - "How can you channel your energy effectively?"
+  practical_advice: "Use your talents wisely and focus on your goals to make things happen."
+  fools_journey: "Symbolizes taking control of one's own life and realizing personal power."
+
+- id: "major2"
+  name: "The High Priestess"
+  arcana: "Major"
+  number: 2
+  upright_keywords:
+    - "intuition"
+    - "subconscious"
+    - "mystery"
+    - "inner wisdom"
+  reversed_keywords:
+    - "secrets"
+    - "withdrawal"
+    - "repressed intuition"
+  description:
+    upright: "The High Priestess invites you to connect with your intuition and seek answers within. It represents mystery and the unknown."
+    reversed: "When reversed, The High Priestess warns of secrets kept from you or a disconnection from your intuition. It encourages you to pay attention to your inner voice."
+  element: "Water"
+  astrological_rulership: "Moon"
+  themes:
+    - "Hidden knowledge"
+    - "The power of the unconscious"
+  symbolism:
+    - symbol: "Scroll"
+      meaning: "Knowledge and hidden wisdom"
+    - symbol: "Moon crown"
+      meaning: "Connection to the cycles of the moon"
+    - symbol: "Veil"
+      meaning: "Separation between the conscious and unconscious"
+  numerology: 2
+  core_emotions:
+    - "serenity"
+    - "mystique"
+    - "insight"
+  reflection_prompts:
+    - "What is your intuition telling you?"
+    - "What knowledge lies hidden within?"
+  practical_advice: "Trust your instincts and explore the mysteries within yourself."
+  fools_journey: "Represents the encounter with the mysteries of life and the need for introspection."
+
+- id: "major3"
+  name: "The Empress"
+  arcana: "Major"
+  number: 3
+  upright_keywords:
+    - "abundance"
+    - "nurturing"
+    - "fertility"
+    - "beauty"
+  reversed_keywords:
+    - "dependence"
+    - "creative block"
+    - "neglect"
+  description:
+    upright: "The Empress embodies fertility, nurturing energy, and a deep connection to nature. She symbolizes abundance in all forms and encourages creativity."
+    reversed: "When reversed, The Empress suggests a lack of self-care or an overreliance on others. It may indicate creative stagnation or a need for self-nurturing."
+  element: "Earth"
+  astrological_rulership: "Venus"
+  themes:
+    - "Motherhood and care"
+    - "Growth and prosperity"
+  symbolism:
+    - symbol: "Wheat"
+      meaning: "Harvest, abundance, and nurturing"
+    - symbol: "Crown of stars"
+      meaning: "Divine connection and guidance"
+    - symbol: "River"
+      meaning: "Flow of life and emotions"
+  numerology: 3
+  core_emotions:
+    - "love"
+    - "compassion"
+    - "fulfillment"
+  reflection_prompts:
+    - "How can you nurture yourself and those around you?"
+    - "Where can you find abundance in your life?"
+  practical_advice: "Embrace the nurturing energy around you and foster growth."
+  fools_journey: "Represents the encounter with the nurturing aspects of life, offering growth and creativity."
+- id: "major4"
+  name: "The Emperor"
+  arcana: "Major"
+  number: 4
+  upright_keywords:
+    - "authority"
+    - "structure"
+    - "control"
+    - "discipline"
+  reversed_keywords:
+    - "tyranny"
+    - "rigidity"
+    - "lack of discipline"
+  description:
+    upright: "The Emperor symbolizes authority, structure, and the power of leadership. It encourages taking control of your situation with discipline and determination."
+    reversed: "When reversed, The Emperor can indicate misuse of authority or excessive control. It suggests a need to balance rigidity with flexibility."
+  element: "Fire"
+  astrological_rulership: "Aries"
+  themes:
+    - "Leadership and power"
+    - "Establishing boundaries"
+  symbolism:
+    - symbol: "Throne"
+      meaning: "Stability and control"
+    - symbol: "Ram's heads"
+      meaning: "Determination and leadership"
+    - symbol: "Scepter"
+      meaning: "Authority and power"
+  numerology: 4
+  core_emotions:
+    - "confidence"
+    - "control"
+    - "strength"
+  reflection_prompts:
+    - "How can you take charge of your life?"
+    - "Where do you need to establish structure?"
+  practical_advice: "Use your power responsibly, and lead with integrity."
+  fools_journey: "Represents the encounter with authority and the need to establish order in life."
+
+- id: "major5"
+  name: "The Hierophant"
+  arcana: "Major"
+  number: 5
+  upright_keywords:
+    - "tradition"
+    - "spirituality"
+    - "conformity"
+    - "education"
+  reversed_keywords:
+    - "rebellion"
+    - "restriction"
+    - "challenge to tradition"
+  description:
+    upright: "The Hierophant represents tradition, spiritual wisdom, and the pursuit of knowledge. It emphasizes learning from established institutions and spiritual guidance."
+    reversed: "When reversed, The Hierophant suggests a resistance to traditional values or a challenge to societal norms. It encourages you to find your own path."
+  element: "Earth"
+  astrological_rulership: "Taurus"
+  themes:
+    - "Spiritual mentorship"
+    - "Following established paths"
+  symbolism:
+    - symbol: "Keys"
+      meaning: "Access to hidden knowledge"
+    - symbol: "Crossed fingers"
+      meaning: "Blessings and spiritual authority"
+    - symbol: "Two pillars"
+      meaning: "Balance between the known and the unknown"
+  numerology: 5
+  core_emotions:
+    - "reverence"
+    - "conformity"
+    - "guidance"
+  reflection_prompts:
+    - "What traditions guide you?"
+    - "How do you balance following tradition and forging your own path?"
+  practical_advice: "Look for wisdom in established sources but don't be afraid to question the status quo."
+  fools_journey: "Represents the encounter with tradition and the guidance of mentors or teachers."
+
+- id: "major6"
+  name: "The Lovers"
+  arcana: "Major"
+  number: 6
+  upright_keywords:
+    - "love"
+    - "partnership"
+    - "choices"
+    - "harmony"
+  reversed_keywords:
+    - "disharmony"
+    - "imbalance"
+    - "misalignment"
+  description:
+    upright: "The Lovers card signifies deep bonds, meaningful connections, and choices in relationships. It encourages you to align with what feels true to your heart."
+    reversed: "When reversed, The Lovers may indicate conflict in relationships or inner disharmony. It suggests a need to reassess your values and connections."
+  element: "Air"
+  astrological_rulership: "Gemini"
+  themes:
+    - "Union and connection"
+    - "Moral choices"
+  symbolism:
+    - symbol: "Angel"
+      meaning: "Divine guidance in love"
+    - symbol: "Two figures"
+      meaning: "Balance and partnership"
+    - symbol: "Mountain"
+      meaning: "Challenges to overcome together"
+  numerology: 6
+  core_emotions:
+    - "love"
+    - "affection"
+    - "connection"
+  reflection_prompts:
+    - "What does a healthy relationship mean to you?"
+    - "What choices align with your true values?"
+  practical_advice: "Choose with your heart and prioritize harmony in your relationships."
+  fools_journey: "Represents the encounter with love and the power of choices that shape one's path."
+
+- id: "major7"
+  name: "The Chariot"
+  arcana: "Major"
+  number: 7
+  upright_keywords:
+    - "determination"
+    - "victory"
+    - "willpower"
+    - "control"
+  reversed_keywords:
+    - "lack of direction"
+    - "self-doubt"
+    - "losing control"
+  description:
+    upright: "The Chariot represents determination, focused effort, and the triumph that comes from maintaining control over conflicting forces. It encourages moving forward with confidence."
+    reversed: "When reversed, The Chariot may signal a loss of direction or lack of control. It suggests the need to regain focus and harness your inner strength."
+  element: "Water"
+  astrological_rulership: "Cancer"
+  themes:
+    - "Overcoming obstacles"
+    - "Harnessing inner power"
+  symbolism:
+    - symbol: "Sphinxes"
+      meaning: "Balance of opposing forces"
+    - symbol: "Chariot"
+      meaning: "Control and direction"
+    - symbol: "Starry canopy"
+      meaning: "Spiritual guidance and protection"
+  numerology: 7
+  core_emotions:
+    - "determination"
+    - "confidence"
+    - "assertiveness"
+  reflection_prompts:
+    - "Where do you need to take control in your life?"
+    - "What drives you forward?"
+  practical_advice: "Stay focused on your goals and harness your determination to overcome challenges."
+  fools_journey: "Represents the triumph of willpower and the ability to control one's destiny."
+- id: "major8"
+  name: "Strength"
+  arcana: "Major"
+  number: 8
+  upright_keywords:
+    - "courage"
+    - "inner strength"
+    - "compassion"
+    - "patience"
+  reversed_keywords:
+    - "self-doubt"
+    - "weakness"
+    - "insecurity"
+  description:
+    upright: "Strength symbolizes inner power and the gentle control of one's impulses. It encourages you to face challenges with compassion and self-confidence."
+    reversed: "When reversed, Strength can indicate self-doubt or an inability to manage one's emotions. It calls for patience and self-acceptance."
+  element: "Fire"
+  astrological_rulership: "Leo"
+  themes:
+    - "Mastery of emotions"
+    - "Compassion and empathy"
+  symbolism:
+    - symbol: "Lion"
+      meaning: "Raw energy and power"
+    - symbol: "Infinity symbol"
+      meaning: "Infinite potential and balance"
+    - symbol: "Flower garland"
+      meaning: "Gentle control and compassion"
+  numerology: 8
+  core_emotions:
+    - "courage"
+    - "calmness"
+    - "compassion"
+  reflection_prompts:
+    - "How can you find strength in gentleness?"
+    - "What fears are you ready to face?"
+  practical_advice: "Approach your challenges with patience and a calm heart."
+  fools_journey: "Represents the encounter with inner strength and the lesson of mastering one's emotions."
+
+- id: "major9"
+  name: "The Hermit"
+  arcana: "Major"
+  number: 9
+  upright_keywords:
+    - "introspection"
+    - "soul-searching"
+    - "solitude"
+    - "inner guidance"
+  reversed_keywords:
+    - "isolation"
+    - "withdrawal"
+    - "loneliness"
+  description:
+    upright: "The Hermit invites you to take a step back and reflect. It represents a time of introspection and seeking inner wisdom, away from external distractions."
+    reversed: "When reversed, The Hermit warns of excessive isolation or avoidance of personal truths. It encourages finding balance between solitude and connection."
+  element: "Earth"
+  astrological_rulership: "Virgo"
+  themes:
+    - "Seeking wisdom"
+    - "Personal reflection"
+  symbolism:
+    - symbol: "Lantern"
+      meaning: "Guiding light of inner wisdom"
+    - symbol: "Staff"
+      meaning: "Support and guidance on a solitary journey"
+    - symbol: "Mountain"
+      meaning: "Attaining higher knowledge"
+  numerology: 9
+  core_emotions:
+    - "peace"
+    - "solitude"
+    - "clarity"
+  reflection_prompts:
+    - "What insights are you seeking within?"
+    - "How can solitude bring clarity to your path?"
+  practical_advice: "Take time for introspection and listen to your inner voice."
+  fools_journey: "Represents the period of soul-searching and finding one's own truth."
+
+- id: "major10"
+  name: "Wheel of Fortune"
+  arcana: "Major"
+  number: 10
+  upright_keywords:
+    - "change"
+    - "cycles"
+    - "destiny"
+    - "luck"
+  reversed_keywords:
+    - "resistance to change"
+    - "bad luck"
+    - "lack of control"
+  description:
+    upright: "The Wheel of Fortune signifies cycles of change and the turning points of life. It reminds you that life is in constant motion, bringing new opportunities."
+    reversed: "When reversed, the Wheel of Fortune can indicate resistance to change or feeling stuck in a cycle of bad luck. It suggests finding a way to adapt."
+  element: "Fire"
+  astrological_rulership: "Jupiter"
+  themes:
+    - "The inevitability of change"
+    - "Fate and destiny"
+  symbolism:
+    - symbol: "Wheel"
+      meaning: "The cycle of life and change"
+    - symbol: "Four creatures"
+      meaning: "The elements and the fixed signs of the zodiac"
+    - symbol: "Sphinx"
+      meaning: "Wisdom amidst the changing tides"
+  numerology: 10
+  core_emotions:
+    - "acceptance"
+    - "hope"
+    - "anticipation"
+  reflection_prompts:
+    - "What changes are unfolding in your life?"
+    - "How can you adapt to shifts in fortune?"
+  practical_advice: "Embrace the cycles of life, knowing that change brings new opportunities."
+  fools_journey: "Represents the realization that life is ever-changing, with cycles of fortune and misfortune."
+
+- id: "major11"
+  name: "Justice"
+  arcana: "Major"
+  number: 11
+  upright_keywords:
+    - "fairness"
+    - "truth"
+    - "balance"
+    - "law"
+  reversed_keywords:
+    - "injustice"
+    - "dishonesty"
+    - "lack of accountability"
+  description:
+    upright: "Justice represents fairness, balance, and the consequences of actions. It calls for honesty and accountability in all decisions."
+    reversed: "When reversed, Justice warns of imbalance, dishonesty, or unfair treatment. It suggests a need to address issues of accountability."
+  element: "Air"
+  astrological_rulership: "Libra"
+  themes:
+    - "Karma and consequences"
+    - "Seeking truth"
+  symbolism:
+    - symbol: "Scales"
+      meaning: "Balance and fairness"
+    - symbol: "Sword"
+      meaning: "Clarity and decision-making"
+    - symbol: "Pillars"
+      meaning: "Duality and balance"
+  numerology: 11
+  core_emotions:
+    - "equity"
+    - "clarity"
+    - "responsibility"
+  reflection_prompts:
+    - "What truths are you facing?"
+    - "Where do you need to restore balance?"
+  practical_advice: "Make decisions with integrity and consider the impact of your actions."
+  fools_journey: "Represents the need for fairness and understanding the balance between actions and their consequences."
+- id: "major12"
+  name: "The Hanged Man"
+  arcana: "Major"
+  number: 12
+  upright_keywords:
+    - "suspension"
+    - "letting go"
+    - "new perspective"
+    - "surrender"
+  reversed_keywords:
+    - "resistance"
+    - "stalling"
+    - "indecision"
+  description:
+    upright: "The Hanged Man symbolizes a time of pause and reflection, encouraging you to see things from a different angle. It suggests letting go of control and allowing a new perspective to emerge."
+    reversed: "When reversed, The Hanged Man indicates resistance to change or a struggle with letting go. It suggests you may be feeling stuck or unsure of your next step."
+  element: "Water"
+  astrological_rulership: "Neptune"
+  themes:
+    - "Sacrifice for growth"
+    - "Gaining clarity through stillness"
+  symbolism:
+    - symbol: "Upside-down figure"
+      meaning: "A shift in perspective and acceptance of the present"
+    - symbol: "Halo"
+      meaning: "Enlightenment and spiritual awareness"
+    - symbol: "Tree"
+      meaning: "Growth through sacrifice and patience"
+  numerology: 12
+  core_emotions:
+    - "acceptance"
+    - "patience"
+    - "introspection"
+  reflection_prompts:
+    - "What do you need to let go of to see things differently?"
+    - "How can a new perspective shift your understanding?"
+  practical_advice: "Embrace the pause, and allow yourself time to gain a fresh perspective."
+  fools_journey: "Represents the need to surrender control and see life from a different angle."
+
+- id: "major13"
+  name: "Death"
+  arcana: "Major"
+  number: 13
+  upright_keywords:
+    - "transformation"
+    - "endings"
+    - "rebirth"
+    - "change"
+  reversed_keywords:
+    - "resistance to change"
+    - "stagnation"
+    - "fear of letting go"
+  description:
+    upright: "The Death card signifies the end of a cycle and the beginning of a new one. It represents transformation and the release of what no longer serves you."
+    reversed: "When reversed, Death may suggest fear of change or an inability to let go. It encourages you to embrace transformation for growth."
+  element: "Water"
+  astrological_rulership: "Scorpio"
+  themes:
+    - "Endings and new beginnings"
+    - "Embracing change"
+  symbolism:
+    - symbol: "Skeleton"
+      meaning: "The inevitability of change and transformation"
+    - symbol: "White rose"
+      meaning: "Purity and new beginnings"
+    - symbol: "Rising sun"
+      meaning: "Hope and renewal after a transition"
+  numerology: 13
+  core_emotions:
+    - "acceptance"
+    - "renewal"
+    - "release"
+  reflection_prompts:
+    - "What changes are you resisting?"
+    - "What needs to end to allow for new growth?"
+  practical_advice: "Let go of what no longer serves you to make room for new opportunities."
+  fools_journey: "Represents the inevitability of endings and the potential for transformation."
+
+- id: "major14"
+  name: "Temperance"
+  arcana: "Major"
+  number: 14
+  upright_keywords:
+    - "balance"
+    - "moderation"
+    - "patience"
+    - "harmony"
+  reversed_keywords:
+    - "imbalance"
+    - "excess"
+    - "lack of patience"
+  description:
+    upright: "Temperance symbolizes balance, moderation, and the blending of opposites. It encourages you to find harmony in your life and approach situations with patience."
+    reversed: "When reversed, Temperance may indicate a lack of balance or going to extremes. It suggests a need to reassess and find equilibrium."
+  element: "Fire"
+  astrological_rulership: "Sagittarius"
+  themes:
+    - "Finding the middle path"
+    - "Integration of dualities"
+  symbolism:
+    - symbol: "Two cups"
+      meaning: "Blending of opposites and balance"
+    - symbol: "Angel"
+      meaning: "Guidance towards harmony"
+    - symbol: "Sunrise"
+      meaning: "Hope and enlightenment through balance"
+  numerology: 14
+  core_emotions:
+    - "calm"
+    - "equilibrium"
+    - "serenity"
+  reflection_prompts:
+    - "Where can you find balance in your life?"
+    - "How can you approach challenges with patience?"
+  practical_advice: "Strive for balance and moderation in all things."
+  fools_journey: "Represents the lesson of finding balance and learning to integrate opposing aspects."
+
+- id: "major15"
+  name: "The Devil"
+  arcana: "Major"
+  number: 15
+  upright_keywords:
+    - "bondage"
+    - "materialism"
+    - "addiction"
+    - "temptation"
+  reversed_keywords:
+    - "freedom"
+    - "release"
+    - "overcoming"
+    - "awareness"
+  description:
+    upright: "The Devil represents the chains of addiction, materialism, and temptation. It suggests being trapped by desires or negative patterns, urging you to face what holds you back."
+    reversed: "When reversed, The Devil indicates a breaking of bonds and liberation from negative influences. It suggests an opportunity for self-awareness and freedom."
+  element: "Earth"
+  astrological_rulership: "Capricorn"
+  themes:
+    - "Facing shadows"
+    - "Recognizing limitations"
+  symbolism:
+    - symbol: "Chains"
+      meaning: "Self-imposed restrictions and attachments"
+    - symbol: "Goat"
+      meaning: "Material desires and instincts"
+    - symbol: "Inverted pentagram"
+      meaning: "Focus on the material over the spiritual"
+  numerology: 15
+  core_emotions:
+    - "desire"
+    - "fear"
+    - "temptation"
+  reflection_prompts:
+    - "What is keeping you bound or limiting your freedom?"
+    - "How can you confront your own shadows?"
+  practical_advice: "Recognize your limitations and work towards liberation from destructive patterns."
+  fools_journey: "Represents the encounter with one's inner demons and the struggle between desire and liberation."
+- id: "major16"
+  name: "The Tower"
+  arcana: "Major"
+  number: 16
+  upright_keywords:
+    - "upheaval"
+    - "sudden change"
+    - "revelation"
+    - "chaos"
+  reversed_keywords:
+    - "resistance to change"
+    - "fear of disaster"
+    - "averted crisis"
+  description:
+    upright: "The Tower signifies sudden upheaval and the breaking down of old structures. It represents a moment of revelation that forces you to confront the truth and start anew."
+    reversed: "When reversed, The Tower suggests an aversion to change or an attempt to avoid an inevitable crisis. It may indicate the need to accept transformation, even if it is challenging."
+  element: "Fire"
+  astrological_rulership: "Mars"
+  themes:
+    - "Destruction for renewal"
+    - "Sudden awakenings"
+  symbolism:
+    - symbol: "Lightning bolt"
+      meaning: "Sudden insight or change"
+    - symbol: "Falling figures"
+      meaning: "Loss of control and forced humility"
+    - symbol: "Crumbling tower"
+      meaning: "Collapse of false beliefs or structures"
+  numerology: 16
+  core_emotions:
+    - "shock"
+    - "release"
+    - "clarity"
+  reflection_prompts:
+    - "What structures in your life need to fall away?"
+    - "How can you embrace change rather than resist it?"
+  practical_advice: "Allow the old to be cleared away to make room for new growth."
+  fools_journey: "Represents the collapse of illusions and the upheaval that brings new understanding."
+
+- id: "major17"
+  name: "The Star"
+  arcana: "Major"
+  number: 17
+  upright_keywords:
+    - "hope"
+    - "inspiration"
+    - "renewal"
+    - "serenity"
+  reversed_keywords:
+    - "despair"
+    - "lack of faith"
+    - "disconnection"
+  description:
+    upright: "The Star brings a message of hope, inspiration, and a sense of peace after the storm. It encourages you to trust in the future and follow your inner guiding light."
+    reversed: "When reversed, The Star can indicate a loss of hope or disconnection from your inner self. It suggests a need to reconnect with your faith and find your direction."
+  element: "Air"
+  astrological_rulership: "Aquarius"
+  themes:
+    - "Renewal after struggle"
+    - "Guidance and inspiration"
+  symbolism:
+    - symbol: "Star"
+      meaning: "Hope and spiritual guidance"
+    - symbol: "Water jars"
+      meaning: "Flow of inspiration and healing"
+    - symbol: "Bird"
+      meaning: "Spiritual communication and freedom"
+  numerology: 17
+  core_emotions:
+    - "hope"
+    - "peace"
+    - "inspiration"
+  reflection_prompts:
+    - "What gives you hope even in dark times?"
+    - "How can you stay true to your inner light?"
+  practical_advice: "Focus on your dreams and let them guide you toward a brighter future."
+  fools_journey: "Represents the light of hope and inspiration after facing darkness and challenges."
+
+- id: "major18"
+  name: "The Moon"
+  arcana: "Major"
+  number: 18
+  upright_keywords:
+    - "illusion"
+    - "intuition"
+    - "unconscious"
+    - "mystery"
+  reversed_keywords:
+    - "clarity"
+    - "confusion"
+    - "fear"
+  description:
+    upright: "The Moon symbolizes the world of dreams, intuition, and the unconscious. It suggests a time of uncertainty and invites you to explore your inner world and hidden emotions."
+    reversed: "When reversed, The Moon can represent a release from illusion or a struggle with confusion and fear. It calls for clarity and understanding of your inner self."
+  element: "Water"
+  astrological_rulership: "Pisces"
+  themes:
+    - "Navigating the unknown"
+    - "Embracing mystery"
+  symbolism:
+    - symbol: "Moon"
+      meaning: "The subconscious and the unknown"
+    - symbol: "Wolf and dog"
+      meaning: "Instincts and conditioned responses"
+    - symbol: "Crayfish"
+      meaning: "Emerging from the depths of the subconscious"
+  numerology: 18
+  core_emotions:
+    - "mystery"
+    - "fear"
+    - "intuition"
+  reflection_prompts:
+    - "What hidden emotions need to be brought to light?"
+    - "How can you trust your intuition in times of uncertainty?"
+  practical_advice: "Embrace the unknown, but seek clarity through introspection."
+  fools_journey: "Represents the journey through the shadows of the mind and confronting illusions."
+
+- id: "major19"
+  name: "The Sun"
+  arcana: "Major"
+  number: 19
+  upright_keywords:
+    - "joy"
+    - "success"
+    - "vitality"
+    - "positivity"
+  reversed_keywords:
+    - "temporary setbacks"
+    - "lack of enthusiasm"
+    - "clouded joy"
+  description:
+    upright: "The Sun represents joy, success, and positivity. It signifies a time of abundance, vitality, and clarity, where everything becomes illuminated with a warm and optimistic light."
+    reversed: "When reversed, The Sun may indicate a period of temporary setbacks or a lack of enthusiasm. It suggests finding ways to reconnect with your inner joy and positivity."
+  element: "Fire"
+  astrological_rulership: "Sun"
+  themes:
+    - "Radiance and clarity"
+    - "Celebration of life"
+  symbolism:
+    - symbol: "Sun"
+      meaning: "Vitality and life force"
+    - symbol: "Child on horseback"
+      meaning: "Innocence and freedom"
+    - symbol: "Sunflowers"
+      meaning: "Growth and warmth"
+  numerology: 19
+  core_emotions:
+    - "joy"
+    - "happiness"
+    - "confidence"
+  reflection_prompts:
+    - "What brings you true joy and fulfillment?"
+    - "How can you share your light with others?"
+  practical_advice: "Embrace positivity and let your inner light shine."
+  fools_journey: "Represents the realization of true happiness and the celebration of life’s blessings."
+- id: "major20"
+  name: "Judgement"
+  arcana: "Major"
+  number: 20
+  upright_keywords:
+    - "rebirth"
+    - "inner calling"
+    - "awakening"
+    - "reflection"
+  reversed_keywords:
+    - "self-doubt"
+    - "denial"
+    - "failure to learn"
+    - "lack of reflection"
+  description:
+    upright: "Judgement represents rebirth, self-evaluation, and a spiritual awakening. It calls you to reflect on your past actions and decisions, offering a chance for renewal and transformation."
+    reversed: "When reversed, Judgement can indicate self-doubt or an unwillingness to face past mistakes. It suggests a need for self-forgiveness and a readiness to embrace new opportunities."
+  element: "Fire"
+  astrological_rulership: "Pluto"
+  themes:
+    - "Reckoning and renewal"
+    - "Acceptance and forgiveness"
+  symbolism:
+    - symbol: "Angel blowing trumpet"
+      meaning: "A call to awaken and reflect"
+    - symbol: "Rising figures"
+      meaning: "Resurrection and new beginnings"
+    - symbol: "Cross"
+      meaning: "Balance of spiritual and physical realms"
+  numerology: 20
+  core_emotions:
+    - "acceptance"
+    - "awakening"
+    - "forgiveness"
+  reflection_prompts:
+    - "What is calling you to rise to a higher version of yourself?"
+    - "How can you forgive yourself and others?"
+  practical_advice: "Reflect on your past and use your insights to guide your transformation."
+  fools_journey: "Represents the process of self-assessment and understanding one's place in the larger cosmic order."
+
+- id: "major21"
+  name: "The World"
+  arcana: "Major"
+  number: 21
+  upright_keywords:
+    - "completion"
+    - "fulfillment"
+    - "wholeness"
+    - "achievement"
+  reversed_keywords:
+    - "incompletion"
+    - "stagnation"
+    - "lack of closure"
+    - "delayed success"
+  description:
+    upright: "The World represents the culmination of a journey and the achievement of goals. It symbolizes wholeness, fulfillment, and the realization of one's purpose."
+    reversed: "When reversed, The World can suggest unfinished business or a feeling of incompletion. It encourages you to tie up loose ends and seek closure before moving forward."
+  element: "Earth"
+  astrological_rulership: "Saturn"
+  themes:
+    - "Integration and unity"
+    - "Celebrating milestones"
+  symbolism:
+    - symbol: "Wreath"
+      meaning: "Victory and completion"
+    - symbol: "Four figures (lion, bull, eagle, angel)"
+      meaning: "Harmony of the four elements"
+    - symbol: "Dancer"
+      meaning: "Flow of life and universal connection"
+  numerology: 21
+  core_emotions:
+    - "fulfillment"
+    - "contentment"
+    - "completion"
+  reflection_prompts:
+    - "What have you accomplished that you are proud of?"
+    - "How can you celebrate your journey and achievements?"
+  practical_advice: "Acknowledge your accomplishments and embrace the feeling of completion."
+  fools_journey: "Represents the end of the journey and the realization of unity with the world and self."
+
+- id: "major22"
+  name: "The Fool"
+  arcana: "Major"
+  number: 0 (or 22 in some decks)
+  upright_keywords:
+    - "new beginnings"
+    - "adventure"
+    - "spontaneity"
+    - "innocence"
+  reversed_keywords:
+    - "naivety"
+    - "recklessness"
+    - "unpreparedness"
+  description:
+    upright: "The Fool card represents new beginnings, adventure, and a leap into the unknown. It encourages you to embrace change with a sense of curiosity and wonder."
+    reversed: "When reversed, The Fool warns against recklessness, suggesting you may be taking unnecessary risks without proper forethought. It encourages caution."
+  element: "Air"
+  astrological_rulership: "Uranus"
+  themes:
+    - "The hero's journey begins"
+    - "Infinite possibilities"
+  symbolism:
+    - symbol: "Cliff"
+      meaning: "Taking risks without fear of consequences"
+    - symbol: "White dog"
+      meaning: "Guidance and instinct"
+    - symbol: "Knapsack"
+      meaning: "Tools needed for the journey, resources yet to be used"
+  numerology: 0
+  core_emotions:
+    - "excitement"
+    - "optimism"
+    - "fearlessness"
+  reflection_prompts:
+    - "What new beginnings are calling to you?"
+    - "How can you embrace change with curiosity and openness?"
+  practical_advice: "Embrace the unknown, but stay mindful of potential risks."
+  fools_journey: "Represents the beginning of the journey, emphasizing innocence and stepping into the unknown."
+- id: "cups1"
+  name: "Ace of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 1
+  upright_keywords:
+    - "new love"
+    - "emotional awakening"
+    - "compassion"
+    - "creativity"
+  reversed_keywords:
+    - "blocked emotions"
+    - "repressed feelings"
+    - "emptiness"
+  description:
+    upright: "The Ace of Cups signifies a new beginning in emotional experiences. It represents the overflowing potential of love, compassion, and creativity, inviting you to open your heart."
+    reversed: "When reversed, the Ace of Cups suggests blocked or repressed emotions. It may indicate a need to release pent-up feelings and allow yourself to be vulnerable."
+  element: "Water"
+  astrological_rulership: "Water signs (Cancer, Scorpio, Pisces)"
+  themes:
+    - "Emotional renewal"
+    - "Beginning of a new relationship"
+  symbolism:
+    - symbol: "Overflowing cup"
+      meaning: "Abundance of emotion and love"
+    - symbol: "Dove"
+      meaning: "Peace and divine love"
+    - symbol: "Water lilies"
+      meaning: "Purity and the subconscious"
+  numerology: 1
+  core_emotions:
+    - "love"
+    - "joy"
+    - "hope"
+  reflection_prompts:
+    - "What new emotional experiences are opening up for you?"
+    - "How can you express your feelings more openly?"
+  practical_advice: "Embrace new opportunities for emotional growth and connection."
+  
+- id: "cups2"
+  name: "Two of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 2
+  upright_keywords:
+    - "partnership"
+    - "unity"
+    - "attraction"
+    - "mutual respect"
+  reversed_keywords:
+    - "imbalance"
+    - "miscommunication"
+    - "disconnection"
+  description:
+    upright: "The Two of Cups represents mutual attraction, partnership, and emotional connection. It signifies a harmonious bond between two people, built on trust and respect."
+    reversed: "When reversed, the Two of Cups may indicate a lack of harmony in relationships or misunderstandings. It suggests a need to work on communication and balance."
+  element: "Water"
+  astrological_rulership: "Venus in Cancer"
+  themes:
+    - "Love and connection"
+    - "Building trust"
+  symbolism:
+    - symbol: "Two cups"
+      meaning: "Mutual sharing and balance"
+    - symbol: "Caduceus"
+      meaning: "Healing and balanced energy"
+    - symbol: "Intertwined figures"
+      meaning: "Emotional union and partnership"
+  numerology: 2
+  core_emotions:
+    - "affection"
+    - "understanding"
+    - "trust"
+  reflection_prompts:
+    - "How can you strengthen your connections with others?"
+    - "What relationships bring you balance and joy?"
+  practical_advice: "Focus on building balanced and respectful partnerships."
+  
+- id: "cups3"
+  name: "Three of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 3
+  upright_keywords:
+    - "celebration"
+    - "friendship"
+    - "community"
+    - "joy"
+  reversed_keywords:
+    - "isolation"
+    - "overindulgence"
+    - "lack of support"
+  description:
+    upright: "The Three of Cups signifies celebration, friendship, and coming together in joy. It highlights the importance of community and shared happiness."
+    reversed: "When reversed, the Three of Cups can indicate a sense of isolation or difficulties in connecting with others. It may suggest focusing on finding your social support system."
+  element: "Water"
+  astrological_rulership: "Mercury in Cancer"
+  themes:
+    - "Social connections"
+    - "Shared experiences"
+  symbolism:
+    - symbol: "Three figures raising cups"
+      meaning: "Celebration and unity"
+    - symbol: "Harvest"
+      meaning: "Abundance and gratitude"
+    - symbol: "Dancing"
+      meaning: "Joy and freedom of expression"
+  numerology: 3
+  core_emotions:
+    - "joy"
+    - "camaraderie"
+    - "gratitude"
+  reflection_prompts:
+    - "What aspects of your life are worth celebrating?"
+    - "How can you connect more deeply with your community?"
+  practical_advice: "Take time to celebrate your connections and cherish joyful moments."
+
+- id: "cups4"
+  name: "Four of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 4
+  upright_keywords:
+    - "contemplation"
+    - "apathy"
+    - "reevaluation"
+    - "discontent"
+  reversed_keywords:
+    - "awareness"
+    - "new outlook"
+    - "acceptance"
+  description:
+    upright: "The Four of Cups represents a time of introspection and contemplation. It suggests a focus on what is missing or dissatisfaction with the current situation."
+    reversed: "When reversed, the Four of Cups suggests a new awareness or a shift in perspective, allowing you to see new possibilities and move beyond dissatisfaction."
+  element: "Water"
+  astrological_rulership: "Moon in Cancer"
+  themes:
+    - "Looking within"
+    - "Reevaluating desires"
+  symbolism:
+    - symbol: "Hand offering a cup"
+      meaning: "Opportunities that may be overlooked"
+    - symbol: "Seated figure"
+      meaning: "Introspection and contemplation"
+    - symbol: "Three cups on the ground"
+      meaning: "Focus on the familiar rather than the new"
+  numerology: 4
+  core_emotions:
+    - "boredom"
+    - "reflection"
+    - "yearning"
+  reflection_prompts:
+    - "What are you overlooking in your life?"
+    - "How can you change your perspective to find new possibilities?"
+  practical_advice: "Take time for introspection, but remain open to new opportunities."
+- id: "cups5"
+  name: "Five of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 5
+  upright_keywords:
+    - "loss"
+    - "regret"
+    - "disappointment"
+    - "grief"
+  reversed_keywords:
+    - "acceptance"
+    - "moving on"
+    - "forgiveness"
+  description:
+    upright: "The Five of Cups represents sorrow and focusing on what has been lost. It suggests feelings of regret and disappointment, but also reminds you to acknowledge what still remains."
+    reversed: "When reversed, the Five of Cups indicates a readiness to move beyond grief and begin the process of healing and forgiveness. It suggests a shift towards acceptance."
+  element: "Water"
+  astrological_rulership: "Mars in Scorpio"
+  themes:
+    - "Letting go of the past"
+    - "Finding hope after loss"
+  symbolism:
+    - symbol: "Spilled cups"
+      meaning: "Loss and sorrow"
+    - symbol: "Two standing cups"
+      meaning: "Remaining opportunities and hope"
+    - symbol: "Bridge"
+      meaning: "A path to move forward"
+  numerology: 5
+  core_emotions:
+    - "sadness"
+    - "regret"
+    - "acceptance"
+  reflection_prompts:
+    - "What losses are you struggling to accept?"
+    - "How can you shift your focus towards what remains?"
+  practical_advice: "Allow yourself to grieve, but don't lose sight of the positives still present."
+
+- id: "cups6"
+  name: "Six of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 6
+  upright_keywords:
+    - "nostalgia"
+    - "childhood memories"
+    - "reunion"
+    - "innocence"
+  reversed_keywords:
+    - "living in the past"
+    - "stuck in memories"
+    - "moving forward"
+  description:
+    upright: "The Six of Cups evokes memories of childhood and the past. It represents nostalgia and the innocence of simpler times, suggesting a joyful reunion or revisiting old connections."
+    reversed: "When reversed, the Six of Cups warns against dwelling too much on the past, suggesting the importance of letting go of old memories and embracing the present."
+  element: "Water"
+  astrological_rulership: "Sun in Scorpio"
+  themes:
+    - "Reconnecting with joy"
+    - "Healing through memories"
+  symbolism:
+    - symbol: "Children exchanging cups"
+      meaning: "Innocence and shared memories"
+    - symbol: "Flowers"
+      meaning: "Purity and joy"
+    - symbol: "Home"
+      meaning: "Comfort of familiar surroundings"
+  numerology: 6
+  core_emotions:
+    - "nostalgia"
+    - "joy"
+    - "comfort"
+  reflection_prompts:
+    - "What positive memories can you draw strength from?"
+    - "How can you balance honoring the past with living in the present?"
+  practical_advice: "Cherish your memories, but don't let them prevent you from moving forward."
+
+- id: "cups7"
+  name: "Seven of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 7
+  upright_keywords:
+    - "choices"
+    - "illusion"
+    - "fantasy"
+    - "daydreaming"
+  reversed_keywords:
+    - "clarity"
+    - "overcoming confusion"
+    - "decisiveness"
+  description:
+    upright: "The Seven of Cups represents the many possibilities and choices available, but also warns of illusions and fantasies. It suggests the need to distinguish between what is real and what is not."
+    reversed: "When reversed, the Seven of Cups indicates clarity and a focus on making concrete decisions. It suggests overcoming confusion and seeing things as they are."
+  element: "Water"
+  astrological_rulership: "Venus in Scorpio"
+  themes:
+    - "Exploring options"
+    - "Seeing beyond illusions"
+  symbolism:
+    - symbol: "Seven cups"
+      meaning: "Variety of choices and illusions"
+    - symbol: "Clouds"
+      meaning: "Uncertainty and dreams"
+    - symbol: "Figures in cups"
+      meaning: "The allure of different paths"
+  numerology: 7
+  core_emotions:
+    - "confusion"
+    - "desire"
+    - "wonder"
+  reflection_prompts:
+    - "What choices are you considering, and which are distractions?"
+    - "How can you gain clarity about your true desires?"
+  practical_advice: "Focus on what is real and make decisions that align with your long-term goals."
+
+- id: "cups8"
+  name: "Eight of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 8
+  upright_keywords:
+    - "walking away"
+    - "abandonment"
+    - "seeking truth"
+    - "letting go"
+  reversed_keywords:
+    - "fear of change"
+    - "avoidance"
+    - "staying stuck"
+  description:
+    upright: "The Eight of Cups signifies a need to leave behind something that no longer serves you, even if it is difficult. It represents a quest for deeper understanding and personal truth."
+    reversed: "When reversed, the Eight of Cups can indicate a fear of change or a reluctance to move on from a situation. It suggests the need to confront what is holding you back."
+  element: "Water"
+  astrological_rulership: "Saturn in Pisces"
+  themes:
+    - "Journey of self-discovery"
+    - "Courage to leave"
+  symbolism:
+    - symbol: "Abandoned cups"
+      meaning: "Leaving behind emotional attachments"
+    - symbol: "Moon"
+      meaning: "Intuition guiding the path forward"
+    - symbol: "Mountain in the distance"
+      meaning: "The challenge of a new journey"
+  numerology: 8
+  core_emotions:
+    - "resolve"
+    - "sadness"
+    - "determination"
+  reflection_prompts:
+    - "What are you holding onto that you need to release?"
+    - "How can you embrace the journey toward your truth?"
+  practical_advice: "Have the courage to walk away from what no longer fulfills you."
+- id: "cups9"
+  name: "Nine of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 9
+  upright_keywords:
+    - "contentment"
+    - "satisfaction"
+    - "gratitude"
+    - "wish fulfillment"
+  reversed_keywords:
+    - "dissatisfaction"
+    - "greed"
+    - "unfulfilled wishes"
+  description:
+    upright: "The Nine of Cups represents personal satisfaction, contentment, and the fulfillment of wishes. It suggests a time to enjoy the fruits of your efforts and feel gratitude for what you have achieved."
+    reversed: "When reversed, the Nine of Cups may indicate dissatisfaction or a sense that something is missing despite outward success. It suggests reassessing your true desires."
+  element: "Water"
+  astrological_rulership: "Jupiter in Pisces"
+  themes:
+    - "Emotional fulfillment"
+    - "Celebrating achievements"
+  symbolism:
+    - symbol: "Cups arranged in a row"
+      meaning: "Abundance and fulfillment"
+    - symbol: "Seated figure"
+      meaning: "Confidence and satisfaction"
+    - symbol: "Golden table"
+      meaning: "Wealth and material comfort"
+  numerology: 9
+  core_emotions:
+    - "joy"
+    - "contentment"
+    - "pride"
+  reflection_prompts:
+    - "What are you most grateful for in your life?"
+    - "What truly brings you satisfaction beyond material success?"
+  practical_advice: "Take time to appreciate your achievements and savor the moments of joy."
+
+- id: "cups10"
+  name: "Ten of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  number: 10
+  upright_keywords:
+    - "happiness"
+    - "emotional fulfillment"
+    - "family"
+    - "harmony"
+  reversed_keywords:
+    - "domestic strife"
+    - "broken relationships"
+    - "unhappiness"
+  description:
+    upright: "The Ten of Cups symbolizes emotional fulfillment, family harmony, and long-term happiness. It represents a sense of peace and contentment in relationships and personal life."
+    reversed: "When reversed, the Ten of Cups may indicate tension or discord in relationships or a feeling of disconnection from loved ones. It suggests addressing underlying issues to restore harmony."
+  element: "Water"
+  astrological_rulership: "Mars in Pisces"
+  themes:
+    - "Deep emotional connection"
+    - "Lasting joy"
+  symbolism:
+    - symbol: "Rainbow over cups"
+      meaning: "Promise of happiness and fulfillment"
+    - symbol: "Family"
+      meaning: "Support and connection"
+    - symbol: "Green landscape"
+      meaning: "Growth and nurturing environment"
+  numerology: 10
+  core_emotions:
+    - "love"
+    - "contentment"
+    - "joy"
+  reflection_prompts:
+    - "What does true happiness look like for you?"
+    - "How can you strengthen your bonds with those you love?"
+  practical_advice: "Cherish the moments of joy and work towards maintaining harmony in your relationships."
+
+- id: "cups11"
+  name: "Page of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  court: "Page"
+  number: 11
+  upright_keywords:
+    - "creativity"
+    - "curiosity"
+    - "new feelings"
+    - "imagination"
+  reversed_keywords:
+    - "emotional immaturity"
+    - "insecurity"
+    - "creative block"
+  description:
+    upright: "The Page of Cups represents youthful creativity, curiosity, and the stirrings of new emotional experiences. It encourages embracing imagination and exploring your feelings."
+    reversed: "When reversed, the Page of Cups can indicate emotional immaturity or a struggle to express feelings. It suggests the need to confront insecurities and develop emotional awareness."
+  element: "Water"
+  astrological_rulership: "Venus in Aries"
+  themes:
+    - "New emotional experiences"
+    - "Playful creativity"
+  symbolism:
+    - symbol: "Fish in a cup"
+      meaning: "Surprise emotions and creativity"
+    - symbol: "Blue waves"
+      meaning: "Flow of emotions"
+    - symbol: "Youthful figure"
+      meaning: "Curiosity and openness"
+  numerology: 11
+  core_emotions:
+    - "curiosity"
+    - "hope"
+    - "wonder"
+  reflection_prompts:
+    - "What new emotional experiences are emerging for you?"
+    - "How can you tap into your imagination and creativity?"
+  practical_advice: "Stay open to new emotional experiences and trust your creative instincts."
+
+- id: "cups12"
+  name: "Knight of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  court: "Knight"
+  number: 12
+  upright_keywords:
+    - "romantic"
+    - "charm"
+    - "idealism"
+    - "following dreams"
+  reversed_keywords:
+    - "moodiness"
+    - "unrealistic expectations"
+    - "emotional instability"
+  description:
+    upright: "The Knight of Cups embodies romance, charm, and the pursuit of dreams. It suggests following your heart and seeking out beauty and love in the world around you."
+    reversed: "When reversed, the Knight of Cups may indicate moodiness or unrealistic expectations, particularly in relationships. It suggests the need to balance idealism with reality."
+  element: "Water"
+  astrological_rulership: "Neptune in Pisces"
+  themes:
+    - "Pursuit of love and beauty"
+    - "Emotional quests"
+  symbolism:
+    - symbol: "White horse"
+      meaning: "Purity of intention"
+    - symbol: "Flowing river"
+      meaning: "Journey of emotions"
+    - symbol: "Knight in armor"
+      meaning: "Protection of feelings"
+  numerology: 12
+  core_emotions:
+    - "passion"
+    - "idealism"
+    - "dreaminess"
+  reflection_prompts:
+    - "What dreams are you pursuing?"
+    - "How can you balance your ideals with reality?"
+  practical_advice: "Follow your heart but stay grounded in reality."
+- id: "cups13"
+  name: "Queen of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  court: "Queen"
+  number: 13
+  upright_keywords:
+    - "compassion"
+    - "empathy"
+    - "intuitive insight"
+    - "emotional balance"
+  reversed_keywords:
+    - "emotional insecurity"
+    - "dependence"
+    - "overwhelm"
+  description:
+    upright: "The Queen of Cups embodies compassion, empathy, and deep emotional understanding. She represents a nurturing presence that is in tune with her feelings and intuition."
+    reversed: "When reversed, the Queen of Cups may indicate emotional overwhelm or a tendency to become too dependent on others for emotional support. It suggests the need to establish healthy emotional boundaries."
+  element: "Water"
+  astrological_rulership: "Moon in Cancer"
+  themes:
+    - "Emotional wisdom"
+    - "Compassionate care"
+  symbolism:
+    - symbol: "Calm sea"
+      meaning: "Inner peace and emotional depth"
+    - symbol: "Covered cup"
+      meaning: "Protection of emotions"
+    - symbol: "Throne adorned with sea motifs"
+      meaning: "Connection to intuition and the unconscious"
+  numerology: 13
+  core_emotions:
+    - "compassion"
+    - "empathy"
+    - "understanding"
+  reflection_prompts:
+    - "How can you deepen your empathy for others?"
+    - "What emotions are you protecting within yourself?"
+  practical_advice: "Be open with your emotions but remember to take care of your own needs."
+
+- id: "cups14"
+  name: "King of Cups"
+  arcana: "Minor"
+  suit: "Cups"
+  court: "King"
+  number: 14
+  upright_keywords:
+    - "emotional maturity"
+    - "balance"
+    - "diplomacy"
+    - "compassionate leadership"
+  reversed_keywords:
+    - "manipulation"
+    - "coldness"
+    - "emotional instability"
+  description:
+    upright: "The King of Cups represents emotional maturity, balance, and the ability to navigate complex feelings with compassion and strength. He encourages you to lead with empathy and wisdom."
+    reversed: "When reversed, the King of Cups can indicate emotional manipulation or instability, suggesting a need to reconnect with emotional integrity and compassion."
+  element: "Water"
+  astrological_rulership: "Pluto in Scorpio"
+  themes:
+    - "Emotional mastery"
+    - "Guidance through empathy"
+  symbolism:
+    - symbol: "Throne on water"
+      meaning: "Mastery over emotions"
+    - symbol: "Fish pendant"
+      meaning: "Intuition and spiritual insight"
+    - symbol: "Calm expression"
+      meaning: "Composure and control"
+  numerology: 14
+  core_emotions:
+    - "calm"
+    - "understanding"
+    - "strength"
+  reflection_prompts:
+    - "How can you maintain balance during emotional challenges?"
+    - "What does compassionate leadership mean to you?"
+  practical_advice: "Lead with empathy and remain calm in emotionally charged situations."
+- id: "swords1"
+  name: "Ace of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 1
+  upright_keywords:
+    - "clarity"
+    - "breakthrough"
+    - "new ideas"
+    - "mental clarity"
+  reversed_keywords:
+    - "confusion"
+    - "chaos"
+    - "miscommunication"
+    - "lack of insight"
+  description:
+    upright: "The Ace of Swords symbolizes a new beginning marked by mental clarity and a breakthrough in understanding. It represents the power of a fresh perspective and the potential to cut through confusion."
+    reversed: "When reversed, the Ace of Swords suggests confusion, misunderstandings, or difficulty in seeing the truth. It may indicate a need to clear away mental clutter and focus on finding clarity."
+  element: "Air"
+  astrological_rulership: "Air signs (Gemini, Libra, Aquarius)"
+  themes:
+    - "Mental clarity"
+    - "Truth and insight"
+  symbolism:
+    - symbol: "Sword with a crown"
+      meaning: "Victory through clarity of thought"
+    - symbol: "Clouds parting"
+      meaning: "Emergence of new ideas"
+    - symbol: "Mountains"
+      meaning: "Challenges to be faced with clear thinking"
+  numerology: 1
+  core_emotions:
+    - "determination"
+    - "insight"
+    - "focus"
+  reflection_prompts:
+    - "What new insights are coming to light for you?"
+    - "How can you use your mind to cut through confusion?"
+  practical_advice: "Seek clarity and let new ideas guide you forward."
+
+- id: "swords2"
+  name: "Two of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 2
+  upright_keywords:
+    - "indecision"
+    - "stalemate"
+    - "compromise"
+    - "difficult choices"
+  reversed_keywords:
+    - "confusion"
+    - "overwhelm"
+    - "indecisiveness"
+  description:
+    upright: "The Two of Swords represents a need to make a difficult decision, often involving a compromise or balance between two opposing options. It suggests a time of reflection and seeking inner guidance."
+    reversed: "When reversed, the Two of Swords may indicate feeling overwhelmed by choices or an inability to make a decision. It suggests the need to confront the issue directly rather than avoid it."
+  element: "Air"
+  astrological_rulership: "Moon in Libra"
+  themes:
+    - "Finding balance"
+    - "Inner conflict"
+  symbolism:
+    - symbol: "Blindfolded figure"
+      meaning: "Avoidance of the truth or difficult decisions"
+    - symbol: "Crossed swords"
+      meaning: "Conflict or stalemate"
+    - symbol: "Calm sea"
+      meaning: "Seeking peace amidst inner turmoil"
+  numerology: 2
+  core_emotions:
+    - "uncertainty"
+    - "tension"
+    - "detachment"
+  reflection_prompts:
+    - "What decisions are you avoiding?"
+    - "How can you find balance in a challenging situation?"
+  practical_advice: "Take time to weigh your options, but don't shy away from making a choice."
+
+- id: "swords3"
+  name: "Three of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 3
+  upright_keywords:
+    - "heartbreak"
+    - "pain"
+    - "sorrow"
+    - "betrayal"
+  reversed_keywords:
+    - "healing"
+    - "forgiveness"
+    - "recovery"
+  description:
+    upright: "The Three of Swords represents deep emotional pain, often related to heartbreak or betrayal. It suggests the need to confront and process these feelings to move forward."
+    reversed: "When reversed, the Three of Swords suggests the beginning of healing and recovery from past wounds. It encourages forgiveness and letting go of lingering pain."
+  element: "Air"
+  astrological_rulership: "Saturn in Libra"
+  themes:
+    - "Loss and grief"
+    - "Facing painful truths"
+  symbolism:
+    - symbol: "Heart pierced by swords"
+      meaning: "Heartache and emotional pain"
+    - symbol: "Stormy clouds"
+      meaning: "Turmoil and distress"
+    - symbol: "Falling rain"
+      meaning: "Cleansing and release"
+  numerology: 3
+  core_emotions:
+    - "sorrow"
+    - "grief"
+    - "heartache"
+  reflection_prompts:
+    - "What pain do you need to process and release?"
+    - "How can you begin to heal from past wounds?"
+  practical_advice: "Acknowledge your pain, but don't let it define your path forward."
+
+- id: "swords4"
+  name: "Four of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 4
+  upright_keywords:
+    - "rest"
+    - "recuperation"
+    - "meditation"
+    - "solitude"
+  reversed_keywords:
+    - "restlessness"
+    - "burnout"
+    - "lack of progress"
+  description:
+    upright: "The Four of Swords signifies a time for rest, retreat, and recovery. It encourages taking a break to recharge your mind and body before moving forward."
+    reversed: "When reversed, the Four of Swords suggests restlessness or an inability to find peace. It may indicate the need to slow down before burnout occurs."
+  element: "Air"
+  astrological_rulership: "Jupiter in Libra"
+  themes:
+    - "Healing through rest"
+    - "Taking time for oneself"
+  symbolism:
+    - symbol: "Resting figure"
+      meaning: "Need for rest and contemplation"
+    - symbol: "Sword beneath figure"
+      meaning: "Potential for action after rest"
+    - symbol: "Stained glass window"
+      meaning: "Spiritual reflection and peace"
+  numerology: 4
+  core_emotions:
+    - "calm"
+    - "relief"
+    - "peace"
+  reflection_prompts:
+    - "Where do you need rest in your life?"
+    - "How can you create space for recovery and reflection?"
+  practical_advice: "Take time to rest and recharge before tackling new challenges."
+- id: "swords5"
+  name: "Five of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 5
+  upright_keywords:
+    - "conflict"
+    - "defeat"
+    - "disagreement"
+    - "dishonor"
+  reversed_keywords:
+    - "reconciliation"
+    - "regret"
+    - "compromise"
+    - "forgiveness"
+  description:
+    upright: "The Five of Swords represents conflict, tension, and the cost of winning at any price. It suggests the need to consider whether a victory is worth the damage caused."
+    reversed: "When reversed, the Five of Swords can indicate the desire to move past conflict, make amends, or regret over harsh actions. It suggests a time for reconciliation and healing."
+  element: "Air"
+  astrological_rulership: "Venus in Aquarius"
+  themes:
+    - "Tension and resolution"
+    - "The price of victory"
+  symbolism:
+    - symbol: "Figure holding swords"
+      meaning: "Victory with consequences"
+    - symbol: "Defeated figures"
+      meaning: "Impact of conflict on others"
+    - symbol: "Stormy sky"
+      meaning: "Lingering tension"
+  numerology: 5
+  core_emotions:
+    - "anger"
+    - "regret"
+    - "bitterness"
+  reflection_prompts:
+    - "What conflicts in your life need resolution?"
+    - "Are there any victories you regret?"
+  practical_advice: "Think carefully about the consequences of your actions before engaging in conflicts."
+
+- id: "swords6"
+  name: "Six of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 6
+  upright_keywords:
+    - "transition"
+    - "moving on"
+    - "recovery"
+    - "journey"
+  reversed_keywords:
+    - "resistance to change"
+    - "unfinished business"
+    - "lingering difficulties"
+  description:
+    upright: "The Six of Swords signifies a journey of recovery, leaving behind difficulties, and moving towards a calmer, more peaceful state. It suggests progress through transition."
+    reversed: "When reversed, the Six of Swords can indicate resistance to change or being stuck in the past. It suggests the need to fully let go before moving forward."
+  element: "Air"
+  astrological_rulership: "Mercury in Aquarius"
+  themes:
+    - "Journey towards peace"
+    - "Letting go of the past"
+  symbolism:
+    - symbol: "Boat on water"
+      meaning: "Transition and movement"
+    - symbol: "Figures in the boat"
+      meaning: "Carrying burdens with you"
+    - symbol: "Calm water"
+      meaning: "Finding peace after turmoil"
+  numerology: 6
+  core_emotions:
+    - "relief"
+    - "hope"
+    - "acceptance"
+  reflection_prompts:
+    - "What do you need to leave behind to find peace?"
+    - "How can you embrace the journey of recovery?"
+  practical_advice: "Focus on the path ahead and let go of what no longer serves you."
+
+- id: "swords7"
+  name: "Seven of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 7
+  upright_keywords:
+    - "deception"
+    - "strategy"
+    - "betrayal"
+    - "trickery"
+  reversed_keywords:
+    - "confession"
+    - "conscience"
+    - "getting caught"
+  description:
+    upright: "The Seven of Swords represents deception, cunning, and strategic thinking. It suggests the need to use wit and tact in dealing with complex situations, but also warns of dishonesty."
+    reversed: "When reversed, the Seven of Swords can indicate a guilty conscience, a desire to come clean, or the exposure of secrets. It suggests the importance of honesty and integrity."
+  element: "Air"
+  astrological_rulership: "Moon in Aquarius"
+  themes:
+    - "Hidden motives"
+    - "Using strategy wisely"
+  symbolism:
+    - symbol: "Figure carrying swords"
+      meaning: "Secrets and stealth"
+    - symbol: "Abandoned camp"
+      meaning: "Isolation and acting alone"
+    - symbol: "Shadowy background"
+      meaning: "Uncertainty and hidden risks"
+  numerology: 7
+  core_emotions:
+    - "caution"
+    - "suspicion"
+    - "cleverness"
+  reflection_prompts:
+    - "Where in your life do you feel the need to be strategic?"
+    - "How can you ensure your actions align with your values?"
+  practical_advice: "Be honest with yourself and others, and avoid shortcuts that compromise integrity."
+
+- id: "swords8"
+  name: "Eight of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 8
+  upright_keywords:
+    - "restriction"
+    - "helplessness"
+    - "self-imposed limitations"
+    - "feeling trapped"
+  reversed_keywords:
+    - "liberation"
+    - "new perspective"
+    - "taking control"
+  description:
+    upright: "The Eight of Swords suggests feeling trapped or restricted by circumstances, often due to self-imposed limitations or negative thought patterns. It encourages looking beyond perceived constraints."
+    reversed: "When reversed, the Eight of Swords indicates a release from mental blocks and a willingness to see things from a new perspective. It suggests taking control of your situation."
+  element: "Air"
+  astrological_rulership: "Jupiter in Gemini"
+  themes:
+    - "Breaking free from mental prisons"
+    - "Self-awareness"
+  symbolism:
+    - symbol: "Blindfolded figure"
+      meaning: "Limited perspective"
+    - symbol: "Swords forming a barrier"
+      meaning: "Perceived obstacles"
+    - symbol: "Open landscape"
+      meaning: "Potential for freedom"
+  numerology: 8
+  core_emotions:
+    - "fear"
+    - "frustration"
+    - "vulnerability"
+  reflection_prompts:
+    - "What limitations are you placing on yourself?"
+    - "How can you change your perspective to see new possibilities?"
+  practical_advice: "Challenge your limiting beliefs and take steps towards greater freedom."
+- id: "swords9"
+  name: "Nine of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 9
+  upright_keywords:
+    - "anxiety"
+    - "worry"
+    - "sleeplessness"
+    - "despair"
+  reversed_keywords:
+    - "hope"
+    - "relief"
+    - "releasing worry"
+    - "acceptance"
+  description:
+    upright: "The Nine of Swords represents anxiety, fear, and sleepless nights. It suggests that worries and fears may be overwhelming you, urging you to address what is keeping you up at night."
+    reversed: "When reversed, the Nine of Swords indicates a release from fear and anxiety, or the realization that your worries are not as dire as they seem. It suggests finding hope and seeking support."
+  element: "Air"
+  astrological_rulership: "Mars in Gemini"
+  themes:
+    - "Facing inner fears"
+    - "Acknowledging mental stress"
+  symbolism:
+    - symbol: "Person sitting up in bed"
+      meaning: "Worry and sleeplessness"
+    - symbol: "Nine swords on the wall"
+      meaning: "Lingering fears and mental burdens"
+    - symbol: "Dark room"
+      meaning: "Isolation and inner turmoil"
+  numerology: 9
+  core_emotions:
+    - "anxiety"
+    - "fear"
+    - "hopelessness"
+  reflection_prompts:
+    - "What fears are keeping you awake at night?"
+    - "How can you find comfort in difficult times?"
+  practical_advice: "Reach out for support and remember that worries can often seem larger in the dark."
+
+- id: "swords10"
+  name: "Ten of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  number: 10
+  upright_keywords:
+    - "betrayal"
+    - "painful ending"
+    - "defeat"
+    - "collapse"
+  reversed_keywords:
+    - "recovery"
+    - "renewal"
+    - "end of suffering"
+    - "resilience"
+  description:
+    upright: "The Ten of Swords symbolizes a painful ending or the feeling of being betrayed. It suggests that while this chapter may be ending in difficulty, a new dawn will rise."
+    reversed: "When reversed, the Ten of Swords indicates the beginning of recovery and the end of a difficult period. It suggests finding resilience and hope in the face of hardship."
+  element: "Air"
+  astrological_rulership: "Sun in Gemini"
+  themes:
+    - "Acceptance of endings"
+    - "Rebirth after hardship"
+  symbolism:
+    - symbol: "Figure with ten swords"
+      meaning: "The finality of a painful experience"
+    - symbol: "Rising sun"
+      meaning: "Hope and renewal after darkness"
+    - symbol: "Dark clouds"
+      meaning: "The lingering weight of loss"
+  numerology: 10
+  core_emotions:
+    - "pain"
+    - "resignation"
+    - "release"
+  reflection_prompts:
+    - "What endings do you need to accept to find peace?"
+    - "How can you embrace resilience in the face of difficulties?"
+  practical_advice: "Accept what has ended, and focus on the promise of a new beginning."
+- id: "swords11"
+  name: "Page of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  court: "Page"
+  number: 11
+  upright_keywords:
+    - "curiosity"
+    - "new ideas"
+    - "communication"
+    - "vigilance"
+  reversed_keywords:
+    - "gossip"
+    - "miscommunication"
+    - "hastiness"
+    - "lack of planning"
+  description:
+    upright: "The Page of Swords represents a keen mind, curiosity, and a readiness to explore new ideas. It suggests a time to be alert, communicate clearly, and stay open to learning."
+    reversed: "When reversed, the Page of Swords can indicate miscommunication, hasty decisions, or a tendency to spread gossip. It suggests the need to slow down and think before speaking."
+  element: "Air"
+  astrological_rulership: "Venus in Gemini"
+  themes:
+    - "Exploring new thoughts"
+    - "Youthful curiosity"
+  symbolism:
+    - symbol: "Figure holding a sword"
+      meaning: "Readiness to engage and explore"
+    - symbol: "Windy sky"
+      meaning: "Change and swift movement"
+    - symbol: "Clouds"
+      meaning: "New ideas forming"
+  numerology: 11
+  core_emotions:
+    - "curiosity"
+    - "eagerness"
+    - "alertness"
+  reflection_prompts:
+    - "What new ideas are you eager to explore?"
+    - "How can you communicate more clearly?"
+  practical_advice: "Stay curious and be mindful of how you communicate your thoughts."
+
+- id: "swords12"
+  name: "Knight of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  court: "Knight"
+  number: 12
+  upright_keywords:
+    - "determination"
+    - "action"
+    - "ambition"
+    - "drive"
+  reversed_keywords:
+    - "impulsiveness"
+    - "recklessness"
+    - "impatience"
+    - "disregard for consequences"
+  description:
+    upright: "The Knight of Swords is a symbol of action, speed, and determination. It suggests moving forward with ambition and decisiveness, but warns against being too hasty."
+    reversed: "When reversed, the Knight of Swords indicates impulsiveness or a rush to take action without considering the consequences. It suggests the need to slow down and think things through."
+  element: "Air"
+  astrological_rulership: "Mars in Aquarius"
+  themes:
+    - "Pursuing goals with energy"
+    - "Facing challenges head-on"
+  symbolism:
+    - symbol: "Charging knight"
+      meaning: "Unstoppable determination"
+    - symbol: "Stormy sky"
+      meaning: "Challenges to be faced"
+    - symbol: "Windswept trees"
+      meaning: "Rapid change and movement"
+  numerology: 12
+  core_emotions:
+    - "determination"
+    - "impatience"
+    - "confidence"
+  reflection_prompts:
+    - "What drives you to take swift action?"
+    - "How can you balance speed with caution?"
+  practical_advice: "Channel your energy wisely and remember to consider the long-term impact of your actions."
+
+- id: "swords13"
+  name: "Queen of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  court: "Queen"
+  number: 13
+  upright_keywords:
+    - "perceptiveness"
+    - "clear communication"
+    - "independence"
+    - "objectivity"
+  reversed_keywords:
+    - "coldness"
+    - "criticism"
+    - "overemotional"
+    - "lack of empathy"
+  description:
+    upright: "The Queen of Swords embodies wisdom, clear communication, and an independent spirit. She values honesty and logic, encouraging you to seek the truth with a balanced mind."
+    reversed: "When reversed, the Queen of Swords may become overly critical or detached, suggesting the need to soften your approach and balance logic with empathy."
+  element: "Air"
+  astrological_rulership: "Venus in Libra"
+  themes:
+    - "Clear thinking"
+    - "Balanced judgment"
+  symbolism:
+    - symbol: "Throne in the sky"
+      meaning: "Objectivity and elevated perspective"
+    - symbol: "Butterflies"
+      meaning: "Transformation through clarity"
+    - symbol: "Sword held high"
+      meaning: "Truth and readiness for action"
+  numerology: 13
+  core_emotions:
+    - "clarity"
+    - "detachment"
+    - "wisdom"
+  reflection_prompts:
+    - "How can you communicate your truth with clarity and kindness?"
+    - "Where might you need to balance logic with compassion?"
+  practical_advice: "Speak your truth clearly but remember to be compassionate in your delivery."
+
+- id: "swords14"
+  name: "King of Swords"
+  arcana: "Minor"
+  suit: "Swords"
+  court: "King"
+  number: 14
+  upright_keywords:
+    - "authority"
+    - "intellect"
+    - "truth"
+    - "analytical thinking"
+  reversed_keywords:
+    - "manipulation"
+    - "tyranny"
+    - "rigidity"
+    - "abuse of power"
+  description:
+    upright: "The King of Swords represents authority, intellect, and the mastery of clear, analytical thinking. He suggests leading with logic and making decisions based on truth and reason."
+    reversed: "When reversed, the King of Swords may become rigid or misuse his intellect, suggesting a need to avoid manipulation and maintain ethical standards in decision-making."
+  element: "Air"
+  astrological_rulership: "Mercury in Aquarius"
+  themes:
+    - "Leadership through wisdom"
+    - "Decisive clarity"
+  symbolism:
+    - symbol: "Sword pointing upward"
+      meaning: "Truth and justice"
+    - symbol: "Throne above clouds"
+      meaning: "Objectivity and higher perspective"
+    - symbol: "Butterflies on throne"
+      meaning: "Transformation through thought"
+  numerology: 14
+  core_emotions:
+    - "confidence"
+    - "rationality"
+    - "fairness"
+  reflection_prompts:
+    - "How can you use your intellect to lead with integrity?"
+    - "What truths are guiding your decisions?"
+  practical_advice: "Make decisions based on fairness and maintain a balanced perspective."
+
+- id: "pentacles1"
+  name: "Ace of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 1
+  upright_keywords:
+    - "new beginnings"
+    - "prosperity"
+    - "abundance"
+    - "opportunity"
+  reversed_keywords:
+    - "missed opportunities"
+    - "financial loss"
+    - "instability"
+    - "lack of planning"
+  description:
+    upright: "The Ace of Pentacles signifies the start of new opportunities related to prosperity, financial gain, or physical well-being. It suggests a time of potential growth and stability."
+    reversed: "When reversed, the Ace of Pentacles may indicate missed opportunities, financial setbacks, or a need to focus more carefully on planning for the future."
+  element: "Earth"
+  astrological_rulership: "Earth signs (Taurus, Virgo, Capricorn)"
+  themes:
+    - "Material success"
+    - "Beginning of prosperity"
+  symbolism:
+    - symbol: "Golden pentacle"
+      meaning: "Material wealth and new opportunities"
+    - symbol: "Hand from clouds"
+      meaning: "Divine offering or chance"
+    - symbol: "Garden"
+      meaning: "Nurturing growth and abundance"
+  numerology: 1
+  core_emotions:
+    - "hope"
+    - "security"
+    - "optimism"
+  reflection_prompts:
+    - "What new opportunities for growth are you seeing?"
+    - "How can you lay a strong foundation for future success?"
+  practical_advice: "Embrace new opportunities that come your way, especially those related to finances or material stability."
+
+- id: "pentacles2"
+  name: "Two of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 2
+  upright_keywords:
+    - "balance"
+    - "adaptability"
+    - "juggling"
+    - "time management"
+  reversed_keywords:
+    - "overcommitment"
+    - "imbalance"
+    - "financial stress"
+  description:
+    upright: "The Two of Pentacles represents the need to balance multiple priorities, adapt to changes, and manage your time and resources effectively. It suggests staying flexible and maintaining equilibrium."
+    reversed: "When reversed, the Two of Pentacles can indicate feeling overwhelmed by responsibilities, struggling to maintain balance, or financial instability. It suggests the need to reassess priorities."
+  element: "Earth"
+  astrological_rulership: "Jupiter in Capricorn"
+  themes:
+    - "Managing change"
+    - "Finding balance"
+  symbolism:
+    - symbol: "Juggling figure"
+      meaning: "Balancing multiple aspects of life"
+    - symbol: "Infinity symbol"
+      meaning: "Endless cycles and adaptability"
+    - symbol: "Waves in the background"
+      meaning: "Navigating life's ups and downs"
+  numerology: 2
+  core_emotions:
+    - "focus"
+    - "flexibility"
+    - "resourcefulness"
+  reflection_prompts:
+    - "How can you better balance your responsibilities?"
+    - "What areas of your life need more flexibility?"
+  practical_advice: "Stay adaptable and manage your resources wisely to maintain balance."
+
+- id: "pentacles3"
+  name: "Three of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 3
+  upright_keywords:
+    - "collaboration"
+    - "teamwork"
+    - "skill development"
+    - "craftsmanship"
+  reversed_keywords:
+    - "lack of teamwork"
+    - "poor workmanship"
+    - "miscommunication"
+  description:
+    upright: "The Three of Pentacles signifies the importance of collaboration and working together to achieve a common goal. It highlights skill development and recognition for hard work."
+    reversed: "When reversed, the Three of Pentacles may indicate issues with teamwork or communication, leading to delays or subpar results. It suggests focusing on improving cooperation and effort."
+  element: "Earth"
+  astrological_rulership: "Mars in Capricorn"
+  themes:
+    - "Working towards shared goals"
+    - "Mastering a craft"
+  symbolism:
+    - symbol: "Craftsmen at work"
+      meaning: "Collaboration and skilled effort"
+    - symbol: "Cathedral"
+      meaning: "Building something lasting"
+    - symbol: "Plans and tools"
+      meaning: "Attention to detail and planning"
+  numerology: 3
+  core_emotions:
+    - "pride"
+    - "cooperation"
+    - "dedication"
+  reflection_prompts:
+    - "What skills can you improve through collaboration?"
+    - "How can you contribute more effectively to a team?"
+  practical_advice: "Focus on working well with others and mastering your craft for long-term success."
+
+- id: "pentacles4"
+  name: "Four of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 4
+  upright_keywords:
+    - "security"
+    - "control"
+    - "conservatism"
+    - "saving"
+  reversed_keywords:
+    - "greed"
+    - "financial instability"
+    - "letting go"
+    - "overprotection"
+  description:
+    upright: "The Four of Pentacles represents a desire for financial stability, security, and control over material resources. It suggests a time to save and protect what you have."
+    reversed: "When reversed, the Four of Pentacles can indicate greed, financial instability, or a need to let go of excessive control over material matters. It suggests releasing rigid attachments."
+  element: "Earth"
+  astrological_rulership: "Sun in Capricorn"
+  themes:
+    - "Holding on to security"
+    - "Protecting resources"
+  symbolism:
+    - symbol: "Figure holding pentacles"
+      meaning: "Holding onto wealth or control"
+    - symbol: "City in the background"
+      meaning: "Connection to society and community"
+    - symbol: "Seated position"
+      meaning: "Focus on stability and security"
+  numerology: 4
+  core_emotions:
+    - "security"
+    - "possessiveness"
+    - "caution"
+  reflection_prompts:
+    - "What are you holding onto too tightly?"
+    - "How can you find a balance between saving and sharing?"
+  practical_advice: "Focus on maintaining security, but be mindful of becoming too rigid or possessive."
+
+- id: "pentacles5"
+  name: "Five of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 5
+  upright_keywords:
+    - "hardship"
+    - "poverty"
+    - "isolation"
+    - "financial loss"
+  reversed_keywords:
+    - "recovery"
+    - "hope"
+    - "end of hardship"
+    - "assistance"
+  description:
+    upright: "The Five of Pentacles represents a time of financial hardship, loss, or feelings of isolation. It suggests a need to reach out for support and recognize that help is available."
+    reversed: "When reversed, the Five of Pentacles indicates recovery from hardship and the beginning of financial or emotional improvement. It suggests finding hope and support in challenging times."
+  element: "Earth"
+  astrological_rulership: "Mercury in Taurus"
+  themes:
+    - "Enduring challenges"
+    - "Finding support"
+  symbolism:
+    - symbol: "Figures in the snow"
+      meaning: "Isolation and hardship"
+    - symbol: "Church window"
+      meaning: "Hope and refuge"
+    - symbol: "Crutches"
+      meaning: "Need for assistance"
+  numerology: 5
+  core_emotions:
+    - "despair"
+    - "vulnerability"
+    - "hope"
+  reflection_prompts:
+    - "Where can you find support during difficult times?"
+    - "What challenges are you currently facing that may require a helping hand?"
+  practical_advice: "Seek out support and remember that difficult times are temporary."
+
+- id: "pentacles6"
+  name: "Six of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 6
+  upright_keywords:
+    - "generosity"
+    - "charity"
+    - "balance"
+    - "sharing"
+  reversed_keywords:
+    - "selfishness"
+    - "debt"
+    - "inequality"
+    - "strings attached"
+  description:
+    upright: "The Six of Pentacles represents generosity, giving and receiving, and finding balance in sharing resources. It suggests a time of offering help or being open to receiving it."
+    reversed: "When reversed, the Six of Pentacles may indicate selfishness, imbalance in relationships, or conditions placed on giving. It suggests the need to evaluate fairness in exchanges."
+  element: "Earth"
+  astrological_rulership: "Moon in Taurus"
+  themes:
+    - "Fair exchange"
+    - "Helping others"
+  symbolism:
+    - symbol: "Scales"
+      meaning: "Balance in giving and receiving"
+    - symbol: "Figure offering coins"
+      meaning: "Generosity and charity"
+    - symbol: "Begging figures"
+      meaning: "Receiving support"
+  numerology: 6
+  core_emotions:
+    - "compassion"
+    - "gratitude"
+    - "equity"
+  reflection_prompts:
+    - "How can you create more balance in your relationships?"
+    - "What does fair exchange mean to you?"
+  practical_advice: "Practice generosity and ensure that your relationships are balanced."
+
+- id: "pentacles7"
+  name: "Seven of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 7
+  upright_keywords:
+    - "patience"
+    - "investment"
+    - "long-term planning"
+    - "growth"
+  reversed_keywords:
+    - "impatience"
+    - "lack of reward"
+    - "poor planning"
+    - "delays"
+  description:
+    upright: "The Seven of Pentacles signifies the value of patience and long-term planning. It suggests a time to evaluate your progress and continue nurturing what you have planted for future growth."
+    reversed: "When reversed, the Seven of Pentacles may indicate impatience with slow progress or feeling that efforts are not paying off. It suggests reassessing goals and adjusting your approach."
+  element: "Earth"
+  astrological_rulership: "Saturn in Taurus"
+  themes:
+    - "Reviewing progress"
+    - "Planning for the future"
+  symbolism:
+    - symbol: "Gardener tending to pentacles"
+      meaning: "Cultivation and care"
+    - symbol: "Green plants"
+      meaning: "Growth and potential"
+    - symbol: "Looking back"
+      meaning: "Reflection on efforts"
+  numerology: 7
+  core_emotions:
+    - "patience"
+    - "anticipation"
+    - "reflection"
+  reflection_prompts:
+    - "What investments in your life need time to grow?"
+    - "How can you be more patient with your progress?"
+  practical_advice: "Continue nurturing your projects and have patience with the process."
+
+- id: "pentacles8"
+  name: "Eight of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 8
+  upright_keywords:
+    - "diligence"
+    - "skill development"
+    - "hard work"
+    - "mastery"
+  reversed_keywords:
+    - "lack of focus"
+    - "sloppiness"
+    - "perfectionism"
+    - "burnout"
+  description:
+    upright: "The Eight of Pentacles represents dedication to improving skills, craftsmanship, and hard work. It suggests a time of focused effort and the pursuit of mastery in a particular area."
+    reversed: "When reversed, the Eight of Pentacles may indicate a lack of focus or dissatisfaction with work. It suggests the need to balance diligence with rest and avoid becoming overly critical."
+  element: "Earth"
+  astrological_rulership: "Sun in Virgo"
+  themes:
+    - "Commitment to improvement"
+    - "Attention to detail"
+  symbolism:
+    - symbol: "Craftsman at work"
+      meaning: "Dedication to honing skills"
+    - symbol: "Eight pentacles"
+      meaning: "Progress and building expertise"
+    - symbol: "Carved pentacles"
+      meaning: "Attention to detail"
+  numerology: 8
+  core_emotions:
+    - "pride"
+    - "focus"
+    - "determination"
+  reflection_prompts:
+    - "What skills are you working to improve?"
+    - "How can you stay dedicated to your craft?"
+  practical_advice: "Focus on perfecting your skills through diligent effort and patience."
+
+- id: "pentacles9"
+  name: "Nine of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 9
+  upright_keywords:
+    - "self-sufficiency"
+    - "luxury"
+    - "financial independence"
+    - "gratitude"
+  reversed_keywords:
+    - "overindulgence"
+    - "dependence"
+    - "financial setbacks"
+    - "lack of appreciation"
+  description:
+    upright: "The Nine of Pentacles represents self-sufficiency, enjoying the fruits of your labor, and a sense of independence. It suggests a time to appreciate the rewards of your hard work and live in comfort."
+    reversed: "When reversed, the Nine of Pentacles may indicate financial setbacks, dependence on others, or overindulgence. It suggests the need to reassess spending and focus on self-reliance."
+  element: "Earth"
+  astrological_rulership: "Venus in Virgo"
+  themes:
+    - "Enjoying success"
+    - "Living in comfort"
+  symbolism:
+    - symbol: "Woman in a garden"
+      meaning: "Self-sufficiency and independence"
+    - symbol: "Grapevines"
+      meaning: "Abundance and luxury"
+    - symbol: "Hawk"
+      meaning: "Control and refinement"
+  numerology: 9
+  core_emotions:
+    - "contentment"
+    - "pride"
+    - "gratitude"
+  reflection_prompts:
+    - "What accomplishments are you most proud of?"
+    - "How can you create more independence in your life?"
+  practical_advice: "Appreciate the rewards of your efforts and focus on maintaining your independence."
+
+- id: "pentacles10"
+  name: "Ten of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  number: 10
+  upright_keywords:
+    - "legacy"
+    - "wealth"
+    - "family"
+    - "long-term success"
+  reversed_keywords:
+    - "financial failure"
+    - "family disputes"
+    - "instability"
+    - "short-term focus"
+  description:
+    upright: "The Ten of Pentacles signifies lasting wealth, legacy, and family connections. It represents a time of security, prosperity, and enjoying the fruits of generational success."
+    reversed: "When reversed, the Ten of Pentacles may indicate financial instability, family conflicts, or a lack of focus on the long-term. It suggests the need to address instability and plan for the future."
+  element: "Earth"
+  astrological_rulership: "Mercury in Virgo"
+  themes:
+    - "Building a legacy"
+    - "Focus on the future"
+  symbolism:
+    - symbol: "Family scene"
+      meaning: "Generational bonds and legacy"
+    - symbol: "Castle"
+      meaning: "Security and protection"
+    - symbol: "Ten pentacles"
+      meaning: "Accumulated wealth and stability"
+  numerology: 10
+  core_emotions:
+    - "pride"
+    - "security"
+    - "connection"
+  reflection_prompts:
+    - "What legacy do you want to build for the future?"
+    - "How can you create long-term stability in your life?"
+  practical_advice: "Focus on building something lasting and nurture the connections that matter most."
+- id: "pentacles11"
+  name: "Page of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  court: "Page"
+  number: 11
+  upright_keywords:
+    - "ambition"
+    - "learning"
+    - "opportunity"
+    - "practicality"
+  reversed_keywords:
+    - "procrastination"
+    - "lack of progress"
+    - "immaturity"
+    - "short-sightedness"
+  description:
+    upright: "The Page of Pentacles represents the beginning stages of a new opportunity, particularly in the realm of work, study, or financial ventures. It suggests a practical approach to achieving goals."
+    reversed: "When reversed, the Page of Pentacles may indicate procrastination, a lack of focus, or failing to capitalize on opportunities. It suggests the need to be more diligent and focused."
+  element: "Earth"
+  astrological_rulership: "Mercury or Virgo"
+  themes:
+    - "Starting new ventures"
+    - "Practical learning"
+  symbolism:
+    - symbol: "Youth holding a pentacle"
+      meaning: "Curiosity and potential"
+    - symbol: "Fertile ground"
+      meaning: "Opportunity for growth"
+    - symbol: "Mountain in the distance"
+      meaning: "Ambition and future challenges"
+  numerology: 11
+  core_emotions:
+    - "curiosity"
+    - "eagerness"
+    - "hope"
+  reflection_prompts:
+    - "What new opportunities are you eager to explore?"
+    - "How can you stay focused on your practical goals?"
+  practical_advice: "Embrace new learning experiences and take a practical approach to your ambitions."
+
+- id: "pentacles12"
+  name: "Knight of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  court: "Knight"
+  number: 12
+  upright_keywords:
+    - "hard work"
+    - "routine"
+    - "responsibility"
+    - "commitment"
+  reversed_keywords:
+    - "stubbornness"
+    - "laziness"
+    - "lack of progress"
+    - "inflexibility"
+  description:
+    upright: "The Knight of Pentacles represents dedication, reliability, and a steady approach to achieving long-term goals. It suggests focusing on consistency and the value of hard work."
+    reversed: "When reversed, the Knight of Pentacles can indicate stagnation, stubbornness, or a reluctance to adapt. It suggests the need to be more open to new methods and avoid becoming too rigid."
+  element: "Earth"
+  astrological_rulership: "Saturn in Virgo"
+  themes:
+    - "Steady progress"
+    - "Reliable effort"
+  symbolism:
+    - symbol: "Knight on a plowed field"
+      meaning: "Focus on routine and effort"
+    - symbol: "Pentacle in hand"
+      meaning: "Commitment to material goals"
+    - symbol: "Stationary horse"
+      meaning: "Steadiness and patience"
+  numerology: 12
+  core_emotions:
+    - "patience"
+    - "dedication"
+    - "focus"
+  reflection_prompts:
+    - "What long-term goals are you working towards?"
+    - "How can you maintain your commitment even when progress is slow?"
+  practical_advice: "Keep a steady pace, remain focused, and trust that your hard work will pay off."
+- id: "pentacles13"
+  name: "Queen of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  court: "Queen"
+  number: 13
+  upright_keywords:
+    - "nurturing"
+    - "practicality"
+    - "comfort"
+    - "financial security"
+  reversed_keywords:
+    - "self-care neglect"
+    - "work-life imbalance"
+    - "financial dependency"
+  description:
+    upright: "The Queen of Pentacles represents nurturing energy, practicality, and a strong focus on creating a comfortable and secure home environment. She embodies the ability to care for others while maintaining financial stability."
+    reversed: "When reversed, the Queen of Pentacles may indicate neglecting self-care, overworking, or becoming too focused on material concerns. It suggests the need to find balance and prioritize personal well-being."
+  element: "Earth"
+  astrological_rulership: "Moon in Capricorn"
+  themes:
+    - "Creating a comfortable environment"
+    - "Practical care"
+  symbolism:
+    - symbol: "Queen holding a pentacle"
+      meaning: "Focus on security and care"
+    - symbol: "Flowering garden"
+      meaning: "Nurturing growth and abundance"
+    - symbol: "Rabbit"
+      meaning: "Fertility and the cycles of nature"
+  numerology: 13
+  core_emotions:
+    - "compassion"
+    - "security"
+    - "comfort"
+  reflection_prompts:
+    - "How can you nurture yourself and those around you?"
+    - "Where in your life do you need to find more balance?"
+  practical_advice: "Focus on maintaining a balance between caring for others and caring for yourself."
+
+- id: "pentacles14"
+  name: "King of Pentacles"
+  arcana: "Minor"
+  suit: "Pentacles"
+  court: "King"
+  number: 14
+  upright_keywords:
+    - "abundance"
+    - "security"
+    - "leadership"
+    - "prosperity"
+  reversed_keywords:
+    - "greed"
+    - "stubbornness"
+    - "materialism"
+    - "poor management"
+  description:
+    upright: "The King of Pentacles represents wealth, leadership, and the ability to create a stable and abundant life through hard work and discipline. He embodies financial success and a practical approach to building long-term security."
+    reversed: "When reversed, the King of Pentacles can indicate a focus on materialism, poor management of resources, or a tendency to be inflexible. It suggests the need to reassess priorities and focus on responsible leadership."
+  element: "Earth"
+  astrological_rulership: "Jupiter in Taurus"
+  themes:
+    - "Mastery of material resources"
+    - "Providing for others"
+  symbolism:
+    - symbol: "Throne adorned with bulls"
+      meaning: "Strength and stability"
+    - symbol: "Golden crown"
+      meaning: "Achievement of material success"
+    - symbol: "Vine-covered robe"
+      meaning: "Abundance and prosperity"
+  numerology: 14
+  core_emotions:
+    - "confidence"
+    - "stability"
+    - "satisfaction"
+  reflection_prompts:
+    - "How can you lead others in a way that fosters security and prosperity?"
+    - "What role does material success play in your overall well-being?"
+  practical_advice: "Focus on building lasting security, but be mindful not to become too rigid or focused solely on material gains."
+- id: "wands1"
+  name: "Ace of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 1
+  upright_keywords:
+    - "inspiration"
+    - "new opportunities"
+    - "growth"
+    - "potential"
+  reversed_keywords:
+    - "delays"
+    - "lack of direction"
+    - "missed opportunities"
+    - "creative blocks"
+  description:
+    upright: "The Ace of Wands represents the spark of inspiration and the beginning of new creative or spiritual ventures. It suggests a time of potential growth, urging you to seize the opportunity and move forward with enthusiasm."
+    reversed: "When reversed, the Ace of Wands may indicate delays, creative blocks, or a lack of direction. It suggests taking a moment to refocus and find your inner spark before moving forward."
+  element: "Fire"
+  astrological_rulership: "Fire signs (Aries, Leo, Sagittarius)"
+  themes:
+    - "Creative potential"
+    - "New beginnings"
+  symbolism:
+    - symbol: "Hand holding a wand"
+      meaning: "Opportunity and creative energy"
+    - symbol: "Sprouting leaves"
+      meaning: "Growth and new life"
+    - symbol: "Mountains in the background"
+      meaning: "Challenges that can be overcome with passion"
+  numerology: 1
+  core_emotions:
+    - "enthusiasm"
+    - "optimism"
+    - "motivation"
+  reflection_prompts:
+    - "What new opportunities are sparking your interest?"
+    - "How can you channel your creativity into action?"
+  practical_advice: "Embrace new ideas and let your enthusiasm guide your actions."
+
+- id: "wands2"
+  name: "Two of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 2
+  upright_keywords:
+    - "planning"
+    - "decision-making"
+    - "future vision"
+    - "contemplation"
+  reversed_keywords:
+    - "indecision"
+    - "fear of change"
+    - "lack of planning"
+    - "restricted vision"
+  description:
+    upright: "The Two of Wands represents the process of planning for the future and making decisions that will shape your path. It suggests taking a broader view of your options and confidently stepping towards your vision."
+    reversed: "When reversed, the Two of Wands can indicate hesitation or fear of change, causing a lack of progress. It suggests a need to overcome doubts and refine your plans."
+  element: "Fire"
+  astrological_rulership: "Mars in Aries"
+  themes:
+    - "Strategic thinking"
+    - "Looking ahead"
+  symbolism:
+    - symbol: "Figure holding a globe"
+      meaning: "Expansive vision and potential"
+    - symbol: "Wands planted on either side"
+      meaning: "Stability and support for new ventures"
+    - symbol: "Castle"
+      meaning: "A foundation from which to explore"
+  numerology: 2
+  core_emotions:
+    - "anticipation"
+    - "determination"
+    - "hope"
+  reflection_prompts:
+    - "What decisions are you facing about your future?"
+    - "How can you expand your vision beyond your current situation?"
+  practical_advice: "Make a plan and take decisive steps toward your goals, considering both the opportunities and risks."
+
+- id: "wands3"
+  name: "Three of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 3
+  upright_keywords:
+    - "expansion"
+    - "foresight"
+    - "progress"
+    - "exploration"
+  reversed_keywords:
+    - "delays"
+    - "obstacles"
+    - "lack of progress"
+    - "limited vision"
+  description:
+    upright: "The Three of Wands signifies progress and the expansion of horizons. It suggests that your efforts are beginning to pay off and encourages you to keep looking ahead as you explore new opportunities."
+    reversed: "When reversed, the Three of Wands may indicate delays or obstacles in your plans, suggesting a need to adjust your approach and maintain patience while waiting for results."
+  element: "Fire"
+  astrological_rulership: "Sun in Aries"
+  themes:
+    - "Exploring new possibilities"
+    - "Anticipation of success"
+  symbolism:
+    - symbol: "Figure overlooking the sea"
+      meaning: "Waiting for results and opportunities"
+    - symbol: "Ships on the water"
+      meaning: "Efforts and ventures in progress"
+    - symbol: "Three wands"
+      meaning: "Support and stability in new endeavors"
+  numerology: 3
+  core_emotions:
+    - "optimism"
+    - "anticipation"
+    - "confidence"
+  reflection_prompts:
+    - "What new opportunities are you ready to explore?"
+    - "How can you prepare for the next phase of your journey?"
+  practical_advice: "Keep an open mind and stay committed to your long-term vision."
+
+- id: "wands4"
+  name: "Four of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 4
+  upright_keywords:
+    - "celebration"
+    - "community"
+    - "stability"
+    - "harmony"
+  reversed_keywords:
+    - "conflict"
+    - "instability"
+    - "lack of support"
+    - "delayed celebrations"
+  description:
+    upright: "The Four of Wands represents celebration, harmony, and a sense of community. It suggests a time of coming together with loved ones to recognize achievements and enjoy a sense of stability and joy."
+    reversed: "When reversed, the Four of Wands may indicate instability in relationships or community, or delays in celebrating milestones. It suggests a need to focus on creating harmony and support."
+  element: "Fire"
+  astrological_rulership: "Venus in Aries"
+  themes:
+    - "Joyful gatherings"
+    - "Building foundations"
+  symbolism:
+    - symbol: "Wreath-adorned wands"
+      meaning: "Celebration and achievement"
+    - symbol: "Flower garlands"
+      meaning: "Joy and abundance"
+    - symbol: "Castle in the background"
+      meaning: "Stability and a secure foundation"
+  numerology: 4
+  core_emotions:
+    - "joy"
+    - "contentment"
+    - "gratitude"
+  reflection_prompts:
+    - "What accomplishments are worth celebrating in your life?"
+    - "How can you strengthen your connections with others?"
+  practical_advice: "Take time to appreciate your achievements and celebrate with those who matter to you."
+- id: "wands5"
+  name: "Five of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 5
+  upright_keywords:
+    - "conflict"
+    - "competition"
+    - "tension"
+    - "struggle"
+  reversed_keywords:
+    - "resolution"
+    - "avoidance"
+    - "compromise"
+    - "harmony"
+  description:
+    upright: "The Five of Wands represents conflict, competition, and tension among individuals. It suggests a time of struggle, where differing opinions or goals may clash, requiring effort to find common ground."
+    reversed: "When reversed, the Five of Wands indicates a desire to resolve conflicts or avoid confrontations. It suggests working towards compromise and finding a way to restore harmony."
+  element: "Fire"
+  astrological_rulership: "Saturn in Leo"
+  themes:
+    - "Healthy competition"
+    - "Learning through conflict"
+  symbolism:
+    - symbol: "Figures clashing with wands"
+      meaning: "Competition and differing goals"
+    - symbol: "Chaos"
+      meaning: "Tension and disorder"
+    - symbol: "Action and movement"
+      meaning: "Energy focused on struggle"
+  numerology: 5
+  core_emotions:
+    - "frustration"
+    - "agitation"
+    - "determination"
+  reflection_prompts:
+    - "What conflicts in your life need resolution?"
+    - "How can you turn competition into collaboration?"
+  practical_advice: "Focus on finding common ground and use conflicts as opportunities for growth."
+
+- id: "wands6"
+  name: "Six of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 6
+  upright_keywords:
+    - "victory"
+    - "recognition"
+    - "success"
+    - "public acclaim"
+  reversed_keywords:
+    - "failure"
+    - "ego"
+    - "lack of recognition"
+    - "fall from grace"
+  description:
+    upright: "The Six of Wands symbolizes victory, success, and public recognition for your efforts. It suggests that your hard work is being acknowledged, bringing a sense of pride and accomplishment."
+    reversed: "When reversed, the Six of Wands can indicate a lack of recognition, feelings of failure, or letting pride cloud judgment. It suggests focusing on internal validation rather than seeking external approval."
+  element: "Fire"
+  astrological_rulership: "Jupiter in Leo"
+  themes:
+    - "Celebrating success"
+    - "Receiving recognition"
+  symbolism:
+    - symbol: "Figure on horseback"
+      meaning: "Triumphant return and public recognition"
+    - symbol: "Wreath"
+      meaning: "Victory and achievement"
+    - symbol: "Supportive crowd"
+      meaning: "Community acknowledgment"
+  numerology: 6
+  core_emotions:
+    - "pride"
+    - "joy"
+    - "gratitude"
+  reflection_prompts:
+    - "What recent achievements are worth celebrating?"
+    - "How can you maintain humility in the face of success?"
+  practical_advice: "Embrace your success with gratitude and share your joy with others."
+
+- id: "wands7"
+  name: "Seven of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 7
+  upright_keywords:
+    - "defense"
+    - "perseverance"
+    - "standing ground"
+    - "challenge"
+  reversed_keywords:
+    - "overwhelmed"
+    - "giving up"
+    - "defeat"
+    - "lack of courage"
+  description:
+    upright: "The Seven of Wands represents standing your ground and defending your position against challenges. It suggests the need for perseverance and courage in the face of opposition."
+    reversed: "When reversed, the Seven of Wands may indicate feeling overwhelmed by challenges or struggling to maintain your stance. It suggests the need to reassess your approach and regain your confidence."
+  element: "Fire"
+  astrological_rulership: "Mars in Leo"
+  themes:
+    - "Maintaining your position"
+    - "Facing challenges with courage"
+  symbolism:
+    - symbol: "Figure on a hill"
+      meaning: "Advantageous position"
+    - symbol: "Wands pointed upwards"
+      meaning: "Challenges from others"
+    - symbol: "Defensive posture"
+      meaning: "Readiness to defend"
+  numerology: 7
+  core_emotions:
+    - "determination"
+    - "resilience"
+    - "confidence"
+  reflection_prompts:
+    - "What challenges are you currently facing?"
+    - "How can you stand firm in your beliefs?"
+  practical_advice: "Stay strong and defend your position, even when the going gets tough."
+
+- id: "wands8"
+  name: "Eight of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 8
+  upright_keywords:
+    - "swift action"
+    - "movement"
+    - "progress"
+    - "communication"
+  reversed_keywords:
+    - "delays"
+    - "stagnation"
+    - "miscommunication"
+    - "frustration"
+  description:
+    upright: "The Eight of Wands signifies rapid progress, forward movement, and communication. It suggests that events are unfolding quickly, urging you to seize opportunities and act decisively."
+    reversed: "When reversed, the Eight of Wands may indicate delays, miscommunication, or a sense of frustration with slow progress. It suggests the need to be patient and address any obstacles."
+  element: "Fire"
+  astrological_rulership: "Mercury in Sagittarius"
+  themes:
+    - "Momentum and action"
+    - "Clear communication"
+  symbolism:
+    - symbol: "Wands flying through the air"
+      meaning: "Speed and movement"
+    - symbol: "Open landscape"
+      meaning: "Expansive possibilities"
+    - symbol: "Clear sky"
+      meaning: "Unobstructed progress"
+  numerology: 8
+  core_emotions:
+    - "excitement"
+    - "anticipation"
+    - "focus"
+  reflection_prompts:
+    - "What opportunities are moving quickly in your life?"
+    - "How can you maintain momentum in your endeavors?"
+  practical_advice: "Act quickly when opportunities arise, but stay focused to avoid missteps."
+- id: "wands9"
+  name: "Nine of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 9
+  upright_keywords:
+    - "resilience"
+    - "perseverance"
+    - "courage"
+    - "defensiveness"
+  reversed_keywords:
+    - "exhaustion"
+    - "giving up"
+    - "paranoia"
+    - "burnout"
+  description:
+    upright: "The Nine of Wands represents resilience, courage, and the determination to keep going despite challenges. It suggests that you have faced many battles, but you are near the finish line."
+    reversed: "When reversed, the Nine of Wands may indicate exhaustion or a feeling of wanting to give up. It suggests taking a step back to rest and reassess your approach before moving forward."
+  element: "Fire"
+  astrological_rulership: "Moon in Sagittarius"
+  themes:
+    - "Endurance in the face of adversity"
+    - "Strength through struggle"
+  symbolism:
+    - symbol: "Wounded figure"
+      meaning: "Past struggles and resilience"
+    - symbol: "Nine wands forming a barrier"
+      meaning: "Defensiveness and vigilance"
+    - symbol: "Bandaged head"
+      meaning: "Scars of experience and wisdom"
+  numerology: 9
+  core_emotions:
+    - "determination"
+    - "weariness"
+    - "hope"
+  reflection_prompts:
+    - "What challenges are testing your endurance?"
+    - "How can you find the strength to keep going?"
+  practical_advice: "Stay resilient and remember that the end is in sight, even when the path is difficult."
+
+- id: "wands10"
+  name: "Ten of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  number: 10
+  upright_keywords:
+    - "burden"
+    - "responsibility"
+    - "hard work"
+    - "stress"
+  reversed_keywords:
+    - "release"
+    - "delegation"
+    - "overwhelmed"
+    - "letting go"
+  description:
+    upright: "The Ten of Wands symbolizes carrying heavy burdens or responsibilities. It suggests that while you have achieved much, the weight of your commitments may be taking a toll on your energy."
+    reversed: "When reversed, the Ten of Wands indicates a need to release some of your burdens or delegate tasks. It suggests that letting go can restore balance and prevent burnout."
+  element: "Fire"
+  astrological_rulership: "Saturn in Sagittarius"
+  themes:
+    - "Managing responsibilities"
+    - "Reaching the end of a difficult journey"
+  symbolism:
+    - symbol: "Figure carrying heavy wands"
+      meaning: "Burden of responsibilities"
+    - symbol: "Path towards a town"
+      meaning: "Near completion of a goal"
+    - symbol: "Bent posture"
+      meaning: "Strain and struggle"
+  numerology: 10
+  core_emotions:
+    - "stress"
+    - "determination"
+    - "exhaustion"
+  reflection_prompts:
+    - "What responsibilities are weighing you down?"
+    - "How can you lighten your load?"
+  practical_advice: "Evaluate what burdens you can release to focus on what truly matters."
+
+- id: "wands11"
+  name: "Page of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  court: "Page"
+  number: 11
+  upright_keywords:
+    - "enthusiasm"
+    - "exploration"
+    - "curiosity"
+    - "new ideas"
+  reversed_keywords:
+    - "lack of direction"
+    - "impulsiveness"
+    - "setbacks"
+    - "disinterest"
+  description:
+    upright: "The Page of Wands represents enthusiasm, curiosity, and the desire to explore new ideas or adventures. It suggests embracing a fresh perspective and being open to new opportunities."
+    reversed: "When reversed, the Page of Wands may indicate a lack of direction, impulsiveness, or feeling uninspired. It suggests the need to find your spark again and avoid rushing into decisions."
+  element: "Fire"
+  astrological_rulership: "Venus in Aries"
+  themes:
+    - "Youthful energy"
+    - "Passionate exploration"
+  symbolism:
+    - symbol: "Figure holding a wand"
+      meaning: "Readiness to explore"
+    - symbol: "Barren desert"
+      meaning: "Potential for growth"
+    - symbol: "Salamander motif"
+      meaning: "Transformation and adaptability"
+  numerology: 11
+  core_emotions:
+    - "excitement"
+    - "eagerness"
+    - "curiosity"
+  reflection_prompts:
+    - "What new adventures are calling you?"
+    - "How can you reignite your passion for exploration?"
+  practical_advice: "Embrace your curiosity and be willing to take risks, but keep your long-term goals in mind."
+
+- id: "wands12"
+  name: "Knight of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  court: "Knight"
+  number: 12
+  upright_keywords:
+    - "passion"
+    - "adventure"
+    - "impulsiveness"
+    - "action"
+  reversed_keywords:
+    - "recklessness"
+    - "haste"
+    - "delay"
+    - "inconsistency"
+  description:
+    upright: "The Knight of Wands represents a bold and adventurous spirit, eager to take action and pursue new opportunities. It suggests a time of high energy and the desire to follow your passions."
+    reversed: "When reversed, the Knight of Wands can indicate recklessness, impulsiveness, or a lack of follow-through. It suggests the need to slow down and consider the consequences before acting."
+  element: "Fire"
+  astrological_rulership: "Mars in Sagittarius"
+  themes:
+    - "Bold action"
+    - "Fearless pursuit"
+  symbolism:
+    - symbol: "Knight on horseback"
+      meaning: "Movement and pursuit of goals"
+    - symbol: "Desert landscape"
+      meaning: "Challenging environment"
+    - symbol: "Fiery plume"
+      meaning: "Passionate energy"
+  numerology: 12
+  core_emotions:
+    - "excitement"
+    - "confidence"
+    - "impulsiveness"
+  reflection_prompts:
+    - "Where can you channel your passion and energy?"
+    - "How can you balance enthusiasm with careful planning?"
+  practical_advice: "Act boldly but take care to consider the impact of your actions before charging ahead."
+- id: "wands13"
+  name: "Queen of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  court: "Queen"
+  number: 13
+  upright_keywords:
+    - "confidence"
+    - "determination"
+    - "charisma"
+    - "independence"
+  reversed_keywords:
+    - "insecurity"
+    - "jealousy"
+    - "self-doubt"
+    - "introversion"
+  description:
+    upright: "The Queen of Wands embodies confidence, charisma, and the ability to lead with warmth and determination. She suggests embracing your inner strength and taking pride in your abilities."
+    reversed: "When reversed, the Queen of Wands may indicate self-doubt, insecurity, or a tendency to become withdrawn. It suggests the need to reclaim your confidence and trust in yourself."
+  element: "Fire"
+  astrological_rulership: "Sun in Aries"
+  themes:
+    - "Self-assured leadership"
+    - "Magnetic energy"
+  symbolism:
+    - symbol: "Black cat"
+      meaning: "Intuition and mystery"
+    - symbol: "Sunflower"
+      meaning: "Happiness and positivity"
+    - symbol: "Throne adorned with lions"
+      meaning: "Strength and fiery passion"
+  numerology: 13
+  core_emotions:
+    - "confidence"
+    - "courage"
+    - "vibrancy"
+  reflection_prompts:
+    - "How can you express your inner confidence more openly?"
+    - "What unique strengths can you bring to a situation?"
+  practical_advice: "Trust in your abilities and lead with enthusiasm, knowing that your energy can inspire others."
+
+- id: "wands14"
+  name: "King of Wands"
+  arcana: "Minor"
+  suit: "Wands"
+  court: "King"
+  number: 14
+  upright_keywords:
+    - "leadership"
+    - "vision"
+    - "entrepreneurship"
+    - "inspiration"
+  reversed_keywords:
+    - "impulsiveness"
+    - "arrogance"
+    - "domineering"
+    - "lack of direction"
+  description:
+    upright: "The King of Wands represents visionary leadership, passion, and the drive to inspire others. He suggests taking charge with confidence, knowing that your vision can bring positive change."
+    reversed: "When reversed, the King of Wands can indicate impulsiveness, arrogance, or a lack of direction. It suggests the need to balance enthusiasm with careful consideration of others."
+  element: "Fire"
+  astrological_rulership: "Sun in Leo"
+  themes:
+    - "Leading with vision"
+    - "Inspiring others"
+  symbolism:
+    - symbol: "Salamander and lions"
+      meaning: "Courage and transformation"
+    - symbol: "Flaming staff"
+      meaning: "Fiery ambition and leadership"
+    - symbol: "Crown of flames"
+      meaning: "Passion and authority"
+  numerology: 14
+  core_emotions:
+    - "pride"
+    - "determination"
+    - "confidence"
+  reflection_prompts:
+    - "What vision are you passionate about leading?"
+    - "How can you balance assertiveness with understanding?"
+  practical_advice: "Lead with conviction, but remain open to feedback and mindful of how your actions affect others."

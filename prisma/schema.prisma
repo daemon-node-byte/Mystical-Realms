@@ -65,73 +65,75 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
-model TarotCard {
-  id              Int               @id @default(autoincrement())
-  title           String            @unique
-  suit            Suit
-  rank            Rank?
-  rank_int        Int
-  image_file      String
-  summary         String
-  keywords        CardKeywords?
-  interpretations Interpretations[]
-  card_extra      TarotCardExtra?
+// tarot schema
+// old schema
+// model TarotCard {
+//   id              Int               @id @default(autoincrement())
+//   title           String            @unique
+//   suit            Suit
+//   rank            Rank?
+//   rank_int        Int
+//   image_file      String
+//   summary         String
+//   keywords        CardKeywords?
+//   interpretations Interpretations[]
+//   card_extra      TarotCardExtra?
 
-  @@index([suit, rank_int])
-  @@map("tarot_cards")
-}
+//   @@index([suit, rank_int])
+//   @@map("tarot_cards")
+// }
 
-model CardKeywords {
-  id       Int       @id @default(autoincrement())
-  card_id  Int       @unique
-  upright  String[]
-  reversed String[]
-  card     TarotCard @relation(fields: [card_id], references: [id])
+// model CardKeywords {
+//   id       Int       @id @default(autoincrement())
+//   card_id  Int       @unique
+//   upright  String[]
+//   reversed String[]
+//   card     TarotCard @relation(fields: [card_id], references: [id])
 
-  @@index([card_id])
-  @@map("card_keywords")
-}
+//   @@index([card_id])
+//   @@map("card_keywords")
+// }
 
-model Interpretations {
-  id           Int         @id @default(autoincrement())
-  reading_type ReadingType
-  upright      String
-  reversed     String
-  card_title   String
-  card         TarotCard   @relation(fields: [card_title], references: [title])
+// model Interpretations {
+//   id           Int         @id @default(autoincrement())
+//   reading_type ReadingType
+//   upright      String
+//   reversed     String
+//   card_title   String
+//   card         TarotCard   @relation(fields: [card_title], references: [title])
 
-  @@index([card_title])
-  @@map("interpretations")
-}
+//   @@index([card_title])
+//   @@map("interpretations")
+// }
 
-model TarotCardExtra {
-  id            Int          @id @default(autoincrement())
-  card_id       Int          @unique
-  roman_numeral RomanNumeral
-  visual_desc   String
-  fools_journey String
-  symbolism     Json[]
-  planet        String?
-  zodiac_sign   String?
-  card          TarotCard    @relation(fields: [card_id], references: [id])
+// model TarotCardExtra {
+//   id            Int          @id @default(autoincrement())
+//   card_id       Int          @unique
+//   roman_numeral RomanNumeral
+//   visual_desc   String
+//   fools_journey String
+//   symbolism     Json[]
+//   planet        String?
+//   zodiac_sign   String?
+//   card          TarotCard    @relation(fields: [card_id], references: [id])
 
-  @@map("tarot_card_extras")
-}
+//   @@map("tarot_card_extras")
+// }
 
-model Zodiac {
-  id             Int           @id @default(autoincrement())
-  name           String        @unique
-  ruleing_planet RuleingPlanet
-  date_range     String
-  cards          String[]
-}
+// model Zodiac {
+//   id             Int           @id @default(autoincrement())
+//   name           String        @unique
+//   ruleing_planet RuleingPlanet
+//   date_range     String
+//   cards          String[]
+// }
 
-model Archtype {
-  id          Int     @id @default(autoincrement())
-  description String
-  element     Element
-  card_title  String
-}
+// model Archtype {
+//   id          Int     @id @default(autoincrement())
+//   description String
+//   element     Element
+//   card_title  String
+// }
 
 enum Suit {
   WANDS
@@ -183,15 +185,15 @@ enum RomanNumeral {
   XXI
 }
 
-enum ReadingType {
-  GENERAL
-  LOVE
-  CAREER
-  FINANCE
-  HEALTH
-  TRAVEL
-  SPIRITUAL
-}
+// enum ReadingType {
+//   GENERAL
+//   LOVE
+//   CAREER
+//   FINANCE
+//   HEALTH
+//   TRAVEL
+//   SPIRITUAL
+// }
 
 enum Element {
   FIRE
@@ -226,4 +228,35 @@ enum RuleingPlanet {
   NEPTUNE
   PLUTO
   SUN
+}
+
+// New Tarot Schema
+
+model Symbolism {
+  id          String    @id @default(cuid())
+  symbol      String
+  meaning     String
+  tarotCard   TarotCard @relation("CardSymbolism", fields: [tarotCardId], references: [id])
+  tarotCardId String
+}
+
+model TarotCard {
+  id                    String      @id @default(cuid())
+  cardId                String      @unique // e.g., "major0", "major1", etc.
+  name                  String
+  arcana                String
+  number                Int
+  uprightKeywords       String[] // Array of keywords
+  reversedKeywords      String[] // Array of keywords
+  uprightDescription    String
+  reversedDescription   String
+  element               Element
+  astrologicalRulership String
+  themes                String[] // Array of themes
+  symbolism             Symbolism[] @relation("CardSymbolism")
+  numerology            Int
+  coreEmotions          String[] // Array of core emotions
+  reflectionPrompts     String[] // Array of reflection prompts
+  practicalAdvice       String
+  foolsJourney          String
 }

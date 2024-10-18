@@ -2,21 +2,24 @@
 'use client'
 import { Tabs, Tab } from "@nextui-org/react";
 import TarotCardImg from "./TarotCardImg.component";
-import type { TarotCard, CardKeywords } from "@prisma/client";
 
 import clsx from "clsx";
-import useIsMobile from '../../../lib/hooks/useIsMobile';
+// import useIsMobile from '../../../lib/hooks/useIsMobile';
+import type { TarotCardFinal } from "@/types/TarotCard";
+
+
 
 
 type Props = {
-  tarotCard: TarotCard | null;
-  keywords: CardKeywords | null;
+  tarotCard?: TarotCardFinal;
 };
 
-export default function CardCatalogBodyTabs({ tarotCard, keywords }: Props) {
-  const isMobile = useIsMobile();
+
+
+export default function CardCatalogBodyTabs({ tarotCard }: Props) {
+  // const isMobile = useIsMobile();
   return (
-    tarotCard !== null && keywords !== null && (
+    tarotCard?.keywords && (
     <Tabs className={clsx('mx-auto')}>
       <Tab key="images" title="Images">
         <div className={clsx('flex justify-center items-center w-full')}>
@@ -36,9 +39,9 @@ export default function CardCatalogBodyTabs({ tarotCard, keywords }: Props) {
       </Tab>
       <Tab key="keywords" title="Keywords">
         <div>
-          {keywords?.upright && keywords?.reversed && 
+          {tarotCard.keywords?.upright && tarotCard.keywords?.reversed && 
           <CardKeywordsList
-            keywords={keywords}
+            keywords={tarotCard.keywords}
           />
 }
         </div>
@@ -49,19 +52,19 @@ export default function CardCatalogBodyTabs({ tarotCard, keywords }: Props) {
 
 function CardKeywordsList({
   keywords,
-}: {
+}: Readonly<{
   keywords: { upright: string[]; reversed: string[] };
-}) {
+}>) {
   return (
     <div>
       <ul>
         {keywords.upright.map((keyword, index) => (
-          <li key={index}>{keyword}</li>
+          <li key={keyword}>{keyword}</li>
         ))}
       </ul>
       <ul>
         {keywords.reversed.map((keyword, index) => (
-          <li key={index}>{keyword}</li>
+          <li key={keyword}>{keyword}</li>
         ))}
       </ul>
     </div>

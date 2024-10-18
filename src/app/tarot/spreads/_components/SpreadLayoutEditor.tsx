@@ -1,176 +1,23 @@
 "use client";
-
 import {
   useRef,
   useState,
   useEffect,
-  type RefObject,
-  Dispatch,
-  SetStateAction,
 } from "react";
-import Moveable from "react-moveable";
-import { Button, ButtonGroup } from "@nextui-org/react";
+import MoveablePlacementCards from "./MoveablePlacementCard";
+import PlacementAreaControls from './PlacementAreaControls'
 import clsx from "clsx";
+import type { PlacementCardDimensions } from "@/types/TarotCard";
 import "./moveable_override.css";
 
-// type Props = {}
-interface Position {
-  top: number;
-  left: number;
-}
-
-interface TargetCallback extends Position {
-  target: HTMLElement | SVGElement;
-}
-interface MoveElementState extends Position {
+export interface SaveElementType {
   element: HTMLElement | SVGElement;
-}
-
-interface CardDimensions {
-  width: number;
-  height: number;
-}
-
-type Props = {
-  element: HTMLElement;
-  index: number;
-  refObj: RefObject<HTMLDivElement>;
-  cardDimensions: CardDimensions;
-  setSelection: (el: HTMLElement) => void;
-  // setElements: Dispatch<SetStateAction<MoveElementState[]>>;
-};
-
-const calculateGridLines = (maxLength: number, numOfLines: number) => {
-  const halfStep = maxLength / numOfLines / 2,
-    results = [];
-  let counter = 0;
-  while (counter < maxLength) {
-    counter += halfStep;
-    results.push(counter);
-  }
-  return results;
-};
-
-const onDragCallback = ({
-  target,
-  top,
-  left,
-  refObj,
-}: {
-  target: HTMLElement | SVGElement;
   top: number;
   left: number;
-  refObj: HTMLDivElement;
-}): void => {
-  const containerRect = refObj.getBoundingClientRect();
-  const targetRect = target.getBoundingClientRect();
-  const newTop = Math.max(
-    0,
-    Math.min(top, containerRect.height - targetRect.height),
-  );
-  const newLeft = Math.max(
-    0,
-    Math.min(left, containerRect.width - targetRect.width),
-  );
-  const topPercent = (newTop / containerRect.height) * 100;
-  const leftPercent = (newLeft / containerRect.width) * 100;
-  target.style.top = `${topPercent}%`;
-  target.style.left = `${leftPercent}%`;
-};
-
-const onDragEndCallback = ({ target }: { target: HTMLElement }) => {
-  const topPercent = parseFloat(target.style.top);
-  console.log("🚀 ~ onDragEndCallback ~ topPercent:", topPercent);
-  const leftPercent = parseFloat(target.style.left);
-  console.log("🚀 ~ onDragEndCallback ~ leftPercent:", leftPercent);
-};
-
-export function MoveablePlacementCards({
-  element,
-  index,
-  refObj,
-  cardDimensions,
-  setSelection,
-}: Props) {
-  const container = refObj.current;
-
-  if (container && element instanceof HTMLElement) {
-    const vertLines = calculateGridLines(container.clientHeight, 15);
-    const horzLines = calculateGridLines(container.clientWidth, 15);
-    return (
-      <Moveable
-        id={`element-${index}`}
-        target={element}
-        draggable={true}
-        onClick={({ target }) => {
-          setSelection(target as HTMLElement);
-        }}
-        onDrag={({ target, top, left }) => {
-          console.log("onDrag", target, top, left);
-          onDragCallback({ target, top, left, refObj: container });
-        }}
-        onDragEnd={({ target }) => {
-          console.log("onDragEnd", target);
-          // onDragEndCallback({ target });
-        }}
-        bounds={{
-          left: 0,
-          top: 0,
-          right: container.clientWidth,
-          bottom: container.clientHeight,
-        }}
-        snappable={true}
-        snapGridWidth={cardDimensions.width}
-        snapGridHeight={cardDimensions.height}
-        snapThreshold={25}
-        snapDirections={{
-          left: true,
-          top: true,
-          right: true,
-          bottom: true,
-          center: true,
-          middle: true,
-        }}
-        elementSnapDirections={{
-          left: true,
-          top: true,
-          right: true,
-          bottom: true,
-        }}
-        verticalGuidelines={vertLines}
-        horizontalGuidelines={horzLines}
-        isDisplayInnerSnapDigit={true}
-        isDisplayGridGuidelines={true}
-      />
-    );
-  } else {
-    return <div>Error</div>;
-  }
 }
 
-export function PlacementAreaControls({ addCard }: { addCard: () => void }) {
-  const btnStyle = "w-full sm:w-auto";
-  return (
-    <div className="p-6">
-      <h2>Controls</h2>
-      <ButtonGroup>
-        <Button onClick={addCard} className={btnStyle}>
-          Add Card
-        </Button>
-        <Button className={btnStyle}>Remove Card</Button>
-        <Button className={btnStyle}>Lock Card</Button>
-      </ButtonGroup>
-      <h2 className="mt-4">Layout</h2>
-      <ButtonGroup>
-        <Button className={btnStyle}>Save Layout</Button>
-        <Button className={btnStyle}>Load Layout</Button>
-        <Button className={btnStyle}>Reset Layout</Button>
-      </ButtonGroup>
-    </div>
-  );
-}
 
-const createCard = (cardDimensions: CardDimensions) => {
+const createCard = (cardDimensions: PlacementCardDimensions) => {
   const card = document.createElement("div");
   card.className = "draggable bg-slate-200 rounded cursor-pointer absolute";
   card.style.width = `${cardDimensions.width}px`;
@@ -185,9 +32,7 @@ const createCard = (cardDimensions: CardDimensions) => {
 // Main Parent Component
 export default function SpreadLayoutEditor() {
   const containerRef = useRef<HTMLDivElement>(null);
-  const [elements, setElements] = useState<
-    { element: HTMLElement; top: number; left: number }[]
-  >([]);
+  const [elements, setElements] = useState<SaveElementType[]>([]);
   const [selectedCard, setSelectedCard] = useState<string | string[] | null>(
     null,
   );
@@ -198,6 +43,7 @@ export default function SpreadLayoutEditor() {
     const top = 50;
     const left = 50;
     const container = containerRef.current;
+    console.log("🚀 ~ SpreadLayoutEditor ~ selectedCard:", selectedCard)
     if (container) {
       const containerRect = container.getBoundingClientRect();
       const topPercent = (top / containerRect.height) * 100;
@@ -206,6 +52,7 @@ export default function SpreadLayoutEditor() {
       card.style.left = `${leftPercent}%`;
       containerRef.current?.appendChild(card);
       setElements((prevElements) => [
+
         ...prevElements,
         { element: card, top: topPercent, left: leftPercent },
       ]);
@@ -219,24 +66,30 @@ export default function SpreadLayoutEditor() {
     }
   };
 
+  const updateElements = ({ element: newEle, top, left }: SaveElementType) => {
+    const container = containerRef.current;
+    if (container) { 
+
+      setElements((prevElements) => {
+        const mutate = prevElements.map(({ element, top, left }) => {
+          element.style.top = `${top}%`;
+          element.style.left = `${left}%`;
+          return { element, top, left };
+
+        })
+        mutate.push({ element: newEle, top, left });
+        return mutate      
+      });
+    }
+  }
+
   useEffect(() => {
     console.log("useEffect", elements);
+
     const handleResize = () => {
       const container = containerRef.current;
       if (container) {
-        setElements((prevElements) =>
-          prevElements.map(({ element, top, left }) => {
-            element.style.top = `${top}%`;
-            element.style.left = `${left}%`;
-
-            console.log("🚀 ~ setElements ~ { element, top, left }:", {
-              element,
-              top,
-              left,
-            });
-            return { element, top, left };
-          }),
-        );
+        updateElementStyles();
       }
     };
 
@@ -245,6 +98,22 @@ export default function SpreadLayoutEditor() {
       window.removeEventListener("resize", handleResize);
     };
   }, [elements]);
+
+  const updateElementStyles = () => {
+    setElements((prevElements) =>
+      prevElements.map(({ element, top, left }) => {
+        element.style.top = `${top}%`;
+        element.style.left = `${left}%`;
+
+        console.log("🚀 ~ setElements ~ { element, top, left }:", {
+          element,
+          top,
+          left,
+        });
+        return { element, top, left };
+      }),
+    );
+  };
 
   return (
     <div>
@@ -256,16 +125,18 @@ export default function SpreadLayoutEditor() {
         ref={containerRef}
       >
         {elements.map(
-          ({ element }: { element: HTMLElement }, index: number) => {
-            element.id = `element-${index}`;
+          ({ element }, index: number) => {
+            const uniqueId = element.id || `element-${Date.now()}-${index}`;
+            element.id = uniqueId;
             return (
               <MoveablePlacementCards
-                key={`element-${index}-key`}
+                key={uniqueId}
                 element={element}
                 refObj={containerRef}
                 index={index}
                 cardDimensions={cardDimensions}
                 setSelection={handleSelection}
+                updateElements={updateElements}
                 // setElements={setElements}
               />
             );

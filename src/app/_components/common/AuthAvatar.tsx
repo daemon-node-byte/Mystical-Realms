@@ -4,7 +4,6 @@ import {
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-  DropdownSection,
 } from "@nextui-org/react";
 import clsx from "clsx";
 import type { Session } from "next-auth";
@@ -13,7 +12,7 @@ type Props = {
   session: Session;
 };
 
-export default function AuthAvatar({ session }: Props) {
+export default function AuthAvatar({ session }: Readonly<Props>) {
   return (
     <Dropdown>
       <DropdownTrigger>

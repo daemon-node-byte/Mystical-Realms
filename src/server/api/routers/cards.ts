@@ -1,24 +1,33 @@
 import { z } from 'zod';
-import { TAROT_DATA } from '../../data/tarotCardData'
+// import { TAROT_DATA } from '../../data/tarotCardData'
 import {
 	createTRPCRouter,
 	// protectedProcedure,
 	publicProcedure,
 } from '@/server/api/trpc';
 import { db } from '@/server/db';
-import type { Suit } from '@/types/TarotCard'
-import { title } from 'process';
+import type { Suit } from '@/types/TarotCard';
 
 
 
 export const cardsRouter = createTRPCRouter({
-	getCardsBySuit: publicProcedure.input(z.object({ text: z.string()}))
+	getCardsBySuit: publicProcedure.input(z.object({ suit: z.string()}))
 	.query(async ({ input }) => {
-    return await db.tarotCard.findMany({ where: { suit: input.text as Suit }})
+    return await db.tarotCard.findMany({ where: { suit: input.suit as Suit }, select: {
+			id: true,
+			rank: true,
+			title: true,
+			rank_int: true,
+			suit: true,
+			keywords: true,
+			card_extra: true,
+			summary: true,
+			image_file: true,
+		}})
 	}),
-	randomCard: publicProcedure.input(z.object({ number: z.number() })).query(async ({ input }) => {
-		return getRandomItems(TAROT_DATA, input.number)
-	}),
+	// randomCard: publicProcedure.input(z.object({ number: z.number() })).query(async ({ input }) => {
+	// 	return getRandomItems(TAROT_DATA, input.number)
+	// }),
 	getCardBySuitAndRank: publicProcedure.input(z.object({ suit: z.string(), rank: z.number() }))
 	  .query(async ({ input }) => {
 		return await db.tarotCard.findFirst({

@@ -4,13 +4,14 @@ import SpreadLayoutEditor from "../_components/SpreadLayoutEditor";
 // import DraggableArea from "@/app/_components/common/Draggable";
 // import SpreadPlacementArea from "@/app/_components/common/Draggable/SpreadPlacementArea";
 interface Props {
-  params: {
-    id: string;
+  readonly params: {
+    readonly id: string;
   };
 }
 
 export default function Page({ params }: Props) {
-  const { id } = params;
+console.log("🚀 ~ Page ~ params:", params)
+
 
   return (
     <HydrateClient>

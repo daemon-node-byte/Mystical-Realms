@@ -1,3 +1,11 @@
+import type {TarotCard as PrismaCard, CardKeywords, TarotCardExtra, Interpretations } from '@prisma/client'
+
+export interface TarotCardFinal extends PrismaCard {
+	keywords: CardKeywords;
+	card_extra: TarotCardExtra;
+	interpretations: Interpretations;
+} 
+
 export interface TarotCard {
 	tarot_card_id:      string;
 	title:              string;
@@ -33,4 +41,9 @@ export enum Suit {
   SWORDS = "SWORDS",
   PENTACLES = "PENTACLES",
   MAJOR = "MAJOR"
+}
+
+export interface PlacementCardDimensions {
+	width: number;
+	height: number;
 }
