@@ -19,6 +19,8 @@ export const social = {
   google: <Icon icon='flowbite:google-solid' />,
 }
 
+
+
 // export const brands = {
 //   aws: <Icon icon="logos:aws" />,
 //   apple: <Icon icon="logos:apple" />,

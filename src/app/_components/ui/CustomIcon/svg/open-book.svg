@@ -1,0 +1,733 @@
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="512"
+  height="512"
+  x="0"
+  y="0"
+  viewBox="0 0 682.667 682.667"
+  style="enable-background: new 0 0 512 512"
+  xml:space="preserve"
+  class=""
+>
+  <g>
+    <defs>
+      <clipPath id="a" clipPathUnits="userSpaceOnUse">
+        <path
+          d="M0 512h512V0H0Z"
+          fill="#000"
+          opacity="1"
+          data-original="#000000"
+        ></path>
+      </clipPath>
+    </defs>
+    <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
+      <path
+        d="M0 0h-20.262c-5.522 0-10-4.478-10-10v-332.096c0-5.522 4.478-10 10-10h477c5.523 0 10 4.478 10 10v57.947"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(37.762 427.127)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0v245.049c0 5.522-4.478 10-10 10h-20.262"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(504.5 172.078)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0c0 22.092-17.908 40-40 40h-166.238c-5.523 0-10-4.478-10-10V-85.801"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(256 396.969)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0v-118.591"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(39.762 282.067)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0v263.492c0 5.523-4.478 10-10 10h-166.238c-22.092 0-40-17.908-40-40V0"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(472.238 163.477)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h-206.238c-5.523 0-10 4.478-10 10v42.048H0"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(256 109.175)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h-153.354v-52.048H52.885c5.522 0 10 4.478 10 10V0H29.101"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(409.353 161.223)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h203.567"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(134.367 135.2)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h78.555"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(393.684 135.2)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="m0 0-53.197-86.753c-1.335-2.176.231-4.974 2.783-4.974H55.982c2.553 0 4.119 2.798 2.785 4.974L5.568 0C4.294 2.078 1.274 2.078 0 0Z"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(145.097 402.33)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="m0 0 53.198 86.754c1.334 2.176-.231 4.973-2.784 4.973H-55.982c-2.552 0-4.119-2.797-2.784-4.973L-5.568 0C-4.294-2.078-1.274-2.078 0 0Z"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(150.665 280.781)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(84.874 248.19)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(84.874 222.85)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(84.874 197.509)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(162.417 248.19)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(162.417 222.85)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(162.417 197.509)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h.103"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(72.143 403.889)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h.104"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(94.855 403.889)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0c-14.015 3.199-24.472 15.741-24.472 30.726 0 17.406 14.111 31.515 31.516 31.515 13.445 0 24.924-8.419 29.452-20.272"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(394.396 200.38)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0c0-17.402-14.114-31.518-31.517-31.518-2.122 0-4.187.209-6.195.617a31.099 31.099 0 0 0-1.848 10.629c0 17.411 14.106 31.516 31.518 31.516 2.121 0 4.196-.208 6.204-.615A31.324 31.324 0 0 0 0 0Z"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(432.956 231.102)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0c0-17.406-14.11-31.517-31.517-31.517-17.405 0-31.515 14.111-31.515 31.517 0 17.405 14.11 31.516 31.515 31.516C-14.11 31.516 0 17.405 0 0Z"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(432.956 330.975)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h.103"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(417.143 403.889)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h.104"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(439.854 403.889)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h28.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 359.415)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 327.4)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 302.534)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h28.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 259.543)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 227.527)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h48.471"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(287.244 202.662)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h-68.442"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(369.922 403.889)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+      <path
+        d="M0 0h9.354"
+        style="
+          stroke-width: 15;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-miterlimit: 10;
+          stroke-dasharray: none;
+          stroke-opacity: 1;
+        "
+        transform="translate(75.52 135.195)"
+        fill="none"
+        stroke="#000"
+        stroke-width="15"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-miterlimit="10"
+        stroke-dasharray="none"
+        stroke-opacity=""
+        data-original="#000000"
+        opacity="1"
+      ></path>
+    </g>
+  </g>
+</svg>

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 "use client";
 
 import React from "react";
@@ -16,18 +17,18 @@ import { LoginModal } from "../login-modal.component";
 import clsx from "clsx";
 import { themeFont1 } from "@/styles/fonts";
 import { NavItem } from "./NavItem";
-
+import NextImage from "next/image";
 import { navLinkData } from "./navLinkData";
 import { MobileNavItem } from "./MobileNavItem";
 import type { Session } from "next-auth";
 import AuthAvatar from "../AuthAvatar";
+import LogoSVG from "@/app/_components/ui/CustomIcon/svg/crystal-ball.svg";
 
 export default function NavigationBar({
   session,
 }: {
   readonly session: Session | null;
 }) {
-
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   return (
@@ -58,8 +59,16 @@ export default function NavigationBar({
         />
       </NavbarContent>
 
-      <NavbarContent className="pr-3 sm:hidden" justify="center">
+      <NavbarContent className="sm:hidden pr-3" justify="center">
         <NavbarBrand>
+          <NextImage
+            src={LogoSVG}
+            alt="Mystical Realms Logo"
+            className="mr-2 w-[36px] h-[36px]"
+            width={16}
+            height={16}
+          />
+
           <p
             className={clsx(
               themeFont1.className,
@@ -71,8 +80,15 @@ export default function NavigationBar({
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden gap-4 sm:flex" justify="center">
+      <NavbarContent className="sm:flex gap-4 hidden" justify="center">
         <NavbarBrand>
+          <NextImage
+            src={LogoSVG}
+            alt="Mystical Realms Logo"
+            className="mr-2 w-[36px] h-[36px]"
+            width={16}
+            height={16}
+          />
           <p
             className={clsx(
               themeFont1.className,
@@ -95,7 +111,7 @@ export default function NavigationBar({
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem className="lg:flex hidden">
           {session ? (
             <Link href="/api/auth/signout">Logout</Link>
           ) : (

@@ -854,44 +854,6 @@
   practical_advice: "Acknowledge your accomplishments and embrace the feeling of completion."
   fools_journey: "Represents the end of the journey and the realization of unity with the world and self."
 
-- id: "major22"
-  name: "The Fool"
-  arcana: "Major"
-  number: 0 (or 22 in some decks)
-  upright_keywords:
-    - "new beginnings"
-    - "adventure"
-    - "spontaneity"
-    - "innocence"
-  reversed_keywords:
-    - "naivety"
-    - "recklessness"
-    - "unpreparedness"
-  description:
-    upright: "The Fool card represents new beginnings, adventure, and a leap into the unknown. It encourages you to embrace change with a sense of curiosity and wonder."
-    reversed: "When reversed, The Fool warns against recklessness, suggesting you may be taking unnecessary risks without proper forethought. It encourages caution."
-  element: "Air"
-  astrological_rulership: "Uranus"
-  themes:
-    - "The hero's journey begins"
-    - "Infinite possibilities"
-  symbolism:
-    - symbol: "Cliff"
-      meaning: "Taking risks without fear of consequences"
-    - symbol: "White dog"
-      meaning: "Guidance and instinct"
-    - symbol: "Knapsack"
-      meaning: "Tools needed for the journey, resources yet to be used"
-  numerology: 0
-  core_emotions:
-    - "excitement"
-    - "optimism"
-    - "fearlessness"
-  reflection_prompts:
-    - "What new beginnings are calling to you?"
-    - "How can you embrace change with curiosity and openness?"
-  practical_advice: "Embrace the unknown, but stay mindful of potential risks."
-  fools_journey: "Represents the beginning of the journey, emphasizing innocence and stepping into the unknown."
 - id: "cups1"
   name: "Ace of Cups"
   arcana: "Minor"

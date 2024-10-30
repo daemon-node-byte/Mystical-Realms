@@ -35,7 +35,7 @@ export default function Page() {
                 <li>
                   <NextLink
                     className="hover:text-primary"
-                    href="/tarot/cards/MAJOR"
+                    href="/tarot/cards/major"
                     passHref
                   >
                     Major Arcana
@@ -44,7 +44,7 @@ export default function Page() {
                 <li>
                   <NextLink
                     className="hover:text-primary"
-                    href="/tarot/cards/WANDS"
+                    href="/tarot/cards/wands"
                     passHref
                   >
                     Wands
@@ -53,7 +53,7 @@ export default function Page() {
                 <li>
                   <NextLink
                     className="hover:text-primary"
-                    href="/tarot/cards/CUPS"
+                    href="/tarot/cards/cups"
                     passHref
                   >
                     Cups
@@ -62,7 +62,7 @@ export default function Page() {
                 <li>
                   <NextLink
                     className="hover:text-primary"
-                    href="/tarot/cards/SWORDS"
+                    href="/tarot/cards/swords"
                     passHref
                   >
                     Swords
@@ -71,7 +71,7 @@ export default function Page() {
                 <li>
                   <NextLink
                     className="hover:text-primary"
-                    href="/tarot/cards/PENTACLES"
+                    href="/tarot/cards/pentacles"
                     passHref
                   >
                     Pentacles

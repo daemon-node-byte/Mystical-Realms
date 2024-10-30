@@ -245,6 +245,7 @@ model TarotCard {
   cardId                String      @unique // e.g., "major0", "major1", etc.
   name                  String
   arcana                String
+  suit                  String?
   number                Int
   uprightKeywords       String[] // Array of keywords
   reversedKeywords      String[] // Array of keywords
@@ -258,5 +259,5 @@ model TarotCard {
   coreEmotions          String[] // Array of core emotions
   reflectionPrompts     String[] // Array of reflection prompts
   practicalAdvice       String
-  foolsJourney          String
+  foolsJourney          String?
 }
