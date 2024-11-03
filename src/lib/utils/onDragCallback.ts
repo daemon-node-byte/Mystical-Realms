@@ -19,8 +19,8 @@ export const onDragCallback = ({
     0,
     Math.min(left, containerRect.width - targetRect.width),
   );
-  const topPercent = (newTop / containerRect.height) * 100;
-  const leftPercent = (newLeft / containerRect.width) * 100;
-  target.style.top = `${topPercent}%`;
-  target.style.left = `${leftPercent}%`;
+  const topPercent = (newTop / containerRect.height);
+  const leftPercent = (newLeft / containerRect.width);
+  target.style.top = `${top}`;
+  target.style.left = `${left}`;
 };

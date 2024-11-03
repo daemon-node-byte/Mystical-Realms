@@ -1,6 +1,9 @@
 import PageWrapper from "@/app/_components/common/PageWrapper";
 import { HydrateClient } from "@/trpc/server";
-import SpreadLayoutEditor from "../_components/SpreadLayoutEditor";
+// import SpreadLayoutEditor from "../_components/SpreadLayoutEditor2.component";
+import ClientSidePage from "./_components/ClientSidePage";
+
+
 interface Props {
   readonly params: {
     readonly id: string;
@@ -8,11 +11,11 @@ interface Props {
 }
 
 export default function Page({ params }: Props) {
-  console.log('params: ', params)
+  console.log("🚀 ~ Page ~ params:", params)
   return (
     <HydrateClient>
       <PageWrapper>
-        <SpreadLayoutEditor />
+        <ClientSidePage />
       </PageWrapper>
     </HydrateClient>
   );

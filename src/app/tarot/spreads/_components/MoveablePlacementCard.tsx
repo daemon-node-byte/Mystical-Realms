@@ -6,7 +6,7 @@ import Moveable from "react-moveable";
 import { calculateGridLines } from "@/lib/utils/calculateGridLines";
 import { onDragCallback } from "@/lib/utils/onDragCallback";
 import type { PlacementCardDimensions } from "@/types/TarotCard";
-import type { SaveElementType } from "./SpreadLayoutEditor";
+
 
 type Props = Readonly<{
   element: HTMLElement | SVGElement;
@@ -14,7 +14,7 @@ type Props = Readonly<{
   refObj: RefObject<HTMLDivElement>;
   cardDimensions: PlacementCardDimensions;
   setSelection: (el: HTMLElement) => void;
-  updateElements: ({...arg}: SaveElementType) => void;
+  // updateElements: ({...arg}: SaveElementType) => void;
   // setElements: Dispatch<SetStateAction<MoveElementState[]>>;
 }>;
 
@@ -24,7 +24,7 @@ export default function MoveablePlacementCards({
   refObj,
   cardDimensions,
   setSelection,
-  updateElements
+  // updateElements
 }: Props) {
   const container = refObj.current;
 
@@ -33,20 +33,25 @@ export default function MoveablePlacementCards({
     const horzLines = calculateGridLines(container.clientWidth, 15);
     return (
       <Moveable
-        id={`element-${index}`}
+        id={`target-${index}`}
         target={element}
         draggable={true}
         onClick={({ target }) => {
           setSelection(target as HTMLElement);
         }}
-        onDrag={({ target, top, left }) => {
+        onDrag={({ target, top, left, transform }) => {
           console.log("onDrag", target, top, left);
           onDragCallback({ target, top, left, refObj: container });
-          updateElements({ element: target, top, left });
+          target.style.transform = transform
+          console.log("🚀 ~ transform:", transform)
+          const element = target as HTMLDivElement
+          console.log('>>>>>>element>>>>>>>', element.style.top)
+          console.log('>>>>>>target>>>>>>>', target.style)
+          // updateElements({ element: target, top, left });
         }}
         onDragEnd={({ target }) => {
           console.log("onDragEnd", target);
-          // onDragEndCallback({ target });
+
         }}
         bounds={{
           left: 0,
