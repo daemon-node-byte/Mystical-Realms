@@ -1,0 +1,35 @@
+name: seed
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  migrate: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      
+
+      - name: Migrate database
+        run: |
+          echo "Migrating database..."
+          
+  seed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Seed database
+        run: |
+          echo "Seeding database..."
+          docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+          docker-compose exec -T api dotnet run --project src/Infrastructure/Infrastructure.csproj -- seed
+          docker-compose down
+          echo "Database seeded."

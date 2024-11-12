@@ -5,3 +5,7 @@
 .moveable-control-box .moveable-origin {
   display: none !important;
 }
+
+.dragable {
+  box-sizing: content-box !important;
+}

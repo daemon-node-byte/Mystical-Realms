@@ -50,7 +50,7 @@ export default function MoveablePlacementCards({
           // updateElements({ element: target, top, left });
         }}
         onDragEnd={({ target }) => {
-          console.log("onDragEnd", target);
+          console.log("onDragEnd", target.style.transform);
 
         }}
         bounds={{
@@ -62,7 +62,7 @@ export default function MoveablePlacementCards({
         snappable={true}
         snapGridWidth={cardDimensions.width}
         snapGridHeight={cardDimensions.height}
-        snapThreshold={25}
+        snapThreshold={5}
         snapDirections={{
           left: true,
           top: true,
@@ -79,8 +79,10 @@ export default function MoveablePlacementCards({
         }}
         verticalGuidelines={vertLines}
         horizontalGuidelines={horzLines}
-        isDisplayInnerSnapDigit={true}
+        isDisplayInnerSnapDigit={false}
         isDisplayGridGuidelines={true}
+        isDisplaySnapDigit={true}
+        snapGap={true}
       />
     );
   } else {

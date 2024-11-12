@@ -1,40 +1,26 @@
-// import Link from "next/link";
-
-// import { LatestPost } from "@/app/_components/post";
-// import NavigationBar from "@/app/_components/_common/NavigationBar";
-// import { getServerAuthSession } from "@/server/auth";
 import { HydrateClient } from "@/trpc/server";
 import PageWrapper from "./_components/common/PageWrapper";
+import { themeFont1, themeFont2 } from "@/styles/fonts";
+import NextImage from "next/image";
+import * as logo from '@/app/_components/ui/CustomIcon/svg/tree.svg';
+import clsx from "clsx";
 
 export default async function Home() {
-  // const hello = await api.post.hello({ text: "from jmclain" });
-  // const session = await getServerAuthSession();
-
-
-  // void api.post.getLatest.prefetch();
 
   return (
     <HydrateClient>
 
       <PageWrapper>
-        <div className="flex items-center justify-center h-screen">
-          <div className="text-center">
+        <div className="flex justify-center items-center h-screen">
+          <NextImage src={logo} alt="Mystical Realms Logo" width={100} height={100} className="absolute w-full" />
+          <div className="z-10 text-center">
             
-            <h1 className="text-5xl">Mystical Realms</h1>
+            <h1 className={clsx(themeFont1.className, 'text-5xl')}>Mystical Realms</h1>
+            <h2 className={clsx(themeFont2.className, 'text-xl')}>Explore the Mystical Realm within you.</h2>
           </div>
     
           </div>
-        {/* <p className="text-center text-2xl text-white">
-                {session && <span>Logged in as {session.user?.name}</span>}
-                </p> */}
-        {/* <Link
-                href={session ? "/api/auth/signout" : "/api/auth/signin"}
-                className="rounded-full bg-white/10 px-10 py-3 font-semibold no-underline transition hover:bg-white/20"
-                >
-                {session ? "Sign out" : "Sign in"}
-                </Link> */}
-
-        {/* {session?.user && <LatestPost />} */}
+        
       </PageWrapper>
     </HydrateClient>
   );

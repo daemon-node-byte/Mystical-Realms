@@ -118,7 +118,15 @@ export default function NavigationBar({
             <LoginModal />
           )}
         </NavbarItem>
+
         <NavbarItem>
+          {session && (
+            <AuthAvatar session={session} />
+          ) }
+            
+        </NavbarItem>ß
+
+        {/* <NavbarItem>
           {session ? (
             <AuthAvatar session={session} />
           ) : (
@@ -127,7 +135,8 @@ export default function NavigationBar({
             </Button>
           )}
         </NavbarItem>
-      </NavbarContent>
+          */}
+      </NavbarContent> 
 
       <NavbarMenu>
         {navLinkData.map((item, index) => (

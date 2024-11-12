@@ -3,16 +3,17 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'yaml';
 import type { TarotDataSeed } from './data/types'
-import { type $Enums, PrismaClient } from '@prisma/client';
+import { type $Enums } from '@prisma/client';
+import db from './dbConnection';
 
 const CARDS_FILE_PATH = path.join(process.cwd(), 'prisma' ,'/data/CARDS.yaml')
 
 const READ_STREAM = fs.readFileSync(CARDS_FILE_PATH, 'utf8');
 
-const CARDS_DATA = yaml.parse(READ_STREAM) as TarotDataSeed[];
-const db = new PrismaClient();
+export const CARDS_DATA = yaml.parse(READ_STREAM) as TarotDataSeed[];
 
-function main (DATA_ARRAY: TarotDataSeed[]) {
+
+export function seedTarotDeck(DATA_ARRAY: TarotDataSeed[]) {
  let deckCount = 0;
   DATA_ARRAY.forEach((CARD, idx) => {
     (async () => {
@@ -52,7 +53,7 @@ function main (DATA_ARRAY: TarotDataSeed[]) {
   })
 }
 
-// main(CARDS_DATA)
+
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
 const results = await db.tarotCard.findMany({
