@@ -19,10 +19,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9    
+      - name: Checkout code
+        uses: actions/checkout@v3
       - uses: actions/setup-node@v4
         with:
           node-version: 'latest'
