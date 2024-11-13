@@ -1,57 +1,56 @@
 "use client";
 
-import { type RefObject } from "react";
+import { type RefObject, useRef } from "react";
 import Moveable from "react-moveable";
-
 import { calculateGridLines } from "@/lib/utils/calculateGridLines";
-import { onDragCallback } from "@/lib/utils/onDragCallback";
 import type { PlacementCardDimensions } from "@/types/TarotCard";
-
+import type { Position } from "./SpreadLayoutEditor";
 
 type Props = Readonly<{
   element: HTMLElement | SVGElement;
-  index: number;
   refObj: RefObject<HTMLDivElement>;
   cardDimensions: PlacementCardDimensions;
   setSelection: (el: HTMLElement) => void;
-  // updateElements: ({...arg}: SaveElementType) => void;
-  // setElements: Dispatch<SetStateAction<MoveElementState[]>>;
+  update: (el: HTMLElement | SVGElement, id: string, trans: string, pos: Position) => void;
+  select?: boolean
 }>;
+
+const directions = { left: true, top: true, right: true, bottom: true, middle: true, center: true };
 
 export default function MoveablePlacementCards({
   element,
-  index,
+  select,
   refObj,
   cardDimensions,
   setSelection,
-  // updateElements
+  update,
 }: Props) {
   const container = refObj.current;
-
+  const moveableRef = useRef<Moveable | null>(null);
   if (container && element instanceof HTMLElement) {
     const vertLines = calculateGridLines(container.clientHeight, 15);
     const horzLines = calculateGridLines(container.clientWidth, 15);
+    
     return (
       <Moveable
-        id={`target-${index}`}
+        ref={moveableRef}
         target={element}
         draggable={true}
+        snappable={true}
+        elementGuidelines={Array.from(container.children) as HTMLElement[]}
+        snapDirections={directions}
+        elementSnapDirections={directions}
+        maxSnapElementGuidelineDistance={100}
+        maxSnapElementGapDistance={80}
         onClick={({ target }) => {
           setSelection(target as HTMLElement);
         }}
         onDrag={({ target, top, left, transform }) => {
-          console.log("onDrag", target, top, left);
-          onDragCallback({ target, top, left, refObj: container });
           target.style.transform = transform
-          console.log("🚀 ~ transform:", transform)
-          const element = target as HTMLDivElement
-          console.log('>>>>>>element>>>>>>>', element.style.top)
-          console.log('>>>>>>target>>>>>>>', target.style)
-          // updateElements({ element: target, top, left });
+          update(target, element.id, target.style.transform, { top, left, rotation: 0});
         }}
-        onDragEnd={({ target }) => {
-          console.log("onDragEnd", target.style.transform);
-
+        onDragEnd={(arg) => {
+          console.log("onDragEnd", arg);
         }}
         bounds={{
           left: 0,
@@ -59,27 +58,12 @@ export default function MoveablePlacementCards({
           right: container.clientWidth,
           bottom: container.clientHeight,
         }}
-        snappable={true}
-        snapGridWidth={cardDimensions.width}
-        snapGridHeight={cardDimensions.height}
+        snapGridWidth={cardDimensions.width * 2}
+        snapGridHeight={cardDimensions.height * 2}
         snapThreshold={5}
-        snapDirections={{
-          left: true,
-          top: true,
-          right: true,
-          bottom: true,
-          center: true,
-          middle: true,
-        }}
-        elementSnapDirections={{
-          left: true,
-          top: true,
-          right: true,
-          bottom: true,
-        }}
         verticalGuidelines={vertLines}
         horizontalGuidelines={horzLines}
-        isDisplayInnerSnapDigit={false}
+        isDisplayInnerSnapDigit={true}
         isDisplayGridGuidelines={true}
         isDisplaySnapDigit={true}
         snapGap={true}

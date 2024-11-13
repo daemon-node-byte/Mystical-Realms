@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 .selected {
-    border: 5px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple */
+    outline: invert 2px solid rebeccapurple;
 }

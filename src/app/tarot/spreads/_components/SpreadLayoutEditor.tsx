@@ -1,20 +1,23 @@
 "use client";
-import {
+import React, {
   useRef,
   useState,
   useEffect,
-  // type RefObject,
+  ReactNode,
 } from "react";
 import MoveablePlacementCards from "./MoveablePlacementCard";
 import { Button, ButtonGroup, Switch, Tooltip } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
-// import PlacementAreaControls from './PlacementAreaControls'
 import clsx from "clsx";
 import type { PlacementCardDimensions } from "@/types/TarotCard";
 import "./moveable_override.css";
 import { v4 as uuidv4 } from "uuid";
-import { set } from "zod";
 
+export type Position = {
+  top: number;
+  left: number;
+  rotation: number;
+}
 export interface SaveElementType {
   element: HTMLElement | SVGElement;
   top: number;
@@ -24,9 +27,8 @@ export interface SaveElementType {
 
 const createCard = (cardDimensions: PlacementCardDimensions) => {
   const card = document.createElement("div");
-  card.className = "draggable bg-slate-200 rounded cursor-pointer absolute";
+  card.className = "draggable bg-slate-200 rounded cursor-pointer absolute focus:outline-purple-300";
   card.style.width = `${cardDimensions.width}px`;
-  // card.style.height = `${cardDimensions.height}px`;
   const img = document.createElement("img");
   img.src = "/assets/images/tarot/neon/card_back.webp";
   img.alt = "Card Back";
@@ -49,11 +51,11 @@ interface PlacementCard {
 // Main Parent Component
 export default function SpreadLayoutEditor() {
   const containerRef = useRef<HTMLDivElement>(null);
-
+  const [grouping, setGrouping] = useState<boolean>(false);
   const [cards, setCards] = useState<PlacementCard[]>([]);
   const [selectedCardId, setSelectedCardId] = useState<string | null>(null);
   const cardDimensions = { width: 40, height: 100 };
-  console.log("🚀 ~ SpreadLayoutEditor ~ cards:", cards);
+
 
   const addCard = () => {
     const card = createCard(cardDimensions);
@@ -66,11 +68,13 @@ export default function SpreadLayoutEditor() {
       const leftPercent = (left / containerRect.width) * 100;
       card.style.top = `${topPercent}%`;
       card.style.left = `${leftPercent}%`;
+      const cardId = uuidv4();
+      card.id = cardId;
       containerRef.current?.appendChild(card);
       setCards((prev) => [
         ...prev,
         {
-          id: uuidv4(),
+          id: cardId,
           top,
           left,
           topPercent,
@@ -83,6 +87,8 @@ export default function SpreadLayoutEditor() {
     }
   };
   const handleSelection = (target: HTMLElement) => {
+    target.focus();
+    if (grouping) {
     if (target.classList.contains("selected")) {
       target.classList.remove("selected");
       setSelectedCardId(null);
@@ -96,13 +102,22 @@ export default function SpreadLayoutEditor() {
       target.classList.add("selected");
       setSelectedCardId(target.id);
     }
+  } else {
+    return;
+  }
   };
 
   const rotateCard = (id: string) => {
+    const regExp = /rotate\((\d*)deg\)/gm;
     const mutatedCards = cards.map((card) => {
       if (card.id === id) {
-        card.rotation = card.rotation + 90;
-        card.element.style.transform = ` rotate(${card.rotation}deg)`;
+        card.rotation = card.rotation > 0 ? 0 : 90;
+        const rotateVal = `rotate(${card.rotation}deg)`;
+        if (!regExp.test(card.element.style.transform)) {
+          card.element.style.transform += (' ' + rotateVal);
+        } else {
+          card.element.style.transform.replace(regExp, () => rotateVal);
+        }
       }
       return card;
     })
@@ -136,9 +151,42 @@ export default function SpreadLayoutEditor() {
       
     } 
   }
+
+  const mapToElementsState = (element: HTMLElement | SVGElement, id: string, transform: string, position: Position) => {
+    setCards((prevState) => {
+      return prevState.map((card) => {
+        const container = containerRef.current!;
+        if (card.id === id) {
+          return {
+            ...card,
+            id,
+            element,
+            top: position.top,
+            left: position.left,
+            topPercent: (position.top / container.clientHeight) * 100,
+            leftPercent: (position.left / container.clientWidth) * 100,
+            sequence: card.sequence,
+            rotation: position.rotation,
+          } 
+        } else {
+          return {
+            ...card
+        }
+      }
+      })
+    })
+  }
+
   useEffect(() => {
-    console.log("🚀 ~ SpreadLayoutEditor", cards, selectedCardId)
-  }, [cards, selectedCardId]);
+    if (!grouping) {
+      const cardElements = document.querySelectorAll('.draggable');
+      cardElements.forEach((elem) => {
+        if (elem.classList.contains('selected')) {
+          elem.classList.remove('selected');
+        }
+    });
+  }
+  }, [grouping]);
 
   return (
     <div>
@@ -152,7 +200,10 @@ export default function SpreadLayoutEditor() {
             </Tooltip>
 
           </ButtonGroup>
-          
+          <Switch
+            size="sm"
+            checked={false}
+            onChange={() => setGrouping(!grouping)}>Select</Switch>
           <ButtonGroup>
             <Tooltip content="Move Card Order Sequence Up">
               <Button size='sm' onClick={() => changeCardOrder(selectedCardId?? '', 'up')} isDisabled={selectedCardId === null}>
@@ -184,6 +235,7 @@ export default function SpreadLayoutEditor() {
       <div
         className={clsx(
           "relative border-slate-500 bg-slate-800 mx-auto border w-5/6 md:w-1/2 h-[500px]",
+          "layout-container"
         )}
         ref={containerRef}
       >
@@ -193,18 +245,14 @@ export default function SpreadLayoutEditor() {
               key={`target-${index}`}
               element={element}
               refObj={containerRef}
-              index={index}
+              select={grouping}
               cardDimensions={cardDimensions}
               setSelection={handleSelection}
-              // updateElements={updateElements}
-              // setElements={setElements}
+              update={mapToElementsState}
             />
           );
         })}
       </div>
-      {/* <div className="mt-4">
-        <PlacementAreaControls addCard={addCard} />
-      </div> */}
     </div>
   );
 }

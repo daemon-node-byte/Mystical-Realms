@@ -6,6 +6,6 @@
   display: none !important;
 }
 
-.dragable {
+.draggable {
   box-sizing: content-box !important;
 }
