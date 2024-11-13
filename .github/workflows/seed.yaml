@@ -8,28 +8,28 @@ on:
     branches:
       - main
 
+env:
+  NODE_ENV: production
+  DATABASE_URL: ${{ secrets.DATABASE_URL }}
+  NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
+  NEXTAUTH_URL: ${{ secrets.NEXTAUTH_URL }}
+
 jobs:
-  migrate: 
+  migrate-seed: 
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      
-
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9    
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+          cache: 'pnpm'
       - name: Migrate database
         run: |
           echo "Migrating database..."
-          
-  seed:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Seed database
-        run: |
-          echo "Seeding database..."
-          docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-          docker-compose exec -T api dotnet run --project src/Infrastructure/Infrastructure.csproj -- seed
-          docker-compose down
-          echo "Database seeded."
+          pnpm install
+          pnpm db:generate
+          pnpm db:seed:deck
