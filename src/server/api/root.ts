@@ -15,7 +15,7 @@ export const appRouter = createTRPCRouter({
 // export type definition of API
 export type AppRouter = typeof appRouter;
 export type CardRouter = typeof appRouter.cards
-export type GetBySuitAndRank = typeof appRouter.cards.getCardBySuitAndRank
+
 /**
  * Create a server-side caller for the tRPC API.
  * @example

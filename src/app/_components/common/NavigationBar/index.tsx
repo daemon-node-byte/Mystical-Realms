@@ -11,7 +11,6 @@ import {
   NavbarContent,
   NavbarItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 import { LoginModal } from "../login-modal.component";
 import clsx from "clsx";
@@ -111,7 +110,7 @@ export default function NavigationBar({
       </NavbarContent>
 
       <NavbarContent justify="end">
-        <NavbarItem className="lg:flex hidden">
+        <NavbarItem className="flex">
           {session ? (
             <Link href="/api/auth/signout">Logout</Link>
           ) : (
@@ -124,7 +123,7 @@ export default function NavigationBar({
             <AuthAvatar session={session} />
           ) }
             
-        </NavbarItem>ß
+        </NavbarItem>
 
         {/* <NavbarItem>
           {session ? (

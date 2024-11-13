@@ -19,7 +19,6 @@ const directions = { left: true, top: true, right: true, bottom: true, middle: t
 
 export default function MoveablePlacementCards({
   element,
-  select,
   refObj,
   cardDimensions,
   setSelection,

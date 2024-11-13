@@ -1,6 +1,9 @@
 // components/TarotCard.tsx
-import React, { useState } from 'react';
-import Draggable, { DraggableEvent, DraggableData } from 'react-draggable';
+import React, { useState } from "react";
+import Draggable, {
+  type DraggableEvent,
+  type DraggableData,
+} from "react-draggable";
 
 interface TarotCardProps {
   id: number;
@@ -8,14 +11,18 @@ interface TarotCardProps {
   updateCardPosition: (id: number, position: { x: number; y: number }) => void;
 }
 
-const TarotCard: React.FC<TarotCardProps> = ({ id, position, updateCardPosition }) => {
+const TarotCard: React.FC<TarotCardProps> = ({
+  id,
+  position,
+  updateCardPosition,
+}) => {
   const [rotation, setRotation] = useState<number>(0);
 
   const handleRotate = () => {
     setRotation((prev) => (prev + 90) % 180);
   };
 
-  const handleStop = (e: DraggableEvent, data: DraggableData) => {
+  const handleStop = (_e: DraggableEvent, data: DraggableData) => {
     updateCardPosition(id, { x: data.x, y: data.y });
   };
 

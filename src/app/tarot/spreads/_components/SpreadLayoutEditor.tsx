@@ -3,7 +3,6 @@ import React, {
   useRef,
   useState,
   useEffect,
-  ReactNode,
 } from "react";
 import MoveablePlacementCards from "./MoveablePlacementCard";
 import { Button, ButtonGroup, Switch, Tooltip } from "@nextui-org/react";

@@ -1,9 +1,7 @@
-import type {TarotCard as PrismaCard, CardKeywords, TarotCardExtra, Interpretations } from '@prisma/client'
+import type {TarotCard as PrismaCard } from '@prisma/client'
 
 export interface TarotCardFinal extends PrismaCard {
-	keywords: CardKeywords;
-	card_extra: TarotCardExtra;
-	interpretations: Interpretations;
+  un?: string;
 } 
 
 export interface TarotCard {

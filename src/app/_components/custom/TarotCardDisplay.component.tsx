@@ -8,7 +8,9 @@ import {
   CardFooter,
   Tabs,
   Tab,
+  Button
 } from "@nextui-org/react";
+import { Icon } from "@iconify/react";
 import clsx from "clsx";
 import { themeFont1 } from "@/styles/fonts";
 import NextImage from "next/image";
@@ -44,12 +46,21 @@ const extra = [
 function TarotCardDisplay({ cards }: Props) {
   const [index, setIndex] = useState(0);
   const [viewCard, setViewCard] = useState<Partial<TarotCard>>(cards[index]!);
-  const [deckSet, setDeckSet] = useState<
+  const [deckSet] = useState<
     "original" | "neon" | "artistic" | "stained"
   >("original");
   useEffect(() => {
     setViewCard(cards[index]!);
   }, [index, cards]);
+
+  const changeIndex = (currentIndex: number, action: 'prev' | 'next') => {
+    if (action=== 'prev' && currentIndex > 0) {
+      setIndex(currentIndex - 1);
+    }
+    if (action === 'next' && currentIndex < cards.length - 1) {
+      setIndex(currentIndex + 1);
+    }
+  }
 
   return (
     <div className="w-5/6 md:w-1/2 lg:w-2/3">
@@ -63,7 +74,10 @@ function TarotCardDisplay({ cards }: Props) {
           <CardBody>
             <CardBodyTabs />
           </CardBody>
-          <CardFooter></CardFooter>
+          <CardFooter>
+            <Button startContent={<Icon icon='bxs:left-arrow' />} onClick={() => changeIndex(index, 'prev')} isDisabled={index === 0}>Previous</Button>
+            <Button endContent={<Icon icon='bxs:right-arrow' />} onClick={() => changeIndex(index, 'next')} isDisabled={index === cards.length - 1}>Nex</Button>
+          </CardFooter>
         </Card>
       </CardDetailsContext.Provider>
     </div>
