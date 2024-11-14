@@ -134,7 +134,7 @@ function TabContent({ tabTitle }: { tabTitle: string }) {
     case "More":
       return (
         <div>
-          <Tabs placement="start">
+          <Tabs className="flex justify-center" placement="top">
             {more.map((title, index) => (
               <Tab className="w-full" title={title} key={index}>
                 <MoreTabContent tabTitle={title} />
