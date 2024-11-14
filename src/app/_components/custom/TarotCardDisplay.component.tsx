@@ -32,7 +32,7 @@ const more = [
   "Core Emotions",
   "Practical Advice",
   "Reflection Prompt",
-  "Extra",
+  // "Extra",
 ];
 
 const extra = [
@@ -61,13 +61,13 @@ function TarotCardDisplay({ cards }: Props) {
       setIndex(currentIndex + 1);
     }
   }
-
+  const navigateButtonsStyle = clsx('mx-2 w-1/2');
   return (
     <div className="w-5/6 md:w-1/2 lg:w-2/3">
       <CardDetailsContext.Provider value={{ deckSet, ...viewCard }}>
         <Card className="w-full">
           <CardHeader>
-            <h1 className={clsx(themeFont1.className, "text-2xl")}>
+            <h1 className={clsx(themeFont1.className, "text-3xl")}>
               {viewCard.name}
             </h1>
           </CardHeader>
@@ -75,8 +75,8 @@ function TarotCardDisplay({ cards }: Props) {
             <CardBodyTabs />
           </CardBody>
           <CardFooter>
-            <Button startContent={<Icon icon='bxs:left-arrow' />} onClick={() => changeIndex(index, 'prev')} isDisabled={index === 0}>Previous</Button>
-            <Button endContent={<Icon icon='bxs:right-arrow' />} onClick={() => changeIndex(index, 'next')} isDisabled={index === cards.length - 1}>Nex</Button>
+            <Button className={navigateButtonsStyle} startContent={<Icon icon='bxs:left-arrow' />} onClick={() => changeIndex(index, 'prev')} isDisabled={index === 0}>Previous</Button>
+            <Button className={navigateButtonsStyle} endContent={<Icon icon='bxs:right-arrow' />} onClick={() => changeIndex(index, 'next')} isDisabled={index === cards.length - 1}>Next</Button>
           </CardFooter>
         </Card>
       </CardDetailsContext.Provider>
@@ -102,27 +102,31 @@ function TabContent({ tabTitle }: { tabTitle: string }) {
         </div>
       );
     case "Description":
+      const headingStyle = clsx(themeFont1.className, 'text-2xl')
+      const textStyle = clsx('px-12 py-4')
       return (
         <div>
-          <h3>Upright</h3>
-          <p>{card.uprightDescription}</p>
-          <h3>Reversed</h3>
-          <p>{card.reversedDescription}</p>
+          <h3 className={headingStyle}>Upright</h3>
+          <p className={textStyle}>{card.uprightDescription}</p>
+          <h3 className={headingStyle}>Reversed</h3>
+          <p className={textStyle}>{card.reversedDescription}</p>
         </div>
       );
     case "Keywords":
+      const listTitlesStyle = clsx(themeFont1.className, 'text-3xl')
+      const listItemsStyle = clsx('text-lg')
       return (
-        <div>
-          <ul className="inline">
-            <li>Upright</li>
+        <div className={clsx('flex justify-center space-x-6')}>
+          <ul className="inline-block">
+            <li className={listTitlesStyle}>Upright</li>
             {card.uprightKeywords?.map((keyword, index) => (
-              <li key={index}>{keyword}</li>
+              <li className={listItemsStyle} key={`up-${index}`}>{keyword}</li>
             ))}
           </ul>
-          <ul className="inline">
-            <li>Reversed</li>
+          <ul className="inline-block">
+            <li className={listTitlesStyle}>Reversed</li>
             {card.reversedKeywords?.map((keyword, index) => (
-              <li key={index}>{keyword}</li>
+              <li className={listItemsStyle} key={`down-${index}`}>{keyword}</li>
             ))}
           </ul>
         </div>
@@ -132,7 +136,7 @@ function TabContent({ tabTitle }: { tabTitle: string }) {
         <div>
           <Tabs placement="start">
             {more.map((title, index) => (
-              <Tab title={title} key={index}>
+              <Tab className="w-full" title={title} key={index}>
                 <MoreTabContent tabTitle={title} />
               </Tab>
             ))}
@@ -149,10 +153,10 @@ function MoreTabContent({ tabTitle }: { tabTitle: string }) {
   switch (tabTitle) {
     case "Core Emotions":
       return (
-        <div>
-          <ul>
+        <div className={clsx('w-full text-center')}>
+          <ul className="space-y-4">
             {card.coreEmotions?.map((emotion, index) => (
-              <li key={index}>{emotion}</li>
+              <li className={clsx(themeFont1.className, 'text-4xl')} key={index}>{emotion}</li>
             ))}
           </ul>
         </div>
@@ -160,13 +164,13 @@ function MoreTabContent({ tabTitle }: { tabTitle: string }) {
     case "Practical Advice":
       return (
         <div>
-          <p>{card.practicalAdvice}</p>
+          <p className={clsx(themeFont1.className, 'text-3xl text-center')}>{card.practicalAdvice}</p>
         </div>
       );
     case "Reflection Prompt":
       return (
         <div>
-          <p>{card.reflectionPrompts}</p>
+          {card.reflectionPrompts?.map((str, idx) => <p className={clsx(themeFont1.className, 'text-3xl p-2 my-4')} key={idx + '-prom'}>{str}</p>)}
         </div>
       );
     case "Extra":
