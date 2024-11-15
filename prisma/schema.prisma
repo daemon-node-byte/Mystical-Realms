@@ -47,14 +47,15 @@ model Session {
 }
 
 model User {
-  id            String    @id @default(cuid())
-  name          String?
-  email         String?   @unique
-  emailVerified DateTime?
-  image         String?
-  accounts      Account[]
-  posts         Post[]
-  sessions      Session[]
+  id             String         @id @default(cuid())
+  name           String?
+  email          String?        @unique
+  emailVerified  DateTime?
+  image          String?
+  accounts       Account[]
+  posts          Post[]
+  sessions       Session[]
+  createdSpreads SpreadLayout[] @relation("UserSpreads")
 }
 
 model VerificationToken {
@@ -65,75 +66,7 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
-// tarot schema
-// old schema
-// model TarotCard {
-//   id              Int               @id @default(autoincrement())
-//   title           String            @unique
-//   suit            Suit
-//   rank            Rank?
-//   rank_int        Int
-//   image_file      String
-//   summary         String
-//   keywords        CardKeywords?
-//   interpretations Interpretations[]
-//   card_extra      TarotCardExtra?
-
-//   @@index([suit, rank_int])
-//   @@map("tarot_cards")
-// }
-
-// model CardKeywords {
-//   id       Int       @id @default(autoincrement())
-//   card_id  Int       @unique
-//   upright  String[]
-//   reversed String[]
-//   card     TarotCard @relation(fields: [card_id], references: [id])
-
-//   @@index([card_id])
-//   @@map("card_keywords")
-// }
-
-// model Interpretations {
-//   id           Int         @id @default(autoincrement())
-//   reading_type ReadingType
-//   upright      String
-//   reversed     String
-//   card_title   String
-//   card         TarotCard   @relation(fields: [card_title], references: [title])
-
-//   @@index([card_title])
-//   @@map("interpretations")
-// }
-
-// model TarotCardExtra {
-//   id            Int          @id @default(autoincrement())
-//   card_id       Int          @unique
-//   roman_numeral RomanNumeral
-//   visual_desc   String
-//   fools_journey String
-//   symbolism     Json[]
-//   planet        String?
-//   zodiac_sign   String?
-//   card          TarotCard    @relation(fields: [card_id], references: [id])
-
-//   @@map("tarot_card_extras")
-// }
-
-// model Zodiac {
-//   id             Int           @id @default(autoincrement())
-//   name           String        @unique
-//   ruleing_planet RuleingPlanet
-//   date_range     String
-//   cards          String[]
-// }
-
-// model Archtype {
-//   id          Int     @id @default(autoincrement())
-//   description String
-//   element     Element
-//   card_title  String
-// }
+// Tarot Models
 
 enum Suit {
   WANDS
@@ -184,16 +117,6 @@ enum RomanNumeral {
   XX
   XXI
 }
-
-// enum ReadingType {
-//   GENERAL
-//   LOVE
-//   CAREER
-//   FINANCE
-//   HEALTH
-//   TRAVEL
-//   SPIRITUAL
-// }
 
 enum Element {
   FIRE
@@ -260,4 +183,26 @@ model TarotCard {
   reflectionPrompts     String[] // Array of reflection prompts
   practicalAdvice       String
   foolsJourney          String?
+}
+
+// Tarot Spread
+
+model CardPlacementPosition {
+  id           String       @id @default(cuid())
+  spreadLayout SpreadLayout @relation("PlacementPosition", fields: [spreadId], references: [id])
+  spreadId     String
+  drawSequence Int
+  meaningRep   String
+  DomElement   Json
+}
+
+model SpreadLayout {
+  id            String                  @id @default(cuid())
+  title         String
+  note          String?
+  numberOfCards Int
+  cardPlacement CardPlacementPosition[] @relation("PlacementPosition")
+  createdBy     User                    @relation("UserSpreads", fields: [userId], references: [id])
+  createdDate   DateTime
+  userId        String
 }
