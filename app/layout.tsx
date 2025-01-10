@@ -34,12 +34,12 @@ export default function RootLayout({
   return (
     <html suppressHydrationWarning lang="en">
       <head />
-      <body
-        className={clsx("min-h-screen bg-background antialiased", fontGothic.className)}
-      >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+      <body className={clsx("bg-background antialiased", fontGothic.className)}>
+        <Providers
+          themeProps={{ attribute: "class", defaultTheme: "new-dark" }}
+        >
           <NavigationBar />
-          <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+          <main className="container mx-auto max-w-7xl px-2 md:px-6 flex-grow">
             {children}
           </main>
         </Providers>

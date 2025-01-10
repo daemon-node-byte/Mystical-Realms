@@ -1,0 +1,17 @@
+.override + .moveable-control-box .moveable-control.moveable-origin {
+  border-color: transparent !important;
+  background: none !important;
+}
+
+.override + .moveable-control-box .moveable-rotation {
+  top: 0 !important;
+}
+
+.override + .moveable-control-box .moveable-rotation .moveable-line.moveable-rotation-line {
+  background: none !important;
+}
+
+.override + .moveable-control-box .moveable-rotation .moveable-control.moveable-rotation-control {
+  background: none !important;
+  border-color: transparent !important;
+}
